@@ -22,6 +22,14 @@ test.describe('BV Homepage – Functional Smoke', () => {
 
     // Basic HTTP 200 is implied by successful navigation; we also log console errors via Playwright output.
     await expect(page).toHaveURL(BASE_URL + '/');
+
+    // Additional regressions on homepage structure
+    await homePage.assertHeaderNavItemsPresent();
+    await homePage.assertUpperRightNavItemsPresent();
+    await homePage.assertHeroKpis();
+    await homePage.assertQuickLinksSection();
+    await homePage.assertLifecycleServicesSection();
+    await homePage.assertFooterSections();
   });
 
   test('Scenario 2 – Top navigation menu', async ({ page, homePage }) => {

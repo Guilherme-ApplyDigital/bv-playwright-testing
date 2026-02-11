@@ -12,6 +12,7 @@ export class HomePage {
     this.logger.info(`Navigating to homepage: ${this.baseUrl}`);
     // Use domcontentloaded to avoid hanging on slow third-party resources.
     await this.page.goto(this.baseUrl, { waitUntil: 'domcontentloaded' });
+    await this.acceptCookiesIfPresent();
   }
 
   async assertHeroVisible() {
@@ -25,6 +26,115 @@ export class HomePage {
   async assertPrimaryCtaVisible() {
     this.logger.info('Asserting primary CTA button is visible');
     await expect(this.page.getByRole('link', { name: 'See bolder vision in action' })).toBeVisible();
+  }
+
+  private async acceptCookiesIfPresent() {
+    this.logger.info('Checking for cookie banner');
+    const banner = this.page.getByRole('dialog', { name: /Privacy/i }).first();
+    try {
+      if (await banner.isVisible()) {
+        this.logger.info('Cookie banner visible, accepting all cookies');
+        await banner.getByRole('button', { name: /Accept All Cookies/i }).click();
+      }
+    } catch {
+      // Banner not present in this run; ignore.
+      this.logger.debug('Cookie banner not present or already dismissed');
+    }
+  }
+
+  async assertHeaderNavItemsPresent() {
+    this.logger.info('Asserting main header navigation items are visible');
+    const header = this.page.locator('header');
+    const items = ['About Us', 'Who we serve', 'What we do', 'Sustainability', 'Projects', 'Careers'];
+    for (const text of items) {
+      this.logger.info(`Checking header nav item: ${text}`);
+      await expect(header.getByText(text, { exact: true }).first()).toBeVisible();
+    }
+  }
+
+  async assertUpperRightNavItemsPresent() {
+    this.logger.info('Asserting upper-right navigation items are visible');
+    const header = this.page.locator('header');
+    const items = ['Contact', 'Newsroom', 'Supplier', 'Locations'];
+    for (const text of items) {
+      this.logger.info(`Checking upper-right nav item: ${text}`);
+      await expect(header.getByText(text, { exact: true }).first()).toBeVisible();
+    }
+  }
+
+  async assertHeroKpis() {
+    this.logger.info('Asserting hero KPI metrics are visible');
+    await expect(this.page.getByText('Years in business')).toBeVisible();
+    await expect(this.page.getByText('Active Projects')).toBeVisible();
+    await expect(this.page.getByText('Employees')).toBeVisible();
+  }
+
+  async assertQuickLinksSection() {
+    this.logger.info('Asserting Quick Links section and key links are visible');
+    await expect(this.page.getByText('Quick Links')).toBeVisible();
+    const quickLinks = [
+      'Strategic Advisory',
+      'Energy Transition',
+      'Power Generation',
+      'Power Delivery',
+      'Water',
+      'Process',
+      'Fuels',
+      'Industrial Cybersecurity',
+      'Environmental',
+      'Lifecycle Services',
+    ];
+    for (const name of quickLinks) {
+      this.logger.info(`Checking Quick Link: ${name}`);
+      await expect(this.page.getByRole('link', { name }).first()).toBeVisible();
+    }
+  }
+
+  async assertLifecycleServicesSection() {
+    this.logger.info('Asserting Lifecycle services section is visible');
+    // Scope to main so we get the visible section (other matches may be in hidden carousel/overlay)
+    const main = this.page.getByRole('main');
+    await expect(main.getByText(/Lifecycle [Ss]ervices/).first()).toBeVisible();
+    const steps = [
+      'Strategy',
+      'Planning',
+      'Engineering',
+      'Procurement',
+      'Construction',
+      'Operations',
+      'Modernization',
+      'Decommissioning',
+    ];
+    for (const step of steps) {
+      this.logger.info(`Checking lifecycle step: ${step}`);
+      await expect(main.getByText(step).first()).toBeVisible();
+    }
+  }
+
+  async assertFooterSections() {
+    this.logger.info('Asserting footer navigation sections and key links are visible');
+    const footer = this.page.locator('footer');
+
+    const footerTexts = [
+      'About Us',
+      'Leadership',
+      'Insights and Resources',
+      'Newsroom',
+      'Who we serve',
+      'What we do',
+      'Sustainability',
+      'Careers',
+      'Accessibility',
+      'Privacy policy',
+      'Terms of use',
+      'Compliance',
+      'Copyright ©',
+    ];
+
+    for (const text of footerTexts) {
+      this.logger.info(`Checking footer text/link: ${text}`);
+      await expect(footer.getByText(text, { exact: false }).first()).toBeVisible();
+    }
   }
 
   // Top navigation (navigate directly to canonical URLs for stability)
@@ -96,10 +206,12 @@ export class HomePage {
     await input.first().press('Enter');
   }
 
-  // Feature cards under hero section
+  // Feature cards under hero section (scroll into view and allow time for carousel/visibility)
   async openFeatureCard(title: string) {
     this.logger.info(`Opening feature card with title: ${title}`);
-    await this.page.getByText(title, { exact: false }).first().click();
+    const card = this.page.getByText(title, { exact: false }).first();
+    await card.scrollIntoViewIfNeeded();
+    await card.click({ timeout: 45_000 });
   }
 }
 
