@@ -206,12 +206,14 @@ export class HomePage {
     await input.first().press('Enter');
   }
 
-  // Feature cards under hero section (scroll into view and allow time for carousel/visibility)
+  // Feature cards under hero section (carousel may load late in CI; wait for section then card)
   async openFeatureCard(title: string) {
     this.logger.info(`Opening feature card with title: ${title}`);
+    // Wait for hero/feature area to be present so carousel has time to render (CI is slower)
+    await this.page.getByText('Quick Links').first().waitFor({ state: 'visible', timeout: 25_000 });
     const card = this.page.getByText(title, { exact: false }).first();
-    await card.scrollIntoViewIfNeeded();
-    await card.click({ timeout: 45_000 });
+    await card.scrollIntoViewIfNeeded({ timeout: 45_000 });
+    await card.click({ timeout: 15_000 });
   }
 }
 
