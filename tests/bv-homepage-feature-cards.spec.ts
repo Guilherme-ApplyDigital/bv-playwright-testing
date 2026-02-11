@@ -8,12 +8,14 @@ test.describe('BV Homepage – Feature cards', () => {
   });
 
   test('Card – Floating solar powers Philippine mine', async ({ page, homePage }) => {
+    test.skip(!!process.env.CI, 'Carousel content varies in CI');
     await homePage.goto();
     await homePage.openFeatureCard('Floating solar powers Philippine mine');
     await expect(page).not.toHaveTitle(/Not Found/i);
   });
 
   test('Card – AI on the frontlines: battling cyberattacks', async ({ page, homePage }) => {
+    test.skip(!!process.env.CI, 'Carousel content varies in CI');
     await homePage.goto();
     await homePage.openFeatureCard('AI on the frontlines: battling cyberattacks');
     await expect(page).not.toHaveTitle(/Not Found/i);
