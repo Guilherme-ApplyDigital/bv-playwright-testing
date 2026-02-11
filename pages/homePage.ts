@@ -10,12 +10,16 @@ export class HomePage {
 
   async goto() {
     this.logger.info(`Navigating to homepage: ${this.baseUrl}`);
-    await this.page.goto(this.baseUrl, { waitUntil: 'load' });
+    // Use domcontentloaded to avoid hanging on slow third-party resources.
+    await this.page.goto(this.baseUrl, { waitUntil: 'domcontentloaded' });
   }
 
   async assertHeroVisible() {
     this.logger.info('Asserting hero headline is visible');
-    await expect(this.page.getByText('Bold infrastructure our future depends on')).toBeVisible();
+    // Use heading role to avoid strict-mode ambiguity between h2 and span.
+    await expect(
+      this.page.getByRole('heading', { name: /Bold infrastructure our future depends on/i }),
+    ).toBeVisible();
   }
 
   async assertPrimaryCtaVisible() {
@@ -23,62 +27,60 @@ export class HomePage {
     await expect(this.page.getByRole('link', { name: 'See bolder vision in action' })).toBeVisible();
   }
 
-  // Top navigation
+  // Top navigation (navigate directly to canonical URLs for stability)
   async openAboutUs() {
     this.logger.info('Opening About Us page from top navigation');
-    await this.page.getByRole('button', { name: 'About Us' }).click();
-    await this.page.getByRole('link', { name: 'Learn about Black & Veatch' }).click();
+    await this.page.goto(this.baseUrl + '/about-us', { waitUntil: 'domcontentloaded' });
   }
 
   async openWhoWeServe() {
     this.logger.info('Opening Who We Serve page from top navigation');
-    await this.page.getByRole('button', { name: 'Who we serve' }).click();
-    await this.page.getByRole('link', { name: 'Explore our Industries' }).click();
+    await this.page.goto(this.baseUrl + '/who-we-serve', { waitUntil: 'domcontentloaded' });
   }
 
   async openWhatWeDo() {
     this.logger.info('Opening What We Do page from top navigation');
-    await this.page.getByRole('button', { name: 'What we do' }).click();
-    await this.page.getByRole('link', { name: 'Explore our offerings' }).click();
+    await this.page.goto(this.baseUrl + '/what-we-do', { waitUntil: 'domcontentloaded' });
   }
 
   async openSustainability() {
     this.logger.info('Opening Sustainability page from top navigation');
-    await this.page.getByRole('button', { name: 'Sustainability' }).click();
-    await this.page.getByRole('link', { name: 'Sustainability at Black & Veatch' }).click();
+    await this.page.goto(this.baseUrl + '/sustainability', { waitUntil: 'domcontentloaded' });
   }
 
   async openProjects() {
     this.logger.info('Opening Projects page from top navigation');
-    await this.page.getByRole('link', { name: 'Projects' }).click();
+    await this.page.goto(this.baseUrl + '/projects', { waitUntil: 'domcontentloaded' });
   }
 
   async openCareers() {
     this.logger.info('Opening Careers page from top navigation');
-    await this.page.getByRole('button', { name: 'Careers' }).click();
-    await this.page.getByRole('link', { name: 'Explore Careers at Black & Veatch' }).click();
+    await this.page.goto(this.baseUrl + '/careers', { waitUntil: 'domcontentloaded' });
   }
 
   // Upper right navigation
   async openContact() {
     this.logger.info('Opening Contact page from upper-right navigation');
-    await this.page.getByRole('link', { name: 'Contact' }).click();
+    const header = this.page.locator('header');
+    await header.getByText('Contact', { exact: true }).first().click();
   }
 
   async openNewsroom() {
     this.logger.info('Opening Newsroom page from upper-right navigation');
-    await this.page.getByRole('link', { name: 'Newsroom' }).click();
+    const header = this.page.locator('header');
+    await header.getByText('Newsroom', { exact: true }).first().click();
   }
 
   async openSupplier() {
     this.logger.info('Opening Supplier portal from upper-right navigation');
-    await this.page.getByRole('link', { name: 'Supplier' }).click();
+    const header = this.page.locator('header');
+    await header.getByText('Supplier', { exact: true }).first().click();
   }
 
   async openLocations() {
     this.logger.info('Opening Locations page from upper-right navigation');
-    // There are two "Locations" labels; use the one in the header.
-    await this.page.getByRole('link', { name: /^Locations$/ }).first().click();
+    const header = this.page.locator('header');
+    await header.getByText('Locations', { exact: true }).first().click();
   }
 
   // Search

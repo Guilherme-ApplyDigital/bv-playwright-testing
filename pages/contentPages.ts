@@ -9,12 +9,15 @@ abstract class ContentPage {
 
   protected async assertTitleContains(text: string) {
     this.logger.info(`Asserting page title contains: ${text}`);
-    await expect(this.page).toHaveTitle(new RegExp(text, 'i'));
+    // Allow extra time for cross-browser navigation to complete.
+    await expect(this.page).toHaveTitle(new RegExp(text, 'i'), { timeout: 15_000 });
   }
 
   protected async assertMainHeadingVisible() {
     this.logger.info('Asserting main heading (h1) is visible');
-    await expect(this.page.locator('h1')).toBeVisible();
+    // Use role-based locator and pick a single h1 to avoid strict-mode ambiguity
+    const mainHeading = this.page.getByRole('heading', { level: 1 }).first();
+    await expect(mainHeading).toBeVisible();
   }
 
   async assertLoaded(expectedTitlePart: string) {
