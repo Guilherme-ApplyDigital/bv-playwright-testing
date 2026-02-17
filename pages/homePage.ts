@@ -15,6 +15,22 @@ export class HomePage {
     await this.acceptCookiesIfPresent();
   }
 
+  /** Navigate to an internal path (e.g. "/about-us") and dismiss cookie banner if present. */
+  async gotoPath(path: string) {
+    const url = path.startsWith('http') ? path : this.baseUrl + (path.startsWith('/') ? path : '/' + path);
+    this.logger.info(`Navigating to: ${url}`);
+    await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+    await this.acceptCookiesIfPresent();
+  }
+
+  /** Assert the current page is not a 404/error and has main content (main landmark or h1). */
+  async assertPageNotBroken() {
+    await expect(this.page).not.toHaveTitle(/Not Found|404|Error/i);
+    const main = this.page.getByRole('main');
+    const h1 = this.page.getByRole('heading', { level: 1 }).first();
+    await expect(main.or(h1).first()).toBeVisible({ timeout: 15_000 });
+  }
+
   async assertHeroVisible() {
     this.logger.info('Asserting hero headline is visible');
     // Use heading role to avoid strict-mode ambiguity between h2 and span.
