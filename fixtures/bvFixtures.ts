@@ -2,7 +2,7 @@ import { test as base, expect } from '@playwright/test';
 import { HomePage } from '../pages/homePage';
 import { createLogger } from '../utils/logger';
 
-export const BASE_URL = 'https://www.bv.com';
+export const BASE_URL = process.env.BV_BASE_URL ?? 'https://develop--bv-ad.netlify.app';
 
 type Fixtures = {
   homePage: HomePage;

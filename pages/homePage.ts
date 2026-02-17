@@ -12,6 +12,7 @@ export class HomePage {
     this.logger.info(`Navigating to homepage: ${this.baseUrl}`);
     // Use domcontentloaded to avoid hanging on slow third-party resources.
     await this.page.goto(this.baseUrl, { waitUntil: 'domcontentloaded' });
+    await this.loginIfRequired();
     await this.acceptCookiesIfPresent();
   }
 
@@ -20,6 +21,7 @@ export class HomePage {
     const url = path.startsWith('http') ? path : this.baseUrl + (path.startsWith('/') ? path : '/' + path);
     this.logger.info(`Navigating to: ${url}`);
     await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+    await this.loginIfRequired();
     await this.acceptCookiesIfPresent();
   }
 
@@ -56,6 +58,33 @@ export class HomePage {
       // Banner not present in this run; ignore.
       this.logger.debug('Cookie banner not present or already dismissed');
     }
+  }
+
+  private async loginIfRequired() {
+    if (!this.page.url().includes('/login')) {
+      return;
+    }
+
+    this.logger.info('Login page detected, authenticating');
+    const username = process.env.BV_DEV_USER ?? process.env.BV_USERNAME;
+    const password = process.env.BV_DEV_PASSWORD ?? process.env.BV_PASSWORD;
+
+    if (!username || !password) {
+      throw new Error(
+        'Login required. Set BV_DEV_USER/BV_DEV_PASSWORD (or BV_USERNAME/BV_PASSWORD) environment variables.',
+      );
+    }
+
+    await this.acceptCookiesIfPresent();
+    await this.page.locator('input[placeholder="User"]').first().fill(username);
+    await this.page.locator('input[placeholder="Password"]').first().fill(password);
+
+    await Promise.all([
+      this.page.waitForURL((url) => !url.pathname.includes('/login'), { timeout: 30_000 }),
+      this.page.getByRole('button', { name: /^Log in$/i }).click(),
+    ]);
+
+    this.logger.info('Authentication successful');
   }
 
   async assertHeaderNavItemsPresent() {

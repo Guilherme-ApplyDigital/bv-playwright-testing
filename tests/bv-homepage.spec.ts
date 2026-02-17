@@ -20,8 +20,9 @@ test.describe('BV Homepage – Functional Smoke', () => {
     await homePage.assertHeroVisible();
     await homePage.assertPrimaryCtaVisible();
 
-    // Basic HTTP 200 is implied by successful navigation; allow root or locale path (e.g. /en-US in CI).
-    await expect(page).toHaveURL(/^https:\/\/www\.bv\.com(\/en-US)?\/?$/);
+    // Basic HTTP 200 is implied by successful navigation; allow root or locale path.
+    const escapedBase = BASE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    await expect(page).toHaveURL(new RegExp(`^${escapedBase}(\\/en-US)?\\/?$`));
 
     // Additional regressions on homepage structure
     await homePage.assertHeaderNavItemsPresent();

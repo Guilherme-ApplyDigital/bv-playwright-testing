@@ -2,10 +2,17 @@ name: Playwright Tests
 on:
   push:
     branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
 jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      BV_BASE_URL: https://develop--bv-ad.netlify.app
+      BV_DEV_USER: ${{ secrets.BV_DEV_USER }}
+      BV_DEV_PASSWORD: ${{ secrets.BV_DEV_PASSWORD }}
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -15,6 +22,13 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers (Chromium only)
       run: npx playwright install chromium --with-deps
+    - name: Validate required secrets
+      run: |
+        if [ -z "${BV_DEV_USER}" ] || [ -z "${BV_DEV_PASSWORD}" ]; then
+          echo "::error::Missing required secrets BV_DEV_USER and/or BV_DEV_PASSWORD."
+          echo "::error::Configure them in Settings > Secrets and variables > Actions."
+          exit 1
+        fi
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
