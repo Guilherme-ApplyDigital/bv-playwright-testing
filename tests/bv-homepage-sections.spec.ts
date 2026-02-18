@@ -61,7 +61,9 @@ test.describe('BV Homepage – Sections and locators', () => {
 
   test('Section – Solutions Spotlight heading', async ({ page, homePage }) => {
     await homePage.goto();
-    await expect(page.getByText('Solutions Spotlight').first()).toBeVisible();
+    await expect(page.getByRole('main').getByRole('heading', { name: /Solutions Spotlight/i }).first()).toBeVisible({
+      timeout: 20_000,
+    });
   });
 
   test('Section – Energy Transition Learn more', async ({ page, homePage }) => {

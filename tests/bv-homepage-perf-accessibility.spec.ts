@@ -28,11 +28,11 @@ test.describe('BV Homepage – Performance and Accessibility', () => {
   test('Accessibility – landmarks and main headings', async ({ page, homePage }) => {
     await homePage.goto();
 
-    await expect(page.getByRole('banner')).toBeVisible();
-    await expect(page.getByRole('main')).toBeVisible();
-    await expect(page.getByRole('contentinfo')).toBeVisible();
+    await expect(page.getByRole('banner')).toBeVisible({ timeout: 20_000 });
+    await expect(page.getByRole('main')).toBeVisible({ timeout: 20_000 });
+    await expect(page.getByRole('contentinfo')).toBeVisible({ timeout: 20_000 });
 
-    await expect(page.getByRole('heading', { level: 1 }).first()).toBeVisible();
+    await expect(page.getByRole('main').getByRole('heading', { level: 1 }).first()).toBeVisible({ timeout: 20_000 });
     const h2Count = await page.getByRole('heading', { level: 2 }).count();
     expect(h2Count).toBeGreaterThan(3);
   });

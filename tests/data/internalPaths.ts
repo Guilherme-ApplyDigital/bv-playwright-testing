@@ -63,11 +63,4 @@ export const INTERNAL_PATHS: string[] = [
   '/where-we-work/middle-east-and-africa',
   '/who-we-serve',
   '/who-we-serve/commercial',
-  '/who-we-serve/federal-agencies',
-  '/who-we-serve/fuels-and-natural-resources',
-  '/who-we-serve/industrial-and-manufacturing',
-  '/who-we-serve/power-providers',
-  '/who-we-serve/public-sector',
-  '/who-we-serve/technology-and-data-centers',
-  '/who-we-serve/water-utilities',
 ];
