@@ -51,11 +51,11 @@ export class HomePage {
     this.logger.info('Checking for cookie banner');
     const banner = this.page.getByRole('dialog', { name: /Privacy/i }).first();
     try {
-      // In CI the cookie dialog can render a bit later; wait briefly before deciding it's absent.
-      await banner.waitFor({ state: 'visible', timeout: 5_000 }).catch(() => null);
-      if (await banner.isVisible()) {
+      // Keep this check short; most pages already have accepted consent in session state.
+      await banner.waitFor({ state: 'visible', timeout: 1_200 }).catch(() => null);
+      if (await banner.isVisible().catch(() => false)) {
         this.logger.info('Cookie banner visible, accepting all cookies');
-        await banner.getByRole('button', { name: /Accept All Cookies/i }).click();
+        await banner.getByRole('button', { name: /Accept All Cookies/i }).click({ timeout: 5_000 });
         await banner.waitFor({ state: 'hidden', timeout: 3_000 }).catch(() => null);
       }
     } catch {

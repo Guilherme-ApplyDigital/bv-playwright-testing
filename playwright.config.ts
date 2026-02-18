@@ -17,10 +17,10 @@ export default defineConfig({
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
-  /* Keep one worker everywhere to avoid login/session race conditions */
-  workers: 1,
+  /* Keep retries conservative to reduce total run time */
+  retries: process.env.CI ? 1 : 0,
+  /* Run two workers on CI once auth state is reused */
+  workers: process.env.CI ? 2 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Default timeout per test; CI is slower so allow more time */
@@ -33,7 +33,12 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    /* Reuse authenticated browser state generated in global setup */
+    storageState: 'playwright/.auth/user.json',
   },
+
+  /* Authenticate once per run and reuse session in tests */
+  globalSetup: './global.setup.ts',
 
   /* Configure projects: Chromium only */
   projects: [
