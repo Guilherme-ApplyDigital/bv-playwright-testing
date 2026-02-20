@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,18 +36,54 @@ jobs:
           exit 1
         fi
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --reporter=line,html,allure-playwright
+    - name: Restore Allure history cache
+      id: allure-cache-restore
+      uses: actions/cache/restore@v4
+      with:
+        path: .allure-history-cache
+        key: allure-history-${{ github.ref_name }}-${{ github.run_id }}
+        restore-keys: |
+          allure-history-${{ github.ref_name }}-
+    - name: Inject previous Allure history
+      if: ${{ always() }}
+      run: |
+        if [ -d ".allure-history-cache/history" ]; then
+          mkdir -p allure-results
+          cp -R .allure-history-cache/history allure-results/history
+        fi
+    - name: Generate Allure report
+      if: ${{ always() && !cancelled() }}
+      run: npx allure generate allure-results --clean -o allure-report
+    - name: Update Allure history cache payload
+      if: ${{ always() && !cancelled() }}
+      run: |
+        rm -rf .allure-history-cache
+        mkdir -p .allure-history-cache
+        cp -R allure-report/history .allure-history-cache/history
+    - name: Save Allure history cache
+      if: ${{ always() && !cancelled() }}
+      uses: actions/cache/save@v4
+      with:
+        path: .allure-history-cache
+        key: ${{ steps.allure-cache-restore.outputs.cache-primary-key }}
     - uses: actions/upload-artifact@v4
       if: ${{ always() && !cancelled() }}
       with:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-    - name: Upload Playwright report to Pages artifact
+    - uses: actions/upload-artifact@v4
+      if: ${{ always() && !cancelled() }}
+      with:
+        name: allure-report
+        path: allure-report/
+        retention-days: 30
+    - name: Upload Allure report to Pages artifact
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       uses: actions/upload-pages-artifact@v3
       with:
-        path: playwright-report/
+        path: allure-report/
 
   deploy-report:
     if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
@@ -57,6 +93,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy Playwright report to GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy Allure report to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

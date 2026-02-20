@@ -125,6 +125,16 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Leadership page loads without errors', 'Internal links are reachable', 'No broken media'],
   },
   {
+    url: 'https://develop--bv-ad.netlify.app/locations',
+    path: '/locations',
+    components: ['Locations hub heading', 'Regional cards/links', 'Navigation links', 'Footer'],
+    validationOpportunities: ['Locations hub route integrity', 'Core route health', 'Regression detection for known 404 issue'],
+    scenarioName: 'Locations hub route integrity',
+    purpose: 'Keep visibility on the known Locations hub defect until fixed.',
+    steps: ['Open locations hub route', 'Validate that route is not broken', 'Validate internal links and media'],
+    expectedResults: ['Route should be healthy and render a valid page', 'No 404 state in core experience'],
+  },
+  {
     url: 'https://develop--bv-ad.netlify.app/locations/americas',
     path: '/locations/americas',
     components: ['Regional heading', 'Regional content sections', 'Navigation links', 'Footer'],
@@ -274,8 +284,10 @@ async function collectA11yGaps(page: Page) {
 async function assertInternalLinksReachable(
   request: APIRequestContext,
   internalLinks: string[],
+  scenarioPath: string,
 ): Promise<void> {
   const broken: string[] = [];
+  const ignoredKnownBugLinks: string[] = [];
 
   for (const link of internalLinks) {
     if (isSkippableHref(link) || !isSameOrigin(link)) continue;
@@ -285,7 +297,12 @@ async function assertInternalLinksReachable(
       timeout: LINK_CHECK_TIMEOUT_MS,
     });
     if (response.status() >= 400) {
-      broken.push(`${response.status()} ${link}`);
+      const isLocationsRoot404 = response.status() === 404 && link.endsWith('/locations');
+      if (isLocationsRoot404 && scenarioPath !== '/locations') {
+        ignoredKnownBugLinks.push(`${response.status()} ${link}`);
+      } else {
+        broken.push(`${response.status()} ${link}`);
+      }
     }
   }
 
@@ -293,6 +310,12 @@ async function assertInternalLinksReachable(
   // "/locations" is currently clickable in parts of the site but resolves to 404 in dev.
   // Keep this blocking so the defect remains visible until fixed by content/navigation owners.
   expect(broken, `Broken internal links found:\n${broken.join('\n')}`).toEqual([]);
+  if (ignoredKnownBugLinks.length) {
+    test.info().annotations.push({
+      type: 'Known system bug - ignored in this scenario',
+      description: ignoredKnownBugLinks.join(' | '),
+    });
+  }
 }
 
 async function assertBasicPageReadiness(page: Page): Promise<void> {
@@ -427,7 +450,7 @@ test.describe('Highest Traffic Pages - Generated QA Scenarios', () => {
 
           const internalLinks = await collectInternalLinks(page);
           expect(internalLinks.length, `No internal links discovered on ${pageScenario.url}`).toBeGreaterThan(0);
-          await assertInternalLinksReachable(request, internalLinks);
+          await assertInternalLinksReachable(request, internalLinks, pageScenario.path);
         });
       } catch (error) {
         const diagnostics = [
