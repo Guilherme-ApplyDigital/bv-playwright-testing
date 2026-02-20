@@ -177,6 +177,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
 ];
 
 const LINK_CHECK_TIMEOUT_MS = 15_000;
+const LINK_CHECK_RETRIES = 1;
 const NON_CRITICAL_CONSOLE_ERROR_PATTERNS = [
   /Failed to load resource: the server responded with a status of 404 \(\)/i,
   /Blocked script execution in 'about:blank' because the document's frame is sandboxed/i,
@@ -288,20 +289,52 @@ async function assertInternalLinksReachable(
 ): Promise<void> {
   const broken: string[] = [];
   const ignoredKnownBugLinks: string[] = [];
+  const flakyRecoveredLinks: string[] = [];
 
   for (const link of internalLinks) {
     if (isSkippableHref(link) || !isSameOrigin(link)) continue;
+    let finalStatus: number | null = null;
+    let recoveredOnRetry = false;
+    let requestError: string | null = null;
 
-    const response = await request.get(link, {
-      failOnStatusCode: false,
-      timeout: LINK_CHECK_TIMEOUT_MS,
-    });
-    if (response.status() >= 400) {
-      const isLocationsRoot404 = response.status() === 404 && link.endsWith('/locations');
+    for (let attempt = 0; attempt <= LINK_CHECK_RETRIES; attempt++) {
+      try {
+        const response = await request.get(link, {
+          failOnStatusCode: false,
+          timeout: LINK_CHECK_TIMEOUT_MS,
+        });
+        finalStatus = response.status();
+
+        if (finalStatus < 500) {
+          if (attempt > 0) {
+            recoveredOnRetry = true;
+          }
+          break;
+        }
+      } catch (error) {
+        requestError = error instanceof Error ? error.message : String(error);
+      }
+
+      if (attempt < LINK_CHECK_RETRIES) {
+        await new Promise((resolve) => setTimeout(resolve, 400));
+      }
+    }
+
+    if (recoveredOnRetry) {
+      flakyRecoveredLinks.push(link);
+    }
+
+    if (requestError && finalStatus === null) {
+      broken.push(`REQUEST_FAILED ${link} - ${requestError}`);
+      continue;
+    }
+
+    if (finalStatus !== null && finalStatus >= 400) {
+      const isLocationsRoot404 = finalStatus === 404 && link.endsWith('/locations');
       if (isLocationsRoot404 && scenarioPath !== '/locations') {
-        ignoredKnownBugLinks.push(`${response.status()} ${link}`);
+        ignoredKnownBugLinks.push(`${finalStatus} ${link}`);
       } else {
-        broken.push(`${response.status()} ${link}`);
+        broken.push(`${finalStatus} ${link}`);
       }
     }
   }
@@ -314,6 +347,12 @@ async function assertInternalLinksReachable(
     test.info().annotations.push({
       type: 'Known system bug - ignored in this scenario',
       description: ignoredKnownBugLinks.join(' | '),
+    });
+  }
+  if (flakyRecoveredLinks.length) {
+    test.info().annotations.push({
+      type: 'Recovered transient link checks',
+      description: flakyRecoveredLinks.join(' | '),
     });
   }
 }

@@ -49,14 +49,16 @@ export class HomePage {
 
   private async acceptCookiesIfPresent() {
     this.logger.info('Checking for cookie banner');
-    const banner = this.page.getByRole('dialog', { name: /Privacy/i }).first();
+    const acceptButton = this.page.getByRole('button', { name: /Accept All Cookies/i }).first();
     try {
-      // Keep this check short; most pages already have accepted consent in session state.
-      await banner.waitFor({ state: 'visible', timeout: 1_200 }).catch(() => null);
-      if (await banner.isVisible().catch(() => false)) {
+      // Avoid hard dependency on dialog visibility timing; button can appear/disappear quickly in CI.
+      const buttonVisibleNow = await acceptButton.isVisible().catch(() => false);
+      if (buttonVisibleNow) {
         this.logger.info('Cookie banner visible, accepting all cookies');
-        await banner.getByRole('button', { name: /Accept All Cookies/i }).click({ timeout: 5_000 });
-        await banner.waitFor({ state: 'hidden', timeout: 3_000 }).catch(() => null);
+        await acceptButton.click({ timeout: 5_000 }).catch(() => null);
+      } else {
+        // If banner is still animating in, try one short click attempt and move on when absent.
+        await acceptButton.click({ timeout: 1_200 }).catch(() => null);
       }
     } catch {
       // Banner not present in this run; ignore.

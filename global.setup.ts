@@ -5,10 +5,12 @@ import { dirname } from 'node:path';
 const AUTH_FILE_PATH = 'playwright/.auth/user.json';
 
 async function acceptCookiesIfPresent(page: Page) {
-  const banner = page.getByRole('dialog', { name: /Privacy/i }).first();
-  await banner.waitFor({ state: 'visible', timeout: 2_000 }).catch(() => null);
-  if (await banner.isVisible().catch(() => false)) {
-    await banner.getByRole('button', { name: /Accept All Cookies/i }).click({ timeout: 5_000 }).catch(() => null);
+  const acceptButton = page.getByRole('button', { name: /Accept All Cookies/i }).first();
+  const visibleNow = await acceptButton.isVisible().catch(() => false);
+  if (visibleNow) {
+    await acceptButton.click({ timeout: 5_000 }).catch(() => null);
+  } else {
+    await acceptButton.click({ timeout: 1_200 }).catch(() => null);
   }
 }
 
