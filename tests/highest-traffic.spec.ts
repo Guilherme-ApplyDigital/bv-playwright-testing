@@ -13,10 +13,11 @@ type TrafficPageScenario = {
 };
 
 const BASE_ORIGIN = new URL(BASE_URL).origin;
+const scenarioUrl = (path: string) => new URL(path, BASE_URL).toString();
 
 const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
   {
-    url: 'https://develop--bv-ad.netlify.app/',
+    url: scenarioUrl('/'),
     path: '/',
     components: ['Global header', 'Primary hero', 'Main content landmark', 'Footer', 'Primary CTA links'],
     validationOpportunities: ['Critical entry-point integrity', 'Homepage navigation paths', 'Content rendering regressions'],
@@ -35,7 +36,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     ],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/careers',
+    url: scenarioUrl('/careers'),
     path: '/careers',
     components: ['Careers heading', 'Job-related CTA links', 'Main content sections', 'Footer'],
     validationOpportunities: ['Hiring funnel access', 'Navigation continuity', 'Accessibility baseline'],
@@ -45,7 +46,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['No broken critical UI', 'Accessible controls and links', 'Internal links resolve successfully'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/contact-us',
+    url: scenarioUrl('/contact-us'),
     path: '/contact-us',
     components: ['Contact heading', 'Contact information section', 'Navigation links', 'Footer'],
     validationOpportunities: ['Lead/contact path reliability', 'Page integrity and resources'],
@@ -55,7 +56,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Contact page is reachable', 'No broken assets/links', 'Core content is rendered'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/office-locations',
+    url: scenarioUrl('/office-locations'),
     path: '/office-locations',
     components: ['Locations heading', 'Office/location content modules', 'Navigation and footer links'],
     validationOpportunities: ['Location discovery continuity', 'Content rendering and accessibility'],
@@ -65,7 +66,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Page does not show error state', 'Links/media are healthy', 'Accessible controls remain valid'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/projects',
+    url: scenarioUrl('/projects'),
     path: '/projects',
     components: ['Projects heading', 'Project listing/feature cards', 'Navigation links', 'Footer'],
     validationOpportunities: ['Portfolio browsing health', 'CTA and internal navigation resilience'],
@@ -75,7 +76,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Projects page remains stable', 'Interactive content is usable', 'Internal links are reachable'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/where-we-work/asia-pacific',
+    url: scenarioUrl('/where-we-work/asia-pacific'),
     path: '/where-we-work/asia-pacific',
     components: ['Region heading', 'Regional content sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Regional page integrity', 'Navigation and rendering quality'],
@@ -85,7 +86,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['No broken state', 'No failed same-origin critical resources', 'Internal links respond'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/about-us',
+    url: scenarioUrl('/about-us'),
     path: '/about-us',
     components: ['About Us heading', 'Company information sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Brand/story page reliability', 'Content and accessibility checks'],
@@ -95,7 +96,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Page renders correctly', 'No broken links/images', 'Controls have accessible names'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/en-US/careers',
+    url: scenarioUrl('/en-US/careers'),
     path: '/en-US/careers',
     components: ['Localized careers heading', 'Localized content sections', 'Localized navigation links'],
     validationOpportunities: ['Locale route stability', 'Content parity and baseline quality'],
@@ -105,7 +106,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Localized route loads and stays interactive', 'No broken internal destinations'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/careers/our-hiring-process',
+    url: scenarioUrl('/careers/our-hiring-process'),
     path: '/careers/our-hiring-process',
     components: ['Hiring process heading', 'Process content blocks', 'Navigable CTAs and links'],
     validationOpportunities: ['Recruitment process page quality', 'Conversion-path navigation checks'],
@@ -115,7 +116,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Page remains stable', 'No blocked loading indicators', 'No broken internal links/images'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/about-us/leadership',
+    url: scenarioUrl('/about-us/leadership'),
     path: '/about-us/leadership',
     components: ['Leadership heading', 'Leadership profile/content modules', 'Navigation links'],
     validationOpportunities: ['Executive content route reliability', 'Media and accessibility baseline'],
@@ -125,7 +126,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Leadership page loads without errors', 'Internal links are reachable', 'No broken media'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/locations',
+    url: scenarioUrl('/locations'),
     path: '/locations',
     components: ['Locations hub heading', 'Regional cards/links', 'Navigation links', 'Footer'],
     validationOpportunities: ['Locations hub route integrity', 'Core route health', 'Regression detection for known 404 issue'],
@@ -135,7 +136,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Route should be healthy and render a valid page', 'No 404 state in core experience'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/locations/americas',
+    url: scenarioUrl('/locations/americas'),
     path: '/locations/americas',
     components: ['Regional heading', 'Regional content sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Locations regional route stability', 'Regional content integrity', 'Critical link health'],
@@ -145,7 +146,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Route loads successfully', 'No critical same-origin failures', 'No broken internal links'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/locations/asia-pacific',
+    url: scenarioUrl('/locations/asia-pacific'),
     path: '/locations/asia-pacific',
     components: ['Regional heading', 'Regional content sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Locations regional route stability', 'Regional content integrity', 'Critical link health'],
@@ -155,7 +156,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Route loads successfully', 'No critical same-origin failures', 'No broken internal links'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/locations/europe',
+    url: scenarioUrl('/locations/europe'),
     path: '/locations/europe',
     components: ['Regional heading', 'Regional content sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Locations regional route stability', 'Regional content integrity', 'Critical link health'],
@@ -165,7 +166,7 @@ const HIGHEST_TRAFFIC_PAGES: TrafficPageScenario[] = [
     expectedResults: ['Route loads successfully', 'No critical same-origin failures', 'No broken internal links'],
   },
   {
-    url: 'https://develop--bv-ad.netlify.app/locations/middle-east-and-africa',
+    url: scenarioUrl('/locations/middle-east-and-africa'),
     path: '/locations/middle-east-and-africa',
     components: ['Regional heading', 'Regional content sections', 'Navigation links', 'Footer'],
     validationOpportunities: ['Locations regional route stability', 'Regional content integrity', 'Critical link health'],

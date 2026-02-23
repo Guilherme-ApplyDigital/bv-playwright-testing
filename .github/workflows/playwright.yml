@@ -5,6 +5,20 @@ on:
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
+    inputs:
+      target_env:
+        description: Environment to run tests against
+        type: choice
+        required: true
+        default: dev
+        options:
+          - dev
+          - stg
+          - prod
+      base_url_override:
+        description: Optional full URL override (takes precedence over target_env)
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -16,7 +30,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      BV_BASE_URL: https://develop--bv-ad.netlify.app
+      BV_ENV: ${{ github.event_name == 'workflow_dispatch' && inputs.target_env || 'dev' }}
+      BV_BASE_URL: ${{ github.event_name == 'workflow_dispatch' && inputs.base_url_override || '' }}
       BV_DEV_USER: ${{ secrets.BV_DEV_USER }}
       BV_DEV_PASSWORD: ${{ secrets.BV_DEV_PASSWORD }}
     steps:
@@ -28,12 +43,11 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers (Chromium only)
       run: npx playwright install chromium --with-deps
-    - name: Validate required secrets
+    - name: Print selected environment
       run: |
-        if [ -z "${BV_DEV_USER}" ] || [ -z "${BV_DEV_PASSWORD}" ]; then
-          echo "::error::Missing required secrets BV_DEV_USER and/or BV_DEV_PASSWORD."
-          echo "::error::Configure them in Settings > Secrets and variables > Actions."
-          exit 1
+        echo "BV_ENV=${BV_ENV}"
+        if [ -n "${BV_BASE_URL}" ]; then
+          echo "BV_BASE_URL override=${BV_BASE_URL}"
         fi
     - name: Run Playwright tests
       run: npx playwright test --reporter=line,html,allure-playwright

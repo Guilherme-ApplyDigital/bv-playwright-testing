@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { resolveBaseUrl, shouldUseAuth } from './utils/environment';
 
 /**
  * Read environment variables from file.
@@ -7,6 +8,9 @@ import { defineConfig, devices } from '@playwright/test';
 // import dotenv from 'dotenv';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
+
+const baseUrl = resolveBaseUrl();
+const useAuth = shouldUseAuth(baseUrl);
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -33,12 +37,12 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    /* Reuse authenticated browser state generated in global setup */
-    storageState: 'playwright/.auth/user.json',
+    /* Reuse authenticated browser state only when auth flow is enabled */
+    storageState: useAuth ? 'playwright/.auth/user.json' : undefined,
   },
 
-  /* Authenticate once per run and reuse session in tests */
-  globalSetup: './global.setup.ts',
+  /* Authenticate once per run only for auth-protected environments */
+  globalSetup: useAuth ? './global.setup.ts' : undefined,
 
   /* Configure projects: Chromium only */
   projects: [

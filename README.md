@@ -28,6 +28,30 @@ npm install
 
 This installs Playwright Test and its TypeScript types (browsers should already be installed from `npm init playwright@latest`, but you can re-run `npx playwright install` if needed).
 
+### Run tests by environment
+
+Default environment is `dev`.
+
+```bash
+npm run test:dev
+npm run test:stg
+npm run test:prod
+```
+
+Environment resolution priority:
+
+1. `BV_BASE_URL` (full override)
+2. `BV_ENV` (`dev`, `stg`, `prod`)
+3. Built-in defaults (`dev` and `prod`; `stg` must be configured with `BV_STG_BASE_URL` when used)
+
+Optional URL overrides:
+
+```bash
+BV_DEV_BASE_URL="https://develop--bv-ad.netlify.app" npm run test:dev
+BV_STG_BASE_URL="https://your-staging-host" npm run test:stg
+BV_PROD_BASE_URL="https://www.bv.com" npm run test:prod
+```
+
 ### Run tests (headless)
 
 From the project root:
@@ -64,4 +88,22 @@ npx playwright show-report
 ```
 
 The report directory (`playwright-report`) is already excluded via `.gitignore`.
+
+### Preserve report history (do not lose prior runs)
+
+Generate Allure with previous history (trend preservation):
+
+```bash
+npm run allure:generate
+```
+
+Archive current run artifacts with timestamp:
+
+```bash
+npm run report:archive
+```
+
+This saves copies of `playwright-report`, `allure-results`, and `allure-report` under:
+
+- `reports/history/<timestamp>/...`
 

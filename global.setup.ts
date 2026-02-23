@@ -1,6 +1,7 @@
 import { chromium, type FullConfig, type Page } from '@playwright/test';
 import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
+import { resolveBaseUrl } from './utils/environment';
 
 const AUTH_FILE_PATH = 'playwright/.auth/user.json';
 
@@ -15,7 +16,7 @@ async function acceptCookiesIfPresent(page: Page) {
 }
 
 async function globalSetup(_config: FullConfig) {
-  const baseUrl = process.env.BV_BASE_URL ?? 'https://develop--bv-ad.netlify.app';
+  const baseUrl = resolveBaseUrl();
   const username = process.env.BV_DEV_USER ?? process.env.BV_USERNAME;
   const password = process.env.BV_DEV_PASSWORD ?? process.env.BV_PASSWORD;
 
