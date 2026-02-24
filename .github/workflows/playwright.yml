@@ -1,4 +1,5 @@
 name: Playwright Tests
+run-name: Playwright (${{ github.event_name == 'workflow_dispatch' && inputs.target_env || 'dev' }}) #${{ github.run_number }}
 on:
   push:
     branches: [ main, master ]
@@ -22,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 
@@ -68,7 +70,35 @@ jobs:
         fi
     - name: Generate Allure report
       if: ${{ always() && !cancelled() }}
-      run: npx allure generate allure-results --clean -o allure-report
+      run: npm run allure:generate
+    - name: Restore historical Pages snapshot
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        set -euo pipefail
+        mkdir -p .pages-site
+        ARTIFACT_ID="$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" --jq '.artifacts[] | select(.name=="pages-site-backup" and .expired==false) | .id' | head -n 1 || true)"
+        if [ -n "${ARTIFACT_ID}" ]; then
+          echo "Restoring pages-site-backup artifact id=${ARTIFACT_ID}"
+          gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}/zip" > pages-site-backup.zip
+          unzip -q -o pages-site-backup.zip -d .pages-site
+        else
+          echo "No previous pages-site-backup found; starting fresh."
+        fi
+    - name: Update historical Pages content
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      run: |
+        set -euo pipefail
+        RUN_STAMP="$(date -u +%Y-%m-%dT%H-%M-%SZ)-run-${GITHUB_RUN_NUMBER}"
+        TARGET_DIR=".pages-site/reports/${BV_ENV}/${RUN_STAMP}"
+        LATEST_DIR=".pages-site/reports/${BV_ENV}/latest"
+
+        mkdir -p "${TARGET_DIR}" "${LATEST_DIR}"
+        rm -rf "${TARGET_DIR:?}/"* "${LATEST_DIR:?}/"* || true
+        cp -R allure-report/. "${TARGET_DIR}/"
+        cp -R allure-report/. "${LATEST_DIR}/"
+        node ./scripts/build-pages-portal.mjs
     - name: Update Allure history cache payload
       if: ${{ always() && !cancelled() }}
       run: |
@@ -84,20 +114,33 @@ jobs:
     - uses: actions/upload-artifact@v4
       if: ${{ always() && !cancelled() }}
       with:
-        name: playwright-report
+        name: playwright-report-${{ env.BV_ENV }}-run-${{ github.run_number }}
         path: playwright-report/
-        retention-days: 30
+        retention-days: 90
     - uses: actions/upload-artifact@v4
       if: ${{ always() && !cancelled() }}
       with:
-        name: allure-report
+        name: allure-results-${{ env.BV_ENV }}-run-${{ github.run_number }}
+        path: allure-results/
+        retention-days: 90
+    - uses: actions/upload-artifact@v4
+      if: ${{ always() && !cancelled() }}
+      with:
+        name: allure-report-${{ env.BV_ENV }}-run-${{ github.run_number }}
         path: allure-report/
-        retention-days: 30
+        retention-days: 90
     - name: Upload Allure report to Pages artifact
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       uses: actions/upload-pages-artifact@v3
       with:
-        path: allure-report/
+        path: .pages-site/
+    - uses: actions/upload-artifact@v4
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      with:
+        name: pages-site-backup
+        path: .pages-site/
+        retention-days: 90
+        overwrite: true
 
   deploy-report:
     if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}

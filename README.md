@@ -107,3 +107,14 @@ This saves copies of `playwright-report`, `allure-results`, and `allure-report` 
 
 - `reports/history/<timestamp>/...`
 
+In CI (GitHub Actions):
+- Allure trend history is preserved between runs via cache (`history` folder).
+- Each run uploads unique artifacts with environment in the name (`dev/stg/prod`).
+- Artifact retention is configured for 90 days.
+- Allure report metadata includes `environment`, `baseUrl`, and run link in the report widgets.
+- GitHub Pages now keeps a historical portal:
+  - `/reports/dev/<timestamp-run>/index.html`
+  - `/reports/stg/<timestamp-run>/index.html`
+  - `/reports/prod/<timestamp-run>/index.html`
+  - plus `/reports/<env>/latest/index.html` shortcuts.
+
