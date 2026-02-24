@@ -1,0 +1,12 @@
+[
+  {
+    "id": "22356440797-dev",
+    "date": "2026-02-24T15:14:27.812Z",
+    "env": "dev",
+    "runNumber": "12",
+    "runId": "22356440797",
+    "sha": "df6d50f",
+    "reportPath": "reports/dev/2026-02-24T15-14-27-812Z-run-12/index.html",
+    "runUrl": "https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/22356440797"
+  }
+]
