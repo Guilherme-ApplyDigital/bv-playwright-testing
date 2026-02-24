@@ -71,34 +71,47 @@ jobs:
     - name: Generate Allure report
       if: ${{ always() && !cancelled() }}
       run: npm run allure:generate
-    - name: Restore historical Pages snapshot
+    - name: Pull report-history branch
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        set -euo pipefail
-        mkdir -p .pages-site
-        ARTIFACT_ID="$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" --jq '.artifacts[] | select(.name=="pages-site-backup" and .expired==false) | .id' | head -n 1 || true)"
-        if [ -n "${ARTIFACT_ID}" ]; then
-          echo "Restoring pages-site-backup artifact id=${ARTIFACT_ID}"
-          gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}/zip" > pages-site-backup.zip
-          unzip -q -o pages-site-backup.zip -d .pages-site
+        rm -rf .pages-site
+        if git clone --depth 1 --branch report-history "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .pages-site; then
+          echo "report-history branch restored"
         else
-          echo "No previous pages-site-backup found; starting fresh."
+          mkdir -p .pages-site
+          cd .pages-site
+          git init -b report-history
+          touch .gitkeep
+          git add .gitkeep
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Initialize report-history branch"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         fi
-    - name: Update historical Pages content
+    - name: Update public report history site
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      env:
+        PAGES_SITE_DIR: .pages-site
+        SOURCE_REPORT_DIR: allure-report
+      run: node ./scripts/update-pages-history-site.mjs
+    - name: Commit and push report-history
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       run: |
-        set -euo pipefail
-        RUN_STAMP="$(date -u +%Y-%m-%dT%H-%M-%SZ)-run-${GITHUB_RUN_NUMBER}"
-        TARGET_DIR=".pages-site/reports/${BV_ENV}/${RUN_STAMP}"
-        LATEST_DIR=".pages-site/reports/${BV_ENV}/latest"
-
-        mkdir -p "${TARGET_DIR}" "${LATEST_DIR}"
-        rm -rf "${TARGET_DIR:?}/"* "${LATEST_DIR:?}/"* || true
-        cp -R allure-report/. "${TARGET_DIR}/"
-        cp -R allure-report/. "${LATEST_DIR}/"
-        node ./scripts/build-pages-portal.mjs
+        cd .pages-site
+        git add .
+        if git diff --cached --quiet; then
+          echo "No report-history changes to push"
+        else
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Report ${BV_ENV} run #${GITHUB_RUN_NUMBER}"
+          git push origin HEAD:report-history
+        fi
+    - name: Prepare Pages artifact folder
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      run: |
+        rm -rf .pages-artifact
+        mkdir -p .pages-artifact
+        cp -R .pages-site/. .pages-artifact/
+        rm -rf .pages-artifact/.git
     - name: Update Allure history cache payload
       if: ${{ always() && !cancelled() }}
       run: |
@@ -133,14 +146,7 @@ jobs:
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       uses: actions/upload-pages-artifact@v3
       with:
-        path: .pages-site/
-    - uses: actions/upload-artifact@v4
-      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
-      with:
-        name: pages-site-backup
-        path: .pages-site/
-        retention-days: 90
-        overwrite: true
+        path: .pages-artifact/
 
   deploy-report:
     if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}

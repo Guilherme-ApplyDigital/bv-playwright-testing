@@ -112,9 +112,11 @@ In CI (GitHub Actions):
 - Each run uploads unique artifacts with environment in the name (`dev/stg/prod`).
 - Artifact retention is configured for 90 days.
 - Allure report metadata includes `environment`, `baseUrl`, and run link in the report widgets.
-- GitHub Pages now keeps a historical portal:
-  - `/reports/dev/<timestamp-run>/index.html`
-  - `/reports/stg/<timestamp-run>/index.html`
-  - `/reports/prod/<timestamp-run>/index.html`
-  - plus `/reports/<env>/latest/index.html` shortcuts.
+- GitHub Pages publishes a public history site from branch `report-history`.
+- The landing page (`index.html`) lists each execution with:
+  - Date/time (UTC)
+  - Environment (`dev/stg/prod`)
+  - Exact run number
+  - Commit SHA
+  - Link to that run report
 
