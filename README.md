@@ -34,6 +34,7 @@ Default environment is `dev`.
 
 ```bash
 npm run test:dev
+npm run test:preview
 npm run test:stg
 npm run test:prod
 ```
@@ -41,16 +42,25 @@ npm run test:prod
 Environment resolution priority:
 
 1. `BV_BASE_URL` (full override)
-2. `BV_ENV` (`dev`, `stg`, `prod`)
-3. Built-in defaults (`dev` and `prod`; `stg` must be configured with `BV_STG_BASE_URL` when used)
+2. `BV_ENV` (`dev`, `preview`, `stg`, `prod`)
+3. Built-in defaults:
+   - `dev`: `https://develop--bv-ad.netlify.app`
+   - `preview`: `https://preview--bv-ad.netlify.app`
+   - `stg`: `https://staging--bv-ad.netlify.app`
+   - `prod`: `https://www.bv.com`
 
 Optional URL overrides:
 
 ```bash
 BV_DEV_BASE_URL="https://develop--bv-ad.netlify.app" npm run test:dev
-BV_STG_BASE_URL="https://your-staging-host" npm run test:stg
+BV_PREVIEW_BASE_URL="https://preview--bv-ad.netlify.app" npm run test:preview
+BV_STG_BASE_URL="https://staging--bv-ad.netlify.app" npm run test:stg
 BV_PROD_BASE_URL="https://www.bv.com" npm run test:prod
 ```
+
+Authentication behavior:
+- `dev`, `preview`, and `stg`: login is expected when redirected to `/login` (credentials from env secrets/vars).
+- `prod`: login is not used by default.
 
 ### Run tests (headless)
 
@@ -109,13 +119,13 @@ This saves copies of `playwright-report`, `allure-results`, and `allure-report` 
 
 In CI (GitHub Actions):
 - Allure trend history is preserved between runs via cache (`history` folder).
-- Each run uploads unique artifacts with environment in the name (`dev/stg/prod`).
+- Each run uploads unique artifacts with environment in the name (`dev/preview/stg/prod`).
 - Artifact retention is configured for 90 days.
 - Allure report metadata includes `environment`, `baseUrl`, and run link in the report widgets.
 - GitHub Pages publishes a public history site from branch `report-history`.
 - The landing page (`index.html`) lists each execution with:
   - Date/time (UTC)
-  - Environment (`dev/stg/prod`)
+  - Environment (`dev/preview/stg/prod`)
   - Exact run number
   - Commit SHA
   - Link to that run report

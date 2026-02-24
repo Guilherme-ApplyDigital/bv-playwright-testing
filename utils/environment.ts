@@ -1,14 +1,15 @@
-export type BvEnvironment = 'dev' | 'stg' | 'prod';
+export type BvEnvironment = 'dev' | 'preview' | 'stg' | 'prod';
 
 const DEFAULT_URLS: Record<BvEnvironment, string> = {
   dev: 'https://develop--bv-ad.netlify.app',
-  stg: '',
+  preview: 'https://preview--bv-ad.netlify.app',
+  stg: 'https://staging--bv-ad.netlify.app',
   prod: 'https://www.bv.com',
 };
 
 function normalizeEnvironment(raw: string | undefined): BvEnvironment {
   const value = (raw ?? 'dev').trim().toLowerCase();
-  if (value === 'dev' || value === 'stg' || value === 'prod') {
+  if (value === 'dev' || value === 'preview' || value === 'stg' || value === 'prod') {
     return value;
   }
   return 'dev';
@@ -23,17 +24,12 @@ export function resolveBaseUrl(): string {
   const envName = normalizeEnvironment(process.env.BV_ENV);
   const fromEnv: Record<BvEnvironment, string | undefined> = {
     dev: process.env.BV_DEV_BASE_URL,
+    preview: process.env.BV_PREVIEW_BASE_URL,
     stg: process.env.BV_STG_BASE_URL,
     prod: process.env.BV_PROD_BASE_URL,
   };
 
   const selectedUrl = fromEnv[envName]?.trim() || DEFAULT_URLS[envName];
-  if (!selectedUrl) {
-    throw new Error(
-      'BV_ENV=stg selected, but no URL is configured. Set BV_STG_BASE_URL or BV_BASE_URL before running tests.',
-    );
-  }
-
   return selectedUrl;
 }
 

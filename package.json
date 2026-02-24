@@ -6,10 +6,12 @@
   "scripts": {
     "test": "BV_ENV=dev playwright test",
     "test:dev": "BV_ENV=dev playwright test",
+    "test:preview": "BV_ENV=preview playwright test",
     "test:stg": "BV_ENV=stg playwright test",
     "test:prod": "BV_ENV=prod playwright test",
     "test:allure": "BV_ENV=dev playwright test --reporter=line,html,allure-playwright",
     "test:allure:dev": "BV_ENV=dev playwright test --reporter=line,html,allure-playwright",
+    "test:allure:preview": "BV_ENV=preview playwright test --reporter=line,html,allure-playwright",
     "test:allure:stg": "BV_ENV=stg playwright test --reporter=line,html,allure-playwright",
     "test:allure:prod": "BV_ENV=prod playwright test --reporter=line,html,allure-playwright",
     "report:archive": "node ./scripts/archive-reports.mjs",
