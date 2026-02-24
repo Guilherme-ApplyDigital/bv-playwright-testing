@@ -1,4 +1,4 @@
-import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const siteRoot = process.env.PAGES_SITE_DIR ?? '.pages-site';
@@ -10,6 +10,7 @@ const sha = (process.env.GITHUB_SHA ?? '').slice(0, 7) || 'local';
 const repository = process.env.GITHUB_REPOSITORY ?? '';
 const serverUrl = process.env.GITHUB_SERVER_URL ?? 'https://github.com';
 const runUrl = repository && runId !== 'local' ? `${serverUrl}/${repository}/actions/runs/${runId}` : '';
+const regressionReportsDir = 'reports';
 
 if (!existsSync(sourceReportDir)) {
   throw new Error(`Source report directory not found: ${sourceReportDir}`);
@@ -22,10 +23,24 @@ const runDir = join(siteRoot, 'reports', envName, runStamp);
 mkdirSync(runDir, { recursive: true });
 cpSync(sourceReportDir, runDir, { recursive: true, force: true });
 
+let analysisPath = '';
+if (existsSync(regressionReportsDir)) {
+  const latestAnalysis = readdirSync(regressionReportsDir)
+    .filter((name) => /^REGRESSION_ANALYSIS_.*\.md$/i.test(name))
+    .sort()
+    .reverse()[0];
+  if (latestAnalysis) {
+    const analysisSource = join(regressionReportsDir, latestAnalysis);
+    const analysisTargetName = 'REGRESSION_ANALYSIS.md';
+    cpSync(analysisSource, join(runDir, analysisTargetName), { force: true });
+    analysisPath = `reports/${envName}/${runStamp}/${analysisTargetName}`;
+  }
+}
+
 const metadataPath = join(siteRoot, 'reports', 'history.json');
 mkdirSync(join(siteRoot, 'reports'), { recursive: true });
 
-/** @type {Array<{id:string,date:string,env:string,runNumber:string,runId:string,sha:string,reportPath:string,runUrl:string}>} */
+/** @type {Array<{id:string,date:string,env:string,runNumber:string,runId:string,sha:string,reportPath:string,analysisPath?:string,runUrl:string}>} */
 let history = [];
 if (existsSync(metadataPath)) {
   try {
@@ -43,6 +58,7 @@ const entry = {
   runId: String(runId),
   sha,
   reportPath: `reports/${envName}/${runStamp}/index.html`,
+  analysisPath,
   runUrl,
 };
 
@@ -60,6 +76,7 @@ const rows = history
       <td>${runLink}</td>
       <td><code>${item.sha}</code></td>
       <td><a href="./${item.reportPath}">Open report</a></td>
+      <td>${item.analysisPath ? `<a href="./${item.analysisPath}">Open analysis</a>` : '-'}</td>
     </tr>`;
   })
   .join('\n');
@@ -90,10 +107,11 @@ const html = `<!doctype html>
           <th>Run</th>
           <th>Commit</th>
           <th>Report</th>
+          <th>Analysis</th>
         </tr>
       </thead>
       <tbody>
-        ${rows || '<tr><td colspan="5">No reports yet</td></tr>'}
+        ${rows || '<tr><td colspan="6">No reports yet</td></tr>'}
       </tbody>
     </table>
   </body>

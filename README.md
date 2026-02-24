@@ -129,4 +129,5 @@ In CI (GitHub Actions):
   - Exact run number
   - Commit SHA
   - Link to that run report
+  - Link to regression analysis markdown (when available in `reports/REGRESSION_ANALYSIS_*.md`)
 
