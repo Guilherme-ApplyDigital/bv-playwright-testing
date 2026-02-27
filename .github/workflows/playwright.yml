@@ -156,27 +156,34 @@ jobs:
     - name: Test summary
       if: ${{ always() }}
       run: |
-        STATUS_ICON="⚠️"
-        if [ "${{ steps.playwright_tests.outcome }}" = "success" ]; then
-          STATUS_ICON="✅"
+        PASSED_COUNT=0
+        TOTAL_COUNT=0
+        PASS_RATE="0.0"
+        SKIPPED_COUNT=0
+        OTHER_COUNT=0
+
+        if [ -f "allure-report/widgets/summary.json" ]; then
+          METRICS=$(node -e "const fs=require('fs');const p='allure-report/widgets/summary.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const s=d.statistic||{};const passed=Number(s.passed||0);const total=Number(s.total||0);const skipped=Number(s.skipped||0);const other=Number(s.failed||0)+Number(s.broken||0)+Number(s.unknown||0);const rate=total?((passed/total)*100).toFixed(1):'0.0';console.log([passed,total,rate,skipped,other].join(','));")
+          IFS=',' read -r PASSED_COUNT TOTAL_COUNT PASS_RATE SKIPPED_COUNT OTHER_COUNT <<< "$METRICS"
         fi
 
         echo "========== TEST SUMMARY =========="
-        echo "Status: ${STATUS_ICON}"
         echo "Environment: ${BV_ENV}"
-        echo "Playwright step outcome: ${{ steps.playwright_tests.outcome }}"
-        echo "Playwright step conclusion: ${{ steps.playwright_tests.conclusion }}"
+        echo "Passed: ${PASSED_COUNT}/${TOTAL_COUNT} (${PASS_RATE}%)"
+        echo "Skipped: ${SKIPPED_COUNT}"
+        echo "Other results (failed/broken/unknown): ${OTHER_COUNT}"
         echo "Artifacts:"
         echo "- playwright-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
         echo "- allure-results-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
         echo "- allure-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
         echo "=================================="
         {
-          echo "## ${STATUS_ICON} Test Summary"
+          echo "## ✅ Test Summary"
           echo ""
           echo "- Environment: \`${BV_ENV}\`"
-          echo "- Playwright outcome: \`${{ steps.playwright_tests.outcome }}\`"
-          echo "- Playwright conclusion: \`${{ steps.playwright_tests.conclusion }}\`"
+          echo "- Passed: \`${PASSED_COUNT}/${TOTAL_COUNT}\` (\`${PASS_RATE}%\`)"
+          echo "- Skipped: \`${SKIPPED_COUNT}\`"
+          echo "- Other results (failed/broken/unknown): \`${OTHER_COUNT}\`"
           echo "- Artifacts:"
           echo "  - \`playwright-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}\`"
           echo "  - \`allure-results-${BV_ENV}-run-${GITHUB_RUN_NUMBER}\`"
