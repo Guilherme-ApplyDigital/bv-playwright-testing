@@ -5,30 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>QA Report History</title>
     <style>
-      body { font-family: Arial, sans-serif; margin: 24px; }
-      table { border-collapse: collapse; width: 100%; margin-top: 16px; }
-      th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-      th { background: #f6f6f6; }
-      tr:nth-child(even) { background: #fafafa; }
-      code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; }
+      :root {
+        --bg: #f5f7fb;
+        --card: #fff;
+        --text: #111827;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+        --accent: #2563eb;
+      }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); }
+      .wrap { max-width: 1120px; margin: 30px auto; padding: 0 16px 28px; }
+      .header h1 { margin: 0 0 8px; font-size: 1.8rem; }
+      .header p { margin: 0; color: var(--muted); }
+      .cards { margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; box-shadow: 0 3px 12px rgba(15,23,42,.04); }
+      .card .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+      .card .value { margin-top: 6px; font-weight: 700; font-size: 1.1rem; }
+      .table-wrap { margin-top: 16px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(15,23,42,.04); }
+      table { border-collapse: collapse; width: 100%; }
+      th, td { border-bottom: 1px solid var(--line); padding: 10px 12px; text-align: left; }
+      th { background: #f9fafb; color: #374151; font-weight: 600; }
+      tr:last-child td { border-bottom: 0; }
+      code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
-    <h1>QA Report History</h1>
-    <p>Public history of test executions by date, environment and run number.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Date (UTC)</th>
-          <th>Environment</th>
-          <th>Run</th>
-          <th>Commit</th>
-          <th>Report</th>
-          <th>Analysis</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
+    <main class="wrap">
+      <section class="header">
+        <h1>QA Report History</h1>
+        <p>Public history of test executions by date, environment and run number.</p>
+      </section>
+      <section class="cards">
+        <div class="card">
+          <div class="label">Total Runs</div>
+          <div class="value">6</div>
+        </div>
+        <div class="card">
+          <div class="label">Latest Environment</div>
+          <div class="value">dev</div>
+        </div>
+        <div class="card">
+          <div class="label">Latest Run</div>
+          <div class="value">#17</div>
+        </div>
+        <div class="card">
+          <div class="label">Latest Commit</div>
+          <div class="value"><code>b268459</code></div>
+        </div>
+      </section>
+      <section class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date (UTC)</th>
+              <th>Environment</th>
+              <th>Run</th>
+              <th>Commit</th>
+              <th>Report</th>
+              <th>Analysis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+      <td>2026-02-27 22:55:29.967 UTC</td>
+      <td>dev</td>
+      <td><a href="https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/22506190862">#17</a></td>
+      <td><code>b268459</code></td>
+      <td><a href="./reports/dev/2026-02-27T22-55-29-967Z-run-17/index.html">Open report</a></td>
+      <td><a href="./reports/dev/2026-02-27T22-55-29-967Z-run-17/REGRESSION_ANALYSIS.html">Open analysis</a></td>
+    </tr>
+<tr>
       <td>2026-02-27 21:54:25.666 UTC</td>
       <td>dev</td>
       <td><a href="https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/22504792051">#16</a></td>
@@ -68,7 +116,9 @@
       <td><a href="./reports/dev/2026-02-24T15-14-27-812Z-run-12/index.html">Open report</a></td>
       <td>-</td>
     </tr>
-      </tbody>
-    </table>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
