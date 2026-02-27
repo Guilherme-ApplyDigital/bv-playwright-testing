@@ -5,6 +5,9 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  schedule:
+    # 23:00 BRT (UTC-3) = 02:00 UTC (next day)
+    - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       target_env:
@@ -53,6 +56,8 @@ jobs:
           echo "BV_BASE_URL override=${BV_BASE_URL}"
         fi
     - name: Run Playwright tests
+      id: playwright_tests
+      continue-on-error: true
       run: npx playwright test --reporter=line,html,allure-playwright
     - name: Restore Allure history cache
       id: allure-cache-restore
@@ -148,6 +153,35 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: .pages-artifact/
+    - name: Test summary
+      if: ${{ always() }}
+      run: |
+        STATUS_ICON="⚠️"
+        if [ "${{ steps.playwright_tests.outcome }}" = "success" ]; then
+          STATUS_ICON="✅"
+        fi
+
+        echo "========== TEST SUMMARY =========="
+        echo "Status: ${STATUS_ICON}"
+        echo "Environment: ${BV_ENV}"
+        echo "Playwright step outcome: ${{ steps.playwright_tests.outcome }}"
+        echo "Playwright step conclusion: ${{ steps.playwright_tests.conclusion }}"
+        echo "Artifacts:"
+        echo "- playwright-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
+        echo "- allure-results-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
+        echo "- allure-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}"
+        echo "=================================="
+        {
+          echo "## ${STATUS_ICON} Test Summary"
+          echo ""
+          echo "- Environment: \`${BV_ENV}\`"
+          echo "- Playwright outcome: \`${{ steps.playwright_tests.outcome }}\`"
+          echo "- Playwright conclusion: \`${{ steps.playwright_tests.conclusion }}\`"
+          echo "- Artifacts:"
+          echo "  - \`playwright-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}\`"
+          echo "  - \`allure-results-${BV_ENV}-run-${GITHUB_RUN_NUMBER}\`"
+          echo "  - \`allure-report-${BV_ENV}-run-${GITHUB_RUN_NUMBER}\`"
+        } >> "$GITHUB_STEP_SUMMARY"
 
   deploy-report:
     if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
