@@ -1,0 +1,16 @@
+[2026-03-03T04:20:41.300Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-03-03T04:20:41.332Z][HomePage][INFO] Checking for cookie banner
+[2026-03-03T04:20:44.118Z][HomePage][INFO] Asserting footer navigation sections and key links are visible
+[2026-03-03T04:20:44.118Z][HomePage][INFO] Checking footer text/link: About Us
+[2026-03-03T04:20:44.243Z][HomePage][INFO] Checking footer text/link: Leadership
+[2026-03-03T04:20:44.346Z][HomePage][INFO] Checking footer text/link: Insights and Resources
+[2026-03-03T04:20:44.413Z][HomePage][INFO] Checking footer text/link: Newsroom
+[2026-03-03T04:20:44.463Z][HomePage][INFO] Checking footer text/link: Who we serve
+[2026-03-03T04:20:44.646Z][HomePage][INFO] Checking footer text/link: What we do
+[2026-03-03T04:20:44.799Z][HomePage][INFO] Checking footer text/link: Sustainability
+[2026-03-03T04:20:44.874Z][HomePage][INFO] Checking footer text/link: Careers
+[2026-03-03T04:20:44.959Z][HomePage][INFO] Checking footer text/link: Accessibility
+[2026-03-03T04:20:45.023Z][HomePage][INFO] Checking footer text/link: Privacy policy
+[2026-03-03T04:20:45.094Z][HomePage][INFO] Checking footer text/link: Terms of use
+[2026-03-03T04:20:45.132Z][HomePage][INFO] Checking footer text/link: Compliance
+[2026-03-03T04:20:45.200Z][HomePage][INFO] Checking footer text/link: Copyright ©
