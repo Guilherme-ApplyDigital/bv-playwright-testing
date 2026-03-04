@@ -1,0 +1,2 @@
+[2026-03-04T04:13:17.873Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/energy-transition/hydrogen-and-ammonia
+[2026-03-04T04:13:17.912Z][HomePage][INFO] Checking for cookie banner
