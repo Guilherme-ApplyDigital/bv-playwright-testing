@@ -1,0 +1,2 @@
+[2026-03-05T16:20:07.139Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/strategic-advisory
+[2026-03-05T16:20:07.260Z][HomePage][INFO] Checking for cookie banner

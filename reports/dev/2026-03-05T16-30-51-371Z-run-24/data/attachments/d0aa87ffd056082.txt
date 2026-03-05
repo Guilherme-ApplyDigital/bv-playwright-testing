@@ -1,0 +1,13 @@
+[2026-03-05T16:21:11.771Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-03-05T16:21:13.334Z][HomePage][INFO] Checking for cookie banner
+[2026-03-05T16:21:14.924Z][HomePage][INFO] Asserting Quick Links section and key links are visible
+[2026-03-05T16:21:15.142Z][HomePage][INFO] Checking Quick Link: Strategic Advisory
+[2026-03-05T16:21:15.177Z][HomePage][INFO] Checking Quick Link: Energy Transition
+[2026-03-05T16:21:15.226Z][HomePage][INFO] Checking Quick Link: Power Generation
+[2026-03-05T16:21:15.255Z][HomePage][INFO] Checking Quick Link: Power Delivery
+[2026-03-05T16:21:15.281Z][HomePage][INFO] Checking Quick Link: Water
+[2026-03-05T16:21:15.291Z][HomePage][INFO] Checking Quick Link: Process
+[2026-03-05T16:21:15.300Z][HomePage][INFO] Checking Quick Link: Fuels
+[2026-03-05T16:21:15.311Z][HomePage][INFO] Checking Quick Link: Industrial Cybersecurity
+[2026-03-05T16:21:15.321Z][HomePage][INFO] Checking Quick Link: Environmental
+[2026-03-05T16:21:15.331Z][HomePage][INFO] Checking Quick Link: Lifecycle Services
