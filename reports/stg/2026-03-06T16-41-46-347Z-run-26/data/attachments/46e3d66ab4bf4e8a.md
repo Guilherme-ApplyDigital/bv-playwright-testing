@@ -1,0 +1,546 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Back to homepage" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+          - img "Back to homepage" [ref=e10]
+        - generic [ref=e11]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e13]:
+            - menubar "Black & Veatch Top Links" [ref=e14]:
+              - menuitem "Contact" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Contact
+              - menuitem "News & Events" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: News & Events
+                - img [ref=e19]
+              - menuitem "Supplier" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: Supplier
+              - menuitem "Locations" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: Locations
+                - img [ref=e25]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e28]:
+            - menubar "Black & Veatch Items and Search" [ref=e29]:
+              - menuitem "About Us" [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: About Us
+                - img [ref=e32]
+              - menuitem "Who we serve" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Who we serve
+                - img [ref=e36]
+              - menuitem "What we do" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]: What we do
+                - img [ref=e40]
+              - menuitem "Lifecycle Services" [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]: Lifecycle Services
+                - img [ref=e44]
+              - menuitem "Projects" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: Projects
+              - menuitem "Careers" [ref=e48] [cursor=pointer]:
+                - generic [ref=e49]: Careers
+                - img [ref=e50]
+            - button "Search Black & Veatch" [ref=e53] [cursor=pointer]:
+              - img [ref=e55]
+      - navigation:
+        - generic [ref=e57]:
+          - generic "Search" [ref=e59]:
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - textbox "Search" [ref=e64]:
+                - /placeholder: Search...
+          - generic [ref=e65]:
+            - heading "Quick Links" [level=2] [ref=e66]
+            - generic [ref=e67]:
+              - link "Infrastructure Advisory" [ref=e69] [cursor=pointer]:
+                - /url: /en-US/what-we-do/infrastructure-advisory
+                - generic [ref=e70]: Infrastructure Advisory
+                - img [ref=e71]
+              - link "Energy Transition" [ref=e77] [cursor=pointer]:
+                - /url: /en-US/what-we-do/energy-transition
+                - generic [ref=e78]: Energy Transition
+                - img [ref=e79]
+              - link "Power Generation" [ref=e85] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e86]: Power Generation
+                - img [ref=e87]
+              - link "Power Delivery" [ref=e93] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e94]: Power Delivery
+                - img [ref=e95]
+              - link "Water" [ref=e101] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e102]: Water
+                - img [ref=e103]
+              - link "Process" [ref=e109] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e110]: Process
+                - img [ref=e111]
+              - link "Fuels" [ref=e117] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e118]: Fuels
+                - img [ref=e119]
+              - link "Industrial Cybersecurity" [ref=e125] [cursor=pointer]:
+                - /url: /en-US/what-we-do/industrial-cybersecurity
+                - generic [ref=e126]: Industrial Cybersecurity
+                - img [ref=e127]
+              - link "Environmental" [ref=e133] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e134]: Environmental
+                - img [ref=e135]
+              - link "Lifecycle Services" [ref=e141] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e142]: Lifecycle Services
+                - img [ref=e143]
+      - navigation "Black & Veatch Subnav Links":
+        - generic [ref=e149]:
+          - button "Expertise" [ref=e151] [cursor=pointer]
+          - button "Brands" [ref=e153] [cursor=pointer]
+          - button "Culture" [ref=e155] [cursor=pointer]
+          - button "History" [ref=e157] [cursor=pointer]
+    - region "Hero Banner" [ref=e158]:
+      - generic [ref=e163]:
+        - navigation "Breadcrumb" [ref=e165]:
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "about us" [ref=e168] [cursor=pointer]:
+                - /url: /about-us
+                - generic [ref=e169]: about us
+        - generic [ref=e170]:
+          - heading "About Us" [level=2] [ref=e171]
+          - paragraph [ref=e172]: Creating the framework for tomorrow's cities, industries and humanity's potential. If you have a dream, come talk with us. We seek partners in innovation.
+          - link "Contact Us" [ref=e174] [cursor=pointer]:
+            - /url: /en-US/contact-us
+            - generic [ref=e175]: Contact Us
+            - img [ref=e176]
+      - generic "video" [ref=e188]
+    - main [ref=e189]:
+      - generic [ref=e191]:
+        - generic [ref=e193]:
+          - heading "Overview" [level=2] [ref=e195]:
+            - generic [ref=e198]: Overview
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - paragraph [ref=e201]: For 110 years, Black & Veatch has been synonymous with innovation and delivery of human infrastructure projects that shape the fabric of organizations, populations and communities. Clients rely on us for bolder vision in strategic planning, courage and creativity to solve complex challenges, deep technical expertise, and our ability to execute and deliver.
+              - paragraph [ref=e202]: Our commitment to research and innovation runs deep. A century of experience delivering water and power. Forty years of experience in process solutions like hydrogen and ammonia. We’re the designers and makers of many firsts on the planet for human infrastructure. Now, as we look to lower carbon footprints, we’re propelling a global energy transition through resilient power and cleaner energy like liquefied natural gas, ammonia, hydrogen and other constantly maturing renewables.
+              - paragraph [ref=e203]: As employee-owners, we have a personal stake in solving the world’s foremost infrastructure challenges — today, and for generations to come. Innovative, intuitive and indispensable since 1915. We are Black & Veatch.
+            - link "See what we do" [ref=e205] [cursor=pointer]:
+              - /url: /en-US/what-we-do
+              - generic [ref=e206]: See what we do
+              - img [ref=e207]
+        - generic [ref=e214]:
+          - article [ref=e215]:
+            - generic [ref=e216]:
+              - img "Growth hands icon" [ref=e219]
+              - heading "Our purpose" [level=3] [ref=e220]
+              - paragraph [ref=e221]: Building a World of Difference®
+          - article [ref=e222]:
+            - generic [ref=e223]:
+              - img "Presentation board icon" [ref=e226]
+              - heading "Vision" [level=3] [ref=e227]
+              - paragraph [ref=e228]: THE Leader in Sustainable Infrastructure
+          - article [ref=e229]:
+            - generic [ref=e230]:
+              - img "Values icon" [ref=e233]
+              - heading "Values" [level=3] [ref=e234]
+              - paragraph [ref=e235]: Care, Create, Own
+      - generic [ref=e237]:
+        - generic [ref=e240]:
+          - heading "Our brainpower" [level=2] [ref=e242]
+          - paragraph [ref=e244]:
+            - text: In the words of our Chairman and CEO Mario Azar, "At Black & Veatch, we believe that innovation and gathering the
+            - generic [ref=e245]: best, diverse
+            - text: minds is key in solving the world's most pressing problems." Our collective intellect, ingenuity and imagination drive our work.
+        - generic [ref=e248]:
+          - link [ref=e249] [cursor=pointer]:
+            - /url: /en-US/about-us/leadership
+            - article [ref=e250]:
+              - generic [ref=e252]:
+                - img "Leadership Icon" [ref=e255]
+                - heading "Leadership" [level=2] [ref=e257]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Learn more
+                - img [ref=e260]
+          - link [ref=e265] [cursor=pointer]:
+            - /url: /en-US/about-us/insights-and-resources
+            - article [ref=e266]:
+              - generic [ref=e268]:
+                - img "Insights and resources icon" [ref=e271]
+                - heading "Insights and Resources" [level=2] [ref=e273]
+              - generic [ref=e274]:
+                - generic [ref=e275]: Learn more
+                - img [ref=e276]
+          - link [ref=e281] [cursor=pointer]:
+            - /url: /en-US/about-us/investing-in-innovation
+            - article [ref=e282]:
+              - generic [ref=e284]:
+                - img "Investing in innovation icon" [ref=e287]
+                - heading "Investing for Innovation" [level=2] [ref=e289]
+              - generic [ref=e290]:
+                - generic [ref=e291]: Learn more
+                - img [ref=e292]
+      - generic [ref=e298]:
+        - heading "Our brands" [level=2] [ref=e303]
+        - generic [ref=e305]:
+          - tablist [ref=e306]:
+            - tab "Bird Electric" [selected] [ref=e307] [cursor=pointer]:
+              - generic [ref=e308]: Bird Electric
+              - img [ref=e309]
+            - tab "BVCI™" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: BVCI™
+              - img [ref=e316]
+            - tab "Diode Ventures®" [ref=e321] [cursor=pointer]:
+              - generic [ref=e322]:
+                - text: Diode Ventures
+                - superscript [ref=e323]: ®
+              - img [ref=e324]
+            - tab "Overland Contracting®" [ref=e329] [cursor=pointer]:
+              - generic [ref=e330]:
+                - text: Overland Contracting
+                - superscript [ref=e331]: ®
+              - img [ref=e332]
+          - tabpanel "Bird Electric" [ref=e337]:
+            - heading "Bird Electric" [level=3] [ref=e338]
+            - generic [ref=e340]:
+              - paragraph [ref=e341]: Bird Electric is a U.S. self-perform electrical construction services provider to electric utility clients with a national reach in emergency power restoration. With more than 600 employees, Bird Electric also has long-established relationships with fuels producers, and its capabilities span additional markets.
+              - img "Bird Electric Image" [ref=e343]
+              - paragraph
+            - link "Learn more" [ref=e345] [cursor=pointer]:
+              - /url: https://birdelectricinc.com/
+              - generic [ref=e346]: Learn more
+              - img [ref=e347]
+      - article [ref=e353]:
+        - generic [ref=e354]:
+          - generic [ref=e355]:
+            - generic [ref=e356]:
+              - heading "Our culture" [level=2] [ref=e357]:
+                - paragraph [ref=e359]: Our culture
+              - paragraph [ref=e362]: At Black & Veatch, we do business like we own it, because we do. As employee-owners, we recognize the importance of keeping ourselves and others safe as we work toward a stronger future together. One that includes everyone.
+            - link "Join our team" [ref=e363] [cursor=pointer]:
+              - /url: /en-US/careers/workplace-culture
+              - generic [ref=e364]: Join our team
+              - img [ref=e365]
+          - generic [ref=e372]:
+            - img "1017276140" [ref=e374]
+            - button "play button" [ref=e375] [cursor=pointer]:
+              - img [ref=e376]
+      - generic [ref=e382]:
+        - link [ref=e383] [cursor=pointer]:
+          - /url: /en-US/about-us/employee-ownership
+          - article [ref=e384]:
+            - generic [ref=e386]:
+              - img "Employee Ownership Impact icon" [ref=e389]
+              - heading "Employee Ownership Impact" [level=2] [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e393]: Learn more
+              - img [ref=e394]
+        - link [ref=e399] [cursor=pointer]:
+          - /url: /en-US/about-us/safety-and-health
+          - article [ref=e400]:
+            - generic [ref=e402]:
+              - img "Safety and health icon" [ref=e405]
+              - heading "Safety & Health" [level=2] [ref=e407]
+            - generic [ref=e408]:
+              - generic [ref=e409]: Learn more
+              - img [ref=e410]
+        - link [ref=e415] [cursor=pointer]:
+          - /url: /en-US/about-us/diversity-equity-and-inclusion
+          - article [ref=e416]:
+            - generic [ref=e418]:
+              - img "Diversity, Equity, and Inclusion icon" [ref=e421]
+              - heading "Diversity, Equity and Inclusion" [level=2] [ref=e423]
+            - generic [ref=e424]:
+              - generic [ref=e425]: Learn more
+              - img [ref=e426]
+      - article [ref=e432]:
+        - generic [ref=e433]:
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - heading "Our history" [level=2] [ref=e436]:
+                - paragraph [ref=e438]: Our history
+              - paragraph [ref=e441]: For more than a century, Black & Veatch has brought deep technical insight and expertise to our clients, constantly evolving with the times. Find out how our past got us to our present and future potential.
+            - link "Explore our timeline" [ref=e442] [cursor=pointer]:
+              - /url: /en-US/about-us/history
+              - generic [ref=e443]: Explore our timeline
+              - img [ref=e444]
+          - img "Truman appoints Black and Veatch" [ref=e451]
+      - generic [ref=e453]:
+        - generic [ref=e456]:
+          - heading "Proven results" [level=2] [ref=e458]
+          - paragraph [ref=e460]: Execution certainty and care for the communities we serve are integral parts of how we do business. The Black & Veatch difference is clearly seen in our proven industry track record, the impact of our charitable investments and our high standards for how we work.
+        - generic [ref=e463]:
+          - link [ref=e464] [cursor=pointer]:
+            - /url: /en-US/about-us/awards-and-rankings
+            - article [ref=e465]:
+              - generic [ref=e467]:
+                - img "Bullseye target icon" [ref=e470]
+                - heading "Awards and Rankings" [level=2] [ref=e472]
+              - generic [ref=e473]:
+                - generic [ref=e474]: Learn more
+                - img [ref=e475]
+          - link [ref=e480] [cursor=pointer]:
+            - /url: /en-US/about-us/foundation
+            - article [ref=e481]:
+              - generic [ref=e483]:
+                - img "Foundation Icon" [ref=e486]
+                - heading "Foundation" [level=2] [ref=e488]
+              - generic [ref=e489]:
+                - generic [ref=e490]: Learn more
+                - img [ref=e491]
+          - link [ref=e496] [cursor=pointer]:
+            - /url: /en-US/about-us/governance-and-compliance
+            - article [ref=e497]:
+              - generic [ref=e499]:
+                - img "Compliance Icon" [ref=e502]
+                - heading "Compliance" [level=2] [ref=e504]
+              - generic [ref=e505]:
+                - generic [ref=e506]: Learn more
+                - img [ref=e507]
+      - generic [ref=e514]:
+        - generic [ref=e515]:
+          - heading "Work With Us" [level=2] [ref=e516]:
+            - generic [ref=e519]: Work With Us
+          - heading "Shape your career, own your future." [level=3] [ref=e520]
+          - link "Explore Careers" [ref=e521] [cursor=pointer]:
+            - /url: https://careers.bv.com/
+            - generic [ref=e522]: Explore Careers
+            - img [ref=e523]
+        - img "Groundwater Replenishment System Final Expansion hero image" [ref=e530]
+    - contentinfo [ref=e532]:
+      - generic [ref=e533]:
+        - link "BV logo blue with text white":
+          - /url: /en-US
+          - generic:
+            - img "BV logo blue with text white"
+        - generic [ref=e534]:
+          - generic [ref=e535]:
+            - generic [ref=e536]:
+              - generic [ref=e537]:
+                - heading "About Us" [level=2] [ref=e538]:
+                  - link "About Us" [ref=e539] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e540]: About Us
+                - list [ref=e541]:
+                  - listitem [ref=e542]:
+                    - link "Leadership" [ref=e543] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e544]: Leadership
+                  - listitem [ref=e545]:
+                    - link "Insights and Resources" [ref=e546] [cursor=pointer]:
+                      - /url: /en-US/about-us/insights-and-resources
+                      - generic [ref=e547]: Insights and Resources
+                  - listitem [ref=e548]:
+                    - link "Employee Ownership Impact" [ref=e549] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e550]: Employee Ownership Impact
+                  - listitem [ref=e551]:
+                    - link "Investing in Innovation" [ref=e552] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e553]: Investing in Innovation
+                  - listitem [ref=e554]:
+                    - link "Safety and Health" [ref=e555] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e556]: Safety and Health
+                  - listitem [ref=e557]:
+                    - link "Awards and Rankings" [ref=e558] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e559]: Awards and Rankings
+                  - listitem [ref=e560]:
+                    - link "Diversity, Equity and Inclusion" [ref=e561] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e562]: Diversity, Equity and Inclusion
+                  - listitem [ref=e563]:
+                    - link "History" [ref=e564] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e565]: History
+                  - listitem [ref=e566]:
+                    - link "Foundation" [ref=e567] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e568]: Foundation
+                  - listitem [ref=e569]:
+                    - link "Newsroom" [ref=e570] [cursor=pointer]:
+                      - /url: /en-US/news
+                      - generic [ref=e571]: Newsroom
+              - generic [ref=e572]:
+                - heading "Who we serve" [level=2] [ref=e573]:
+                  - link "Who we serve" [ref=e574] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e575]: Who we serve
+                - list [ref=e576]:
+                  - listitem [ref=e577]:
+                    - link "Technology and Data Centers" [ref=e578] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e579]: Technology and Data Centers
+                  - listitem [ref=e580]:
+                    - link "Industrial and Manufacturing" [ref=e581] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e582]: Industrial and Manufacturing
+                  - listitem [ref=e583]:
+                    - link "Fuels and Natural Resources" [ref=e584] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e585]: Fuels and Natural Resources
+                  - listitem [ref=e586]:
+                    - link "Power Providers" [ref=e587] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e588]: Power Providers
+                  - listitem [ref=e589]:
+                    - link "Water Utilities" [ref=e590] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e591]: Water Utilities
+                  - listitem [ref=e592]:
+                    - link "Federal Agencies" [ref=e593] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e594]: Federal Agencies
+                  - listitem [ref=e595]:
+                    - link "Public Sector" [ref=e596] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e597]: Public Sector
+                  - listitem [ref=e598]:
+                    - link "Commercial" [ref=e599] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e600]: Commercial
+              - generic [ref=e601]:
+                - heading "What we do" [level=2] [ref=e602]:
+                  - link "What we do" [ref=e603] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e604]: What we do
+                - list [ref=e605]:
+                  - listitem [ref=e606]:
+                    - link "Infrastructure Advisory" [ref=e607] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/infrastructure-advisory
+                      - generic [ref=e608]: Infrastructure Advisory
+                  - listitem [ref=e609]:
+                    - link "Energy Transition" [ref=e610] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/energy-transition
+                      - generic [ref=e611]: Energy Transition
+                  - listitem [ref=e612]:
+                    - link "Power Generation" [ref=e613] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e614]: Power Generation
+                  - listitem [ref=e615]:
+                    - link "Power Delivery" [ref=e616] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e617]: Power Delivery
+                  - listitem [ref=e618]:
+                    - link "Water" [ref=e619] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e620]: Water
+                  - listitem [ref=e621]:
+                    - link "Process" [ref=e622] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e623]: Process
+                  - listitem [ref=e624]:
+                    - link "Fuels" [ref=e625] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e626]: Fuels
+                  - listitem [ref=e627]:
+                    - link "Industrial Cybersecurity" [ref=e628] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/industrial-cybersecurity
+                      - generic [ref=e629]: Industrial Cybersecurity
+                  - listitem [ref=e630]:
+                    - link "Environmental" [ref=e631] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e632]: Environmental
+                  - listitem [ref=e633]:
+                    - link "Lifecycle Services" [ref=e634] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e635]: Lifecycle Services
+              - generic [ref=e636]:
+                - heading "Sustainability" [level=2] [ref=e637]:
+                  - link "Sustainability" [ref=e638] [cursor=pointer]:
+                    - /url: /en-US/sustainability
+                    - generic [ref=e639]: Sustainability
+                - list [ref=e640]:
+                  - listitem [ref=e641]:
+                    - link "Corporate Sustainability" [ref=e642] [cursor=pointer]:
+                      - /url: /en-US/sustainability/corporate-sustainability
+                      - generic [ref=e643]: Corporate Sustainability
+                  - listitem [ref=e644]:
+                    - link "Client Sustainability" [ref=e645] [cursor=pointer]:
+                      - /url: /en-US/sustainability/client-sustainability
+                      - generic [ref=e646]: Client Sustainability
+                  - listitem [ref=e647]:
+                    - link "Community Sustainability" [ref=e648] [cursor=pointer]:
+                      - /url: /en-US/sustainability/community-sustainability
+                      - generic [ref=e649]: Community Sustainability
+              - generic [ref=e650]:
+                - heading "Careers" [level=2] [ref=e651]:
+                  - link "Careers" [ref=e652] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e653]: Careers
+                - list [ref=e654]:
+                  - listitem [ref=e655]:
+                    - link "Workplace Culture" [ref=e656] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e657]: Workplace Culture
+                  - listitem [ref=e658]:
+                    - link "Our Hiring Process" [ref=e659] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e660]: Our Hiring Process
+                  - listitem [ref=e661]:
+                    - link "Career Paths" [ref=e662] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e663]: Career Paths
+                  - listitem [ref=e664]:
+                    - link "Craft and Construction" [ref=e665] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e666]: Craft and Construction
+                  - listitem [ref=e667]:
+                    - link "Early Careers and Students" [ref=e668] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e669]: Early Careers and Students
+                  - listitem [ref=e670]:
+                    - link "ENT Accelerator Program" [ref=e671] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e672]: ENT Accelerator Program
+                  - listitem [ref=e673]:
+                    - link "Experienced Careers" [ref=e674] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e675]: Experienced Careers
+                  - listitem [ref=e676]:
+                    - link "Military Veterans" [ref=e677] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e678]: Military Veterans
+            - generic [ref=e679]:
+              - list [ref=e680]:
+                - listitem [ref=e681]:
+                  - link "Accessibility" [ref=e682] [cursor=pointer]:
+                    - /url: /en-US/careers/equal-opportunity-and-accessibility
+                    - generic [ref=e683]: Accessibility
+                - listitem [ref=e684]:
+                  - link "Privacy policy" [ref=e685] [cursor=pointer]:
+                    - /url: /en-US/privacy-notice
+                    - generic [ref=e686]: Privacy policy
+                - listitem [ref=e687]:
+                  - link "Terms of use" [ref=e688] [cursor=pointer]:
+                    - /url: /en-US/terms-of-use
+                    - generic [ref=e689]: Terms of use
+                - listitem [ref=e690]:
+                  - link "Compliance" [ref=e691] [cursor=pointer]:
+                    - /url: /en-US/about-us/governance-and-compliance
+                    - generic [ref=e692]: Compliance
+              - list [ref=e693]:
+                - listitem [ref=e694]:
+                  - link "Go to Facebook" [ref=e695] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BlackVeatch/
+                    - img [ref=e696]
+                - listitem [ref=e698]:
+                  - link "Go to LinkedIn" [ref=e699] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/company/black-and-veatch
+                    - img [ref=e700]
+                - listitem [ref=e702]:
+                  - link "Go to Instagram" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.instagram.com/black_veatch/?hl=en
+                    - img [ref=e704]
+                - listitem [ref=e706]:
+                  - link "Go to YouTube" [ref=e707] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                    - img [ref=e708]
+                - listitem [ref=e710]:
+                  - link "Go to X" [ref=e711] [cursor=pointer]:
+                    - /url: https://twitter.com/Black_Veatch
+                    - img [ref=e712]
+          - paragraph [ref=e714]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e715]
+```

@@ -1,0 +1,1 @@
+{"reportName":"BV Playwright (stg)","testRuns":[],"statistic":{"failed":22,"broken":3,"skipped":2,"passed":98,"unknown":0,"total":125},"time":{"start":1772814352835,"stop":1772815239354,"duration":886519,"minDuration":125,"maxDuration":95953,"sumDuration":1029003}}

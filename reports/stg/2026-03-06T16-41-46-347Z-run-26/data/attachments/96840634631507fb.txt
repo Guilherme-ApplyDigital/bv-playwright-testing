@@ -1,0 +1,2 @@
+[2026-03-06T16:27:49.357Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/about-us/safety-and-health
+[2026-03-06T16:27:50.631Z][HomePage][INFO] Checking for cookie banner

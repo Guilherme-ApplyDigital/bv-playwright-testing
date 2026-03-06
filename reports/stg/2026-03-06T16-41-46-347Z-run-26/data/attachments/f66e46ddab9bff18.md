@@ -1,0 +1,783 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Back to homepage" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+          - img "Back to homepage" [ref=e10]
+        - generic [ref=e11]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e13]:
+            - menubar "Black & Veatch Top Links" [ref=e14]:
+              - menuitem "Contact" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Contact
+              - menuitem "News & Events" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: News & Events
+                - img [ref=e19]
+              - menuitem "Supplier" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: Supplier
+              - menuitem "Locations" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: Locations
+                - img [ref=e25]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e28]:
+            - menubar "Black & Veatch Items and Search" [ref=e29]:
+              - menuitem "About Us" [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: About Us
+                - img [ref=e32]
+              - menuitem "Who we serve" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Who we serve
+                - img [ref=e36]
+              - menuitem "What we do" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]: What we do
+                - img [ref=e40]
+              - menuitem "Lifecycle Services" [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]: Lifecycle Services
+                - img [ref=e44]
+              - menuitem "Projects" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: Projects
+              - menuitem "Careers" [ref=e48] [cursor=pointer]:
+                - generic [ref=e49]: Careers
+                - img [ref=e50]
+            - button "Search Black & Veatch" [ref=e53] [cursor=pointer]:
+              - img [ref=e55]
+      - navigation:
+        - generic [ref=e57]:
+          - generic "Search" [ref=e59]:
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - textbox "Search" [ref=e64]:
+                - /placeholder: Search...
+          - generic [ref=e65]:
+            - heading "Quick Links" [level=2] [ref=e66]
+            - generic [ref=e67]:
+              - link "Infrastructure Advisory" [ref=e69] [cursor=pointer]:
+                - /url: /en-US/what-we-do/infrastructure-advisory
+                - generic [ref=e70]: Infrastructure Advisory
+                - img [ref=e71]
+              - link "Energy Transition" [ref=e77] [cursor=pointer]:
+                - /url: /en-US/what-we-do/energy-transition
+                - generic [ref=e78]: Energy Transition
+                - img [ref=e79]
+              - link "Power Generation" [ref=e85] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e86]: Power Generation
+                - img [ref=e87]
+              - link "Power Delivery" [ref=e93] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e94]: Power Delivery
+                - img [ref=e95]
+              - link "Water" [ref=e101] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e102]: Water
+                - img [ref=e103]
+              - link "Process" [ref=e109] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e110]: Process
+                - img [ref=e111]
+              - link "Fuels" [ref=e117] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e118]: Fuels
+                - img [ref=e119]
+              - link "Industrial Cybersecurity" [ref=e125] [cursor=pointer]:
+                - /url: /en-US/what-we-do/industrial-cybersecurity
+                - generic [ref=e126]: Industrial Cybersecurity
+                - img [ref=e127]
+              - link "Environmental" [ref=e133] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e134]: Environmental
+                - img [ref=e135]
+              - link "Lifecycle Services" [ref=e141] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e142]: Lifecycle Services
+                - img [ref=e143]
+    - region "Hero Banner" [ref=e148]:
+      - generic [ref=e153]:
+        - navigation "Breadcrumb" [ref=e155]:
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "contact us" [ref=e158] [cursor=pointer]:
+                - /url: /contact-us
+                - generic [ref=e159]: contact us
+        - heading "Contact Us" [level=2] [ref=e161]
+      - generic "video" [ref=e169]
+    - main [ref=e170]:
+      - generic [ref=e174]:
+        - generic [ref=e177]:
+          - paragraph
+          - heading "How can we help?" [level=2] [ref=e178]
+          - paragraph [ref=e179]:
+            - text: Thank you for your interest in Black & Veatch! For general inquiries, provide more information about your business needs to help us route your message.
+            - text: Please fill out the form and one of our subject matter experts will be in touch.
+        - iframe [ref=e181]:
+          - generic [ref=f1e2]:
+            - generic [ref=f1e3]:
+              - generic [ref=f1e4]: First Name
+              - textbox "First Name" [ref=f1e5]:
+                - /placeholder: e.g. Samantha
+            - generic [ref=f1e6]:
+              - generic [ref=f1e7]: Last Name
+              - textbox "Last Name" [ref=f1e8]:
+                - /placeholder: e.g. Chan
+            - generic [ref=f1e9]:
+              - generic [ref=f1e10]: Company
+              - textbox "Company" [ref=f1e11]:
+                - /placeholder: e.g. Black & Veatch
+            - generic [ref=f1e12]:
+              - generic [ref=f1e13]: Title
+              - textbox "Title" [ref=f1e14]:
+                - /placeholder: e.g. Construction Manager
+            - generic [ref=f1e15]:
+              - generic [ref=f1e16]: Country
+              - combobox "Country" [ref=f1e17]:
+                - option [selected]
+                - option "United States"
+                - option "Canada"
+                - option "Afghanistan"
+                - option "Albania"
+                - option "Algeria"
+                - option "American Samoa"
+                - option "Andorra"
+                - option "Angola"
+                - option "Anguilla"
+                - option "Antarctica"
+                - option "Antigua and Barbuda"
+                - option "Argentina"
+                - option "Armenia"
+                - option "Aruba"
+                - option "Australia"
+                - option "Austria"
+                - option "Azerbaijan"
+                - option "Bahamas"
+                - option "Bahrain"
+                - option "Bangladesh"
+                - option "Barbados"
+                - option "Belarus"
+                - option "Belgium"
+                - option "Belize"
+                - option "Benin"
+                - option "Bermuda"
+                - option "Bhutan"
+                - option "Bolivia"
+                - option "Bosnia and Herzegovina"
+                - option "Botswana"
+                - option "Brazil"
+                - option "British Indian Ocean Territory"
+                - option "British Virgin Islands"
+                - option "Brunei"
+                - option "Bulgaria"
+                - option "Burkina Faso"
+                - option "Burundi"
+                - option "Cambodia"
+                - option "Cameroon"
+                - option "Cape Verde"
+                - option "Cayman Islands"
+                - option "Central African Republic"
+                - option "Chad"
+                - option "Chile"
+                - option "China"
+                - option "Christmas Island"
+                - option "Cocos (Keeling) Islands"
+                - option "Colombia"
+                - option "Comoros"
+                - option "Congo"
+                - option "Cook Islands"
+                - option "Costa Rica"
+                - option "Croatia"
+                - option "Cuba"
+                - option "Curaçao"
+                - option "Cyprus"
+                - option "Czech Republic"
+                - option "Côte d’Ivoire"
+                - option "Democratic Republic of the Congo"
+                - option "Denmark"
+                - option "Djibouti"
+                - option "Dominica"
+                - option "Dominican Republic"
+                - option "Ecuador"
+                - option "Egypt"
+                - option "El Salvador"
+                - option "Equatorial Guinea"
+                - option "Eritrea"
+                - option "Estonia"
+                - option "Ethiopia"
+                - option "Falkland Islands"
+                - option "Faroe Islands"
+                - option "Fiji"
+                - option "Finland"
+                - option "France"
+                - option "French Guiana"
+                - option "French Polynesia"
+                - option "French Southern Territories"
+                - option "Gabon"
+                - option "Gambia"
+                - option "Georgia"
+                - option "Germany"
+                - option "Ghana"
+                - option "Gibraltar"
+                - option "Greece"
+                - option "Greenland"
+                - option "Grenada"
+                - option "Guadeloupe"
+                - option "Guam"
+                - option "Guatemala"
+                - option "Guernsey"
+                - option "Guinea"
+                - option "Guinea-Bissau"
+                - option "Guyana"
+                - option "Haiti"
+                - option "Honduras"
+                - option "Hong Kong S.A.R., China"
+                - option "Hungary"
+                - option "Iceland"
+                - option "India"
+                - option "Indonesia"
+                - option "Iran"
+                - option "Iraq"
+                - option "Ireland"
+                - option "Isle of Man"
+                - option "Israel"
+                - option "Italy"
+                - option "Jamaica"
+                - option "Japan"
+                - option "Jersey"
+                - option "Jordan"
+                - option "Kazakhstan"
+                - option "Kenya"
+                - option "Kiribati"
+                - option "Kuwait"
+                - option "Kyrgyzstan"
+                - option "Laos"
+                - option "Latvia"
+                - option "Lebanon"
+                - option "Lesotho"
+                - option "Liberia"
+                - option "Libya"
+                - option "Liechtenstein"
+                - option "Lithuania"
+                - option "Luxembourg"
+                - option "Macao S.A.R., China"
+                - option "Macedonia"
+                - option "Madagascar"
+                - option "Malawi"
+                - option "Malaysia"
+                - option "Maldives"
+                - option "Mali"
+                - option "Malta"
+                - option "Marshall Islands"
+                - option "Martinique"
+                - option "Mauritania"
+                - option "Mauritius"
+                - option "Mayotte"
+                - option "Mexico"
+                - option "Micronesia"
+                - option "Moldova"
+                - option "Monaco"
+                - option "Mongolia"
+                - option "Montenegro"
+                - option "Montserrat"
+                - option "Morocco"
+                - option "Mozambique"
+                - option "Myanmar"
+                - option "Namibia"
+                - option "Nauru"
+                - option "Nepal"
+                - option "Netherlands"
+                - option "New Caledonia"
+                - option "New Zealand"
+                - option "Nicaragua"
+                - option "Niger"
+                - option "Nigeria"
+                - option "Niue"
+                - option "Norfolk Island"
+                - option "North Korea"
+                - option "Northern Mariana Islands"
+                - option "Norway"
+                - option "Oman"
+                - option "Pakistan"
+                - option "Palau"
+                - option "Palestinian Territory"
+                - option "Panama"
+                - option "Papua New Guinea"
+                - option "Paraguay"
+                - option "Peru"
+                - option "Philippines"
+                - option "Pitcairn"
+                - option "Poland"
+                - option "Portugal"
+                - option "Puerto Rico"
+                - option "Qatar"
+                - option "Romania"
+                - option "Russia"
+                - option "Rwanda"
+                - option "Réunion"
+                - option "Saint Barthélemy"
+                - option "Saint Helena"
+                - option "Saint Kitts and Nevis"
+                - option "Saint Lucia"
+                - option "Saint Pierre and Miquelon"
+                - option "Saint Vincent and the Grenadines"
+                - option "Samoa"
+                - option "San Marino"
+                - option "Sao Tome and Principe"
+                - option "Saudi Arabia"
+                - option "Senegal"
+                - option "Serbia"
+                - option "Seychelles"
+                - option "Sierra Leone"
+                - option "Singapore"
+                - option "Slovakia"
+                - option "Slovenia"
+                - option "Solomon Islands"
+                - option "Somalia"
+                - option "South Africa"
+                - option "South Korea"
+                - option "South Sudan"
+                - option "Spain"
+                - option "Sri Lanka"
+                - option "Sudan"
+                - option "Suriname"
+                - option "Svalbard and Jan Mayen"
+                - option "Swaziland"
+                - option "Sweden"
+                - option "Switzerland"
+                - option "Syria"
+                - option "Taiwan"
+                - option "Tajikistan"
+                - option "Tanzania"
+                - option "Thailand"
+                - option "Timor-Leste"
+                - option "Togo"
+                - option "Tokelau"
+                - option "Tonga"
+                - option "Trinidad and Tobago"
+                - option "Tunisia"
+                - option "Turkey"
+                - option "Turkmenistan"
+                - option "Turks and Caicos Islands"
+                - option "Tuvalu"
+                - option "U.S. Virgin Islands"
+                - option "Uganda"
+                - option "Ukraine"
+                - option "United Arab Emirates"
+                - option "United Kingdom"
+                - option "United States Minor Outlying Islands"
+                - option "Uruguay"
+                - option "Uzbekistan"
+                - option "Vanuatu"
+                - option "Vatican"
+                - option "Venezuela"
+                - option "Viet Nam"
+                - option "Wallis and Futuna"
+                - option "Western Sahara"
+                - option "Yemen"
+                - option "Zambia"
+                - option "Zimbabwe"
+            - generic [ref=f1e18]:
+              - generic [ref=f1e19]: Business Email
+              - textbox "Business Email" [ref=f1e20]:
+                - /placeholder: e.g. yourname@company.com
+            - generic [ref=f1e21]:
+              - generic [ref=f1e22]: Industry
+              - combobox "Industry" [ref=f1e23]:
+                - option [selected]
+                - option "Commercial"
+                - option "Federal"
+                - option "Fuels & Natural Resources"
+                - option "Industrial & Manufacturing"
+                - option "Power Providers"
+                - option "State / Municipal"
+                - option "Technology"
+                - option "Water Utilities"
+                - option "Other"
+                - 'option "Government: Federal/Agency/Country"'
+                - 'option "Government: State/Municipal"'
+                - option "Non Profit or Association"
+                - option "Power Utilities & Providers"
+                - option "Technology & Data Centers"
+            - generic [ref=f1e24]:
+              - generic [ref=f1e25]: Inquiry Type
+              - combobox "Inquiry Type" [ref=f1e26]:
+                - option [selected]
+                - option "Business Inquiry"
+                - option "Career Inquiry"
+                - option "General Inquiry"
+                - option "Media Relations"
+                - option "Supplier Inquiry"
+                - option "Subcontractor Inquiry"
+            - generic [ref=f1e27]:
+              - generic [ref=f1e28]: Solution(s) of interest
+              - listbox "Solution(s) of interest" [ref=f1e29]:
+                - 'option "Advisory: Economic Feasibility" [ref=f1e30]'
+                - 'option "Advisory: Planning" [ref=f1e31]'
+                - 'option "Advisory: Rates & Regulatory" [ref=f1e32]'
+                - 'option "Advisory: Asset Management" [ref=f1e33]'
+                - option "Carbon Capture" [ref=f1e34]
+                - option "Civil Works" [ref=f1e35]
+                - option "Construction-Construction Management" [ref=f1e36]
+                - option "Cybersecurity" [ref=f1e37]
+                - option "Data Centers" [ref=f1e38]
+                - option "Design-Build" [ref=f1e39]
+                - option "Distributed Infrastructure" [ref=f1e40]
+                - option "Environmental Solutions" [ref=f1e41]
+                - option "EV Charging" [ref=f1e42]
+                - 'option "Fuels: Liquified Natural Gas (LNG)" [ref=f1e43]'
+                - 'option "Fuels: Floating Liquified Natural Gas (FLNG)" [ref=f1e44]'
+                - 'option "Fuels: Sustainable Fuels" [ref=f1e45]'
+                - 'option "Fuels: Hydrogen & Ammonia" [ref=f1e46]'
+                - 'option "Fuels: Process Solutions" [ref=f1e47]'
+                - option "Mission Critical" [ref=f1e48]
+                - option "Operations Management & Technology" [ref=f1e49]
+                - 'option "Power: GRID (Delivery, Transmission, Substation)" [ref=f1e50]'
+                - 'option "Power: Gas" [ref=f1e51]'
+                - 'option "Power: Nuclear" [ref=f1e52]'
+                - 'option "Power: Solar" [ref=f1e53]'
+                - 'option "Power: Energy Storage" [ref=f1e54]'
+                - 'option "Power: Hydropower & Hydraulic Structures" [ref=f1e55]'
+                - option "Private Networks" [ref=f1e56]
+                - option "Storm Readiness & Response" [ref=f1e57]
+                - option "Sustainability" [ref=f1e58]
+                - 'option "Water: Industrial Water" [ref=f1e59]'
+                - 'option "Water: Drinking Water Treatment" [ref=f1e60]'
+                - 'option "Water: Wastewater Treatment" [ref=f1e61]'
+                - 'option "Water: Conveyance Storage" [ref=f1e62]'
+                - 'option "Water: Resource Community Planning" [ref=f1e63]'
+                - 'option "Water: Reuse" [ref=f1e64]'
+            - generic [ref=f1e65]:
+              - heading "Tell us more" [level=2] [ref=f1e66]
+              - paragraph [ref=f1e68]: Please tell us more about your needs. If you have chosen "other" in either solution or Industry above, please include that detail in your description.
+            - generic [ref=f1e69]:
+              - generic [ref=f1e70]: Message
+              - textbox "Message" [ref=f1e71]
+            - generic [ref=f1e74]:
+              - checkbox "I would like to receive future email marketing communications from Black & Veatch" [ref=f1e75] [cursor=pointer]
+              - generic [ref=f1e76] [cursor=pointer]: I would like to receive future email marketing communications from Black & Veatch
+            - iframe [ref=f1e87]:
+              - generic [ref=f2e2]:
+                - generic [ref=f2e3]:
+                  - checkbox "I'm not a robot" [ref=f2e7]
+                  - generic [ref=f2e11]: I'm not a robot
+                - generic [ref=f2e12]:
+                  - generic [ref=f2e15]: reCAPTCHA
+                  - generic [ref=f2e16]:
+                    - link "Privacy" [ref=f2e17] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/privacy/
+                    - text: "-"
+                    - link "Terms" [ref=f2e18] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/terms/
+            - generic [ref=f1e89]:
+              - text: By submitting this form, I confirm that I have read the Black & Veatch Corporation
+              - link "Privacy Policy" [ref=f1e90] [cursor=pointer]:
+                - /url: https://www.bv.com/en-US/privacy-notice
+              - text: and understand that Black & Veatch will collect, use, and disclose my personal information in accordance with its Privacy Policy.
+            - paragraph [ref=f1e91]:
+              - button "Submit" [ref=f1e92] [cursor=pointer]: Submit Submit
+            - paragraph [ref=f1e93]
+            - paragraph [ref=f1e94]
+      - img "An image of Black & Veatch Headquarters" [ref=e187]
+      - generic [ref=e193]:
+        - link [ref=e194] [cursor=pointer]:
+          - /url: tel:1913-458-2000
+          - article [ref=e195]:
+            - generic [ref=e196]:
+              - img "Icon of a cell phone" [ref=e199]
+              - heading "Give us a Call" [level=2] [ref=e200]
+            - generic [ref=e201]:
+              - generic [ref=e202]: +1 913-458-2000
+              - img [ref=e203]
+        - link [ref=e208] [cursor=pointer]:
+          - /url: /en-US/office-locations
+          - article [ref=e209]:
+            - generic [ref=e210]:
+              - img "Icon of a Building" [ref=e213]
+              - heading "Global Office Locator" [level=2] [ref=e214]
+            - generic [ref=e215]:
+              - generic [ref=e216]: Find a BV office
+              - img [ref=e217]
+        - link [ref=e222] [cursor=pointer]:
+          - /url: /en-US/careers
+          - article [ref=e223]:
+            - generic [ref=e224]:
+              - img "Icon of a team of people" [ref=e227]
+              - heading "Careers" [level=2] [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: See latest job openings
+              - img [ref=e231]
+        - link [ref=e236] [cursor=pointer]:
+          - /url: https://elbr.fa.us2.oraclecloud.com/
+          - article [ref=e237]:
+            - generic [ref=e238]:
+              - img "Icon of a shipping port" [ref=e241]
+              - heading "Suppliers & Partners" [level=2] [ref=e242]
+            - generic [ref=e243]:
+              - generic [ref=e244]: Visit the portal
+              - img [ref=e245]
+        - link [ref=e250] [cursor=pointer]:
+          - /url: mailto:media@bv.com
+          - article [ref=e251]:
+            - generic [ref=e252]:
+              - img "Icon of a transmission tower" [ref=e255]
+              - heading "Media Relations" [level=2] [ref=e256]
+            - generic [ref=e257]:
+              - generic [ref=e258]: media@bv.com
+              - img [ref=e259]
+      - generic [ref=e267]:
+        - heading "Assistance Lines" [level=1] [ref=e269]:
+          - generic [ref=e272]: Assistance Lines
+        - generic [ref=e273]:
+          - link [ref=e274] [cursor=pointer]:
+            - /url: https://app.convercent.com/en-us/LandingPage/e6560d30-a8c7-e611-810f-000d3ab2feeb
+            - article [ref=e275]:
+              - generic [ref=e276]:
+                - img "Icon of an office memo" [ref=e279]
+                - heading "Intake Form" [level=2] [ref=e280]
+              - generic [ref=e281]:
+                - generic [ref=e282]: Learn More
+                - img [ref=e283]
+          - link [ref=e288] [cursor=pointer]:
+            - /url: tel:1800-381-2372
+            - article [ref=e289]:
+              - generic [ref=e290]:
+                - img "Icon of a caution symbol" [ref=e293]
+                - heading "Compliance alert line" [level=2] [ref=e294]
+              - generic [ref=e295]:
+                - generic [ref=e296]: +1 800-381-2372
+                - img [ref=e297]
+    - contentinfo [ref=e302]:
+      - generic [ref=e303]:
+        - link "BV logo blue with text white" [ref=e304] [cursor=pointer]:
+          - /url: /en-US
+          - img "BV logo blue with text white" [ref=e306]
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - heading "About Us" [level=2] [ref=e311]:
+                  - link "About Us" [ref=e312] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e313]: About Us
+                - list [ref=e314]:
+                  - listitem [ref=e315]:
+                    - link "Leadership" [ref=e316] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e317]: Leadership
+                  - listitem [ref=e318]:
+                    - link "Insights and Resources" [ref=e319] [cursor=pointer]:
+                      - /url: /en-US/about-us/insights-and-resources
+                      - generic [ref=e320]: Insights and Resources
+                  - listitem [ref=e321]:
+                    - link "Employee Ownership Impact" [ref=e322] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e323]: Employee Ownership Impact
+                  - listitem [ref=e324]:
+                    - link "Investing in Innovation" [ref=e325] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e326]: Investing in Innovation
+                  - listitem [ref=e327]:
+                    - link "Safety and Health" [ref=e328] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e329]: Safety and Health
+                  - listitem [ref=e330]:
+                    - link "Awards and Rankings" [ref=e331] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e332]: Awards and Rankings
+                  - listitem [ref=e333]:
+                    - link "Diversity, Equity and Inclusion" [ref=e334] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e335]: Diversity, Equity and Inclusion
+                  - listitem [ref=e336]:
+                    - link "History" [ref=e337] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e338]: History
+                  - listitem [ref=e339]:
+                    - link "Foundation" [ref=e340] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e341]: Foundation
+                  - listitem [ref=e342]:
+                    - link "Newsroom" [ref=e343] [cursor=pointer]:
+                      - /url: /en-US/news
+                      - generic [ref=e344]: Newsroom
+              - generic [ref=e345]:
+                - heading "Who we serve" [level=2] [ref=e346]:
+                  - link "Who we serve" [ref=e347] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e348]: Who we serve
+                - list [ref=e349]:
+                  - listitem [ref=e350]:
+                    - link "Technology and Data Centers" [ref=e351] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e352]: Technology and Data Centers
+                  - listitem [ref=e353]:
+                    - link "Industrial and Manufacturing" [ref=e354] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e355]: Industrial and Manufacturing
+                  - listitem [ref=e356]:
+                    - link "Fuels and Natural Resources" [ref=e357] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e358]: Fuels and Natural Resources
+                  - listitem [ref=e359]:
+                    - link "Power Providers" [ref=e360] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e361]: Power Providers
+                  - listitem [ref=e362]:
+                    - link "Water Utilities" [ref=e363] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e364]: Water Utilities
+                  - listitem [ref=e365]:
+                    - link "Federal Agencies" [ref=e366] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e367]: Federal Agencies
+                  - listitem [ref=e368]:
+                    - link "Public Sector" [ref=e369] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e370]: Public Sector
+                  - listitem [ref=e371]:
+                    - link "Commercial" [ref=e372] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e373]: Commercial
+              - generic [ref=e374]:
+                - heading "What we do" [level=2] [ref=e375]:
+                  - link "What we do" [ref=e376] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e377]: What we do
+                - list [ref=e378]:
+                  - listitem [ref=e379]:
+                    - link "Infrastructure Advisory" [ref=e380] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/infrastructure-advisory
+                      - generic [ref=e381]: Infrastructure Advisory
+                  - listitem [ref=e382]:
+                    - link "Energy Transition" [ref=e383] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/energy-transition
+                      - generic [ref=e384]: Energy Transition
+                  - listitem [ref=e385]:
+                    - link "Power Generation" [ref=e386] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e387]: Power Generation
+                  - listitem [ref=e388]:
+                    - link "Power Delivery" [ref=e389] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e390]: Power Delivery
+                  - listitem [ref=e391]:
+                    - link "Water" [ref=e392] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e393]: Water
+                  - listitem [ref=e394]:
+                    - link "Process" [ref=e395] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e396]: Process
+                  - listitem [ref=e397]:
+                    - link "Fuels" [ref=e398] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e399]: Fuels
+                  - listitem [ref=e400]:
+                    - link "Industrial Cybersecurity" [ref=e401] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/industrial-cybersecurity
+                      - generic [ref=e402]: Industrial Cybersecurity
+                  - listitem [ref=e403]:
+                    - link "Environmental" [ref=e404] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e405]: Environmental
+                  - listitem [ref=e406]:
+                    - link "Lifecycle Services" [ref=e407] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e408]: Lifecycle Services
+              - generic [ref=e409]:
+                - heading "Sustainability" [level=2] [ref=e410]:
+                  - link "Sustainability" [ref=e411] [cursor=pointer]:
+                    - /url: /en-US/sustainability
+                    - generic [ref=e412]: Sustainability
+                - list [ref=e413]:
+                  - listitem [ref=e414]:
+                    - link "Corporate Sustainability" [ref=e415] [cursor=pointer]:
+                      - /url: /en-US/sustainability/corporate-sustainability
+                      - generic [ref=e416]: Corporate Sustainability
+                  - listitem [ref=e417]:
+                    - link "Client Sustainability" [ref=e418] [cursor=pointer]:
+                      - /url: /en-US/sustainability/client-sustainability
+                      - generic [ref=e419]: Client Sustainability
+                  - listitem [ref=e420]:
+                    - link "Community Sustainability" [ref=e421] [cursor=pointer]:
+                      - /url: /en-US/sustainability/community-sustainability
+                      - generic [ref=e422]: Community Sustainability
+              - generic [ref=e423]:
+                - heading "Careers" [level=2] [ref=e424]:
+                  - link "Careers" [ref=e425] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e426]: Careers
+                - list [ref=e427]:
+                  - listitem [ref=e428]:
+                    - link "Workplace Culture" [ref=e429] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e430]: Workplace Culture
+                  - listitem [ref=e431]:
+                    - link "Our Hiring Process" [ref=e432] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e433]: Our Hiring Process
+                  - listitem [ref=e434]:
+                    - link "Career Paths" [ref=e435] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e436]: Career Paths
+                  - listitem [ref=e437]:
+                    - link "Craft and Construction" [ref=e438] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e439]: Craft and Construction
+                  - listitem [ref=e440]:
+                    - link "Early Careers and Students" [ref=e441] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e442]: Early Careers and Students
+                  - listitem [ref=e443]:
+                    - link "ENT Accelerator Program" [ref=e444] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e445]: ENT Accelerator Program
+                  - listitem [ref=e446]:
+                    - link "Experienced Careers" [ref=e447] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e448]: Experienced Careers
+                  - listitem [ref=e449]:
+                    - link "Military Veterans" [ref=e450] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e451]: Military Veterans
+            - generic [ref=e452]:
+              - list [ref=e453]:
+                - listitem [ref=e454]:
+                  - link "Accessibility" [ref=e455] [cursor=pointer]:
+                    - /url: /en-US/careers/equal-opportunity-and-accessibility
+                    - generic [ref=e456]: Accessibility
+                - listitem [ref=e457]:
+                  - link "Privacy policy" [ref=e458] [cursor=pointer]:
+                    - /url: /en-US/privacy-notice
+                    - generic [ref=e459]: Privacy policy
+                - listitem [ref=e460]:
+                  - link "Terms of use" [ref=e461] [cursor=pointer]:
+                    - /url: /en-US/terms-of-use
+                    - generic [ref=e462]: Terms of use
+                - listitem [ref=e463]:
+                  - link "Compliance" [ref=e464] [cursor=pointer]:
+                    - /url: /en-US/about-us/governance-and-compliance
+                    - generic [ref=e465]: Compliance
+              - list [ref=e466]:
+                - listitem [ref=e467]:
+                  - link "Go to Facebook" [ref=e468] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BlackVeatch/
+                    - img [ref=e469]
+                - listitem [ref=e471]:
+                  - link "Go to LinkedIn" [ref=e472] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/company/black-and-veatch
+                    - img [ref=e473]
+                - listitem [ref=e475]:
+                  - link "Go to Instagram" [ref=e476] [cursor=pointer]:
+                    - /url: https://www.instagram.com/black_veatch/?hl=en
+                    - img [ref=e477]
+                - listitem [ref=e479]:
+                  - link "Go to YouTube" [ref=e480] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                    - img [ref=e481]
+                - listitem [ref=e483]:
+                  - link "Go to X" [ref=e484] [cursor=pointer]:
+                    - /url: https://twitter.com/Black_Veatch
+                    - img [ref=e485]
+          - paragraph [ref=e487]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e488]
+```

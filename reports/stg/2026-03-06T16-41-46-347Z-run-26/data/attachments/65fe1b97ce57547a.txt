@@ -1,0 +1,11 @@
+[2026-03-06T16:33:54.672Z][HomePage][INFO] Navigating to homepage: https://staging--bv-ad.netlify.app
+[2026-03-06T16:33:56.810Z][HomePage][INFO] Checking for cookie banner
+[2026-03-06T16:33:58.409Z][HomePage][INFO] Asserting Lifecycle services section is visible
+[2026-03-06T16:33:58.442Z][HomePage][INFO] Checking lifecycle step: Strategy
+[2026-03-06T16:33:58.473Z][HomePage][INFO] Checking lifecycle step: Planning
+[2026-03-06T16:33:58.512Z][HomePage][INFO] Checking lifecycle step: Engineering
+[2026-03-06T16:33:58.540Z][HomePage][INFO] Checking lifecycle step: Procurement
+[2026-03-06T16:33:58.574Z][HomePage][INFO] Checking lifecycle step: Construction
+[2026-03-06T16:33:58.601Z][HomePage][INFO] Checking lifecycle step: Operations
+[2026-03-06T16:33:58.652Z][HomePage][INFO] Checking lifecycle step: Modernization
+[2026-03-06T16:33:58.683Z][HomePage][INFO] Checking lifecycle step: Decommissioning

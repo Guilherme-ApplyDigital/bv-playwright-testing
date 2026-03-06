@@ -1,0 +1,2 @@
+[2026-03-06T16:28:55.337Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/suppliers
+[2026-03-06T16:28:55.490Z][HomePage][INFO] Checking for cookie banner

@@ -1,0 +1,727 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Back to homepage" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+          - img "Back to homepage" [ref=e10]
+        - generic [ref=e11]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e13]:
+            - menubar "Black & Veatch Top Links" [ref=e14]:
+              - menuitem "Contact" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Contact
+              - menuitem "News & Events" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: News & Events
+                - img [ref=e19]
+              - menuitem "Supplier" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: Supplier
+              - menuitem "Locations" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: Locations
+                - img [ref=e25]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e28]:
+            - menubar "Black & Veatch Items and Search" [ref=e29]:
+              - menuitem "About Us" [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: About Us
+                - img [ref=e32]
+              - menuitem "Who we serve" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Who we serve
+                - img [ref=e36]
+              - menuitem "What we do" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]: What we do
+                - img [ref=e40]
+              - menuitem "Lifecycle Services" [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]: Lifecycle Services
+                - img [ref=e44]
+              - menuitem "Projects" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: Projects
+              - menuitem "Careers" [ref=e48] [cursor=pointer]:
+                - generic [ref=e49]: Careers
+                - img [ref=e50]
+            - button "Search Black & Veatch" [ref=e53] [cursor=pointer]:
+              - img [ref=e55]
+      - navigation:
+        - generic [ref=e57]:
+          - generic "Search" [ref=e59]:
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - textbox "Search" [ref=e64]:
+                - /placeholder: Search...
+          - generic [ref=e65]:
+            - heading "Quick Links" [level=2] [ref=e66]
+            - generic [ref=e67]:
+              - link "Infrastructure Advisory" [ref=e69] [cursor=pointer]:
+                - /url: /en-US/what-we-do/infrastructure-advisory
+                - generic [ref=e70]: Infrastructure Advisory
+                - img [ref=e71]
+              - link "Energy Transition" [ref=e77] [cursor=pointer]:
+                - /url: /en-US/what-we-do/energy-transition
+                - generic [ref=e78]: Energy Transition
+                - img [ref=e79]
+              - link "Power Generation" [ref=e85] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e86]: Power Generation
+                - img [ref=e87]
+              - link "Power Delivery" [ref=e93] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e94]: Power Delivery
+                - img [ref=e95]
+              - link "Water" [ref=e101] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e102]: Water
+                - img [ref=e103]
+              - link "Process" [ref=e109] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e110]: Process
+                - img [ref=e111]
+              - link "Fuels" [ref=e117] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e118]: Fuels
+                - img [ref=e119]
+              - link "Industrial Cybersecurity" [ref=e125] [cursor=pointer]:
+                - /url: /en-US/what-we-do/industrial-cybersecurity
+                - generic [ref=e126]: Industrial Cybersecurity
+                - img [ref=e127]
+              - link "Environmental" [ref=e133] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e134]: Environmental
+                - img [ref=e135]
+              - link "Lifecycle Services" [ref=e141] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e142]: Lifecycle Services
+                - img [ref=e143]
+    - region "Hero Banner" [ref=e148]:
+      - generic [ref=e153]:
+        - navigation "Breadcrumb" [ref=e155]:
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "locations" [ref=e158] [cursor=pointer]:
+                - /url: /locations
+                - generic [ref=e159]: locations
+              - generic [ref=e160]: /
+            - listitem [ref=e161]:
+              - link "asia pacific" [ref=e162] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e163]: asia pacific
+        - generic [ref=e164]:
+          - heading "Asia Pacific" [level=2] [ref=e165]
+          - link "Get in Touch" [ref=e167] [cursor=pointer]:
+            - /url: /en-US/contact-us
+            - generic [ref=e168]: Get in Touch
+            - img [ref=e169]
+      - img "Asia Pacific" [ref=e181]
+    - main [ref=e182]:
+      - generic [ref=e184]:
+        - generic [ref=e187]:
+          - heading "Delivering solutions in Asia Pacific" [level=2] [ref=e189]
+          - paragraph [ref=e191]: Our global team provides innovative, end-to-end services and full project delivery solutions in countries throughout Asia Pacific.
+        - generic [ref=e193]:
+          - heading "Who We Serve" [level=1] [ref=e195]:
+            - generic [ref=e198]: Who We Serve
+          - generic [ref=e199]:
+            - link [ref=e200] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/technology-and-data-centers
+              - article [ref=e201]:
+                - generic [ref=e203]:
+                  - img "Commissioning Icon" [ref=e206]
+                  - heading "Technology and Data Centers" [level=2] [ref=e208]
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Learn more
+                  - img [ref=e211]
+            - link [ref=e216] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/industrial-and-manufacturing
+              - article [ref=e217]:
+                - generic [ref=e219]:
+                  - img "Industrial & Manufacturing Icon" [ref=e222]
+                  - heading "Industrial and Manufacturing" [level=2] [ref=e224]
+                - generic [ref=e225]:
+                  - generic [ref=e226]: Learn more
+                  - img [ref=e227]
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/fuels-and-natural-resources
+              - article [ref=e233]:
+                - generic [ref=e235]:
+                  - img "Chemicals Icon" [ref=e238]
+                  - heading "Fuels and Natural Resources" [level=2] [ref=e240]
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Learn more
+                  - img [ref=e243]
+            - link [ref=e248] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/power-providers
+              - article [ref=e249]:
+                - generic [ref=e251]:
+                  - img "Geothermal Power Station" [ref=e254]
+                  - heading "Power Providers" [level=2] [ref=e256]
+                - generic [ref=e257]:
+                  - generic [ref=e258]: Learn more
+                  - img [ref=e259]
+            - link [ref=e264] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/water-utilities
+              - article [ref=e265]:
+                - generic [ref=e267]:
+                  - img "Water Drop" [ref=e270]
+                  - heading "Water Utilities" [level=2] [ref=e272]
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Learn more
+                  - img [ref=e275]
+            - link [ref=e280] [cursor=pointer]:
+              - /url: /en-US/who-we-serve/commercial
+              - article [ref=e281]:
+                - generic [ref=e283]:
+                  - img "Commercial Industries Icon" [ref=e286]
+                  - heading "Commercial" [level=2] [ref=e288]
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Learn more
+                  - img [ref=e291]
+      - generic [ref=e299]:
+        - heading "What We Do" [level=1] [ref=e301]:
+          - generic [ref=e304]: What We Do
+        - generic [ref=e305]:
+          - link [ref=e306] [cursor=pointer]:
+            - /url: /en-US/asia/what-we-do/energy-transition
+            - article [ref=e307]:
+              - generic [ref=e309]:
+                - img "Renewable Energy" [ref=e312]
+                - heading "Energy Transition" [level=2] [ref=e314]
+              - generic [ref=e315]:
+                - generic [ref=e316]: Learn more
+                - img [ref=e317]
+          - link [ref=e322] [cursor=pointer]:
+            - /url: /en-US/asia/what-we-do/power-generation/gas-power
+            - article [ref=e323]:
+              - generic [ref=e325]:
+                - img "Asia Gas Power" [ref=e328]
+                - heading "Gas Power" [level=2] [ref=e330]
+              - generic [ref=e331]:
+                - generic [ref=e332]: Learn more
+                - img [ref=e333]
+          - link [ref=e338] [cursor=pointer]:
+            - /url: /en-US/what-we-do/infrastructure-advisory
+            - article [ref=e339]:
+              - generic [ref=e341]:
+                - img "Strategic Advisory" [ref=e344]
+                - heading "Infrastructure Advisory" [level=2] [ref=e346]
+              - generic [ref=e347]:
+                - generic [ref=e348]: Learn more
+                - img [ref=e349]
+          - link [ref=e354] [cursor=pointer]:
+            - /url: /en-US/what-we-do/power-generation
+            - article [ref=e355]:
+              - generic [ref=e357]:
+                - img "Power Generation Icon" [ref=e360]
+                - heading "Power Generation" [level=2] [ref=e362]
+              - generic [ref=e363]:
+                - generic [ref=e364]: Learn more
+                - img [ref=e365]
+          - link [ref=e370] [cursor=pointer]:
+            - /url: /en-US/what-we-do/power-delivery
+            - article [ref=e371]:
+              - generic [ref=e373]:
+                - img "Microgrid Icon" [ref=e376]
+                - heading "Power Delivery" [level=2] [ref=e378]
+              - generic [ref=e379]:
+                - generic [ref=e380]: Learn more
+                - img [ref=e381]
+          - link [ref=e386] [cursor=pointer]:
+            - /url: /en-US/what-we-do/water
+            - article [ref=e387]:
+              - generic [ref=e389]:
+                - img "Water Icon" [ref=e392]
+                - heading "Water Solutions" [level=2] [ref=e394]
+              - generic [ref=e395]:
+                - generic [ref=e396]: Learn more
+                - img [ref=e397]
+          - link [ref=e402] [cursor=pointer]:
+            - /url: /en-US/what-we-do/process
+            - article [ref=e403]:
+              - generic [ref=e405]:
+                - img "Gears Icon" [ref=e408]
+                - heading "Process" [level=2] [ref=e410]
+              - generic [ref=e411]:
+                - generic [ref=e412]: Learn more
+                - img [ref=e413]
+          - link [ref=e418] [cursor=pointer]:
+            - /url: /en-US/what-we-do/fuels
+            - article [ref=e419]:
+              - generic [ref=e421]:
+                - img "Pump Fuel Icon" [ref=e424]
+                - heading "Fuels" [level=2] [ref=e426]
+              - generic [ref=e427]:
+                - generic [ref=e428]: Learn more
+                - img [ref=e429]
+          - link [ref=e434] [cursor=pointer]:
+            - /url: /en-US/what-we-do/industrial-cybersecurity
+            - article [ref=e435]:
+              - generic [ref=e437]:
+                - img "Cyber Icon" [ref=e440]
+                - heading "Industrial Cybersecurity" [level=2] [ref=e442]
+              - generic [ref=e443]:
+                - generic [ref=e444]: Learn more
+                - img [ref=e445]
+        - button "See More" [ref=e451] [cursor=pointer]:
+          - generic [ref=e452]: See More
+      - generic [ref=e454]:
+        - generic [ref=e457]:
+          - heading "Regional offices. Global team." [level=2] [ref=e459]
+          - paragraph [ref=e461]: See where you can find our locations throughout Asia Pacific
+        - generic [ref=e463]:
+          - generic [ref=e464]:
+            - link [ref=e465] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=australia&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e466]:
+                - generic [ref=e467]:
+                  - img "Australia" [ref=e470]
+                  - heading "Australia" [level=2] [ref=e471]
+                - generic [ref=e472]:
+                  - generic [ref=e473]: Learn more
+                  - img [ref=e474]
+            - link [ref=e479] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=china&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e480]:
+                - generic [ref=e481]:
+                  - img "Beijing, China" [ref=e484]
+                  - heading "China" [level=2] [ref=e485]
+                - generic [ref=e486]:
+                  - generic [ref=e487]: Learn more
+                  - img [ref=e488]
+            - link [ref=e493] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=india&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e494]:
+                - generic [ref=e495]:
+                  - img "India" [ref=e498]
+                  - heading "India" [level=2] [ref=e499]
+                - generic [ref=e500]:
+                  - generic [ref=e501]: Learn more
+                  - img [ref=e502]
+            - link [ref=e507] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=indonesia&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e508]:
+                - generic [ref=e509]:
+                  - img "Indonesia" [ref=e512]
+                  - heading "Indonesia" [level=2] [ref=e513]
+                - generic [ref=e514]:
+                  - generic [ref=e515]: Learn more
+                  - img [ref=e516]
+            - link [ref=e521] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=new+zealand&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e522]:
+                - generic [ref=e523]:
+                  - img "Advance Carbon-Neutral Aviation in Australia, New Zealand" [ref=e526]
+                  - heading "New Zealand" [level=2] [ref=e527]
+                - generic [ref=e528]:
+                  - generic [ref=e529]: Learn more
+                  - img [ref=e530]
+            - link [ref=e535] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=philippines&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e536]:
+                - generic [ref=e537]:
+                  - img "Philippines" [ref=e540]
+                  - heading "Philippines" [level=2] [ref=e541]
+                - generic [ref=e542]:
+                  - generic [ref=e543]: Learn more
+                  - img [ref=e544]
+            - link [ref=e549] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=sinagpore&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e550]:
+                - generic [ref=e551]:
+                  - img "Singapore" [ref=e554]
+                  - heading "Singapore" [level=2] [ref=e555]
+                - generic [ref=e556]:
+                  - generic [ref=e557]: Learn more
+                  - img [ref=e558]
+            - link [ref=e563] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=thailand&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e564]:
+                - generic [ref=e565]:
+                  - img "Thailand" [ref=e568]
+                  - heading "Thailand" [level=2] [ref=e569]
+                - generic [ref=e570]:
+                  - generic [ref=e571]: Learn more
+                  - img [ref=e572]
+            - link [ref=e577] [cursor=pointer]:
+              - /url: https://www.bv.com/en-US/office-locations?q=vietnam&size=n_9_n&sort-field=heading&sort-direction=asc
+              - article [ref=e578]:
+                - generic [ref=e579]:
+                  - img "Ha Tinh Vietnam" [ref=e582]
+                  - heading "Vietnam" [level=2] [ref=e583]
+                - generic [ref=e584]:
+                  - generic [ref=e585]: Learn more
+                  - img [ref=e586]
+          - button "See More" [ref=e592] [cursor=pointer]:
+            - generic [ref=e593]: See More
+      - generic [ref=e596]:
+        - generic [ref=e597]:
+          - heading "Start Your Journey With Us" [level=2] [ref=e598]:
+            - generic [ref=e601]: Start Your Journey With Us
+          - heading "Black & Veatch Careers in Asia Pacific" [level=3] [ref=e602]
+          - link "Search Jobs" [ref=e603] [cursor=pointer]:
+            - /url: https://careers.bv.com/search/?createNewAlert=false&q=&locationsearch=asia&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield5=
+            - generic [ref=e604]: Search Jobs
+            - img [ref=e605]
+        - img "Asia Pacific Careers" [ref=e612]
+      - generic [ref=e616]:
+        - generic [ref=e621]: India Policies
+        - generic [ref=e623]:
+          - paragraph [ref=e624]:
+            - link "BV India Corporate Social Responsibility (CSR) Policy" [ref=e625] [cursor=pointer]:
+              - /url: https://cdn.bfldr.com/E1EVDN8O/at/x38b5xxnrztkqvrfvnbj5hg/CSR_Policy_BVPL_2021.pdf
+              - generic [ref=e626]: BV India Corporate Social Responsibility (CSR) Policy
+          - paragraph [ref=e627]:
+            - link "BV India Project List for 2024-2025" [ref=e628] [cursor=pointer]:
+              - /url: https://cdn.bfldr.com/E1EVDN8O/at/pz9k8h8z9crzn7sv55rv2g3x/CSR_Projects_2024-25.pdf?format=pdf
+              - generic [ref=e629]: BV India Project List for 2024-2025
+          - paragraph [ref=e630]:
+            - link "BV India CSR Committee Composition" [ref=e631] [cursor=pointer]:
+              - /url: https://cdn.bfldr.com/E1EVDN8O/at/3954mwvzxkg7h7kz6mkwfj6/CSR_Committee.pdf
+              - generic [ref=e632]: BV India CSR Committee Composition
+          - paragraph
+      - generic [ref=e635]:
+        - link [ref=e637] [cursor=pointer]:
+          - /url: /en-US/projects/black-and-veatch-provides-its-patented-interstage-cooling-technology-to-develop-one-of-chinas-most-important-energy-sources
+          - article [ref=e638]:
+            - generic [ref=e639]:
+              - img "Black & Veatch Provides its Patented Interstage Cooling Technology to Develop One of China's Most Important Energy Sources" [ref=e641]
+              - img "Black & Veatch Provides its Patented Interstage Cooling Technology to Develop One of China's Most Important Energy Sources" [ref=e643]
+            - generic [ref=e644]:
+              - generic [ref=e645]:
+                - generic [ref=e647]: Projects
+                - heading "Black & Veatch Provides its Patented Interstage Cooling Technology to Develop One of China's Most Important Energy Sources" [level=2] [ref=e648]
+                - paragraph [ref=e649]: The Puguang Natural Gas Plant has been in operation since 2010. It produced more than eight percent of China’s total natural gas output in its first year of operation. It has also become a major supply of domestic elemental sulfur in China.
+              - generic [ref=e651]:
+                - generic [ref=e652]: Read More
+                - img [ref=e653]
+        - generic [ref=e658]:
+          - link [ref=e659] [cursor=pointer]:
+            - /url: /en-US/projects/india-develops-first-solar-park-at-charanka-village
+            - article [ref=e660]:
+              - img "India Develops First Solar Park at Charanka Village" [ref=e663]
+              - generic [ref=e664]:
+                - generic [ref=e665]:
+                  - generic [ref=e667]: Projects
+                  - heading "India Develops First Solar Park at Charanka Village" [level=2] [ref=e668]
+                - generic [ref=e670]:
+                  - generic [ref=e671]: Read More
+                  - img [ref=e672]
+          - link [ref=e677] [cursor=pointer]:
+            - /url: /en-US/projects/fast-track-water-treatment-plant-helps-relieve-drought-conditions-in-australia
+            - article [ref=e678]:
+              - img "Fast-Track Water Treatment Plant Helps Relieve Drought Conditions in Australia" [ref=e681]
+              - generic [ref=e682]:
+                - generic [ref=e683]:
+                  - generic [ref=e685]: Projects
+                  - heading "Fast-Track Water Treatment Plant Helps Relieve Drought Conditions in Australia" [level=2] [ref=e686]
+                - generic [ref=e688]:
+                  - generic [ref=e689]: Read More
+                  - img [ref=e690]
+          - link [ref=e695] [cursor=pointer]:
+            - /url: /en-US/projects/singapores-approach-to-water-management-increases-sustainability-and-resilience
+            - article [ref=e696]:
+              - img "Singapore’s Approach to Water Management Increases Sustainability and Resilience" [ref=e699]
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - generic [ref=e703]: Projects
+                  - heading "Singapore’s Approach to Water Management Increases Sustainability and Resilience" [level=2] [ref=e704]
+                - generic [ref=e706]:
+                  - generic [ref=e707]: Read More
+                  - img [ref=e708]
+      - generic [ref=e714]:
+        - generic [ref=e717]:
+          - paragraph [ref=e719]: See where you can find our experts throughout Asia Pacific
+          - link "Meet our global leaders" [ref=e721] [cursor=pointer]:
+            - /url: /en-US/about-us/leadership
+            - generic [ref=e722]: Meet our global leaders
+            - img [ref=e723]
+        - generic [ref=e729]:
+          - heading "Meet our experts" [level=1] [ref=e731]:
+            - generic [ref=e734]: Meet our experts
+          - generic [ref=e735]:
+            - article [ref=e736]:
+              - generic [ref=e737]:
+                - img "Jerin Raj" [ref=e740]
+                - heading "Jerin Raj" [level=2] [ref=e741]
+                - paragraph [ref=e742]: Senior Vice President, Managing Director and Head of APAC & India
+            - article [ref=e743]:
+              - generic [ref=e744]:
+                - img "kENNETH kONG" [ref=e747]
+                - heading "Kenneth Kong" [level=2] [ref=e748]
+                - paragraph [ref=e749]: Senior Managing Director, Infrastructure Advisory – APAC
+            - article [ref=e750]:
+              - generic [ref=e751]:
+                - img "Mick Scrivens" [ref=e754]
+                - heading "Ayon Banerjee" [level=2] [ref=e755]
+                - paragraph [ref=e756]: Managing Director – APAC Client Segments
+            - article [ref=e757]:
+              - generic [ref=e758]:
+                - img "Kar Kit" [ref=e761]
+                - heading "Kar Kit Lee" [level=2] [ref=e762]
+                - paragraph [ref=e763]: APAC Sales Leader - Infrastructure Advisory
+            - article [ref=e764]:
+              - generic [ref=e765]:
+                - img "Fazlan Bin Yusoff" [ref=e768]
+                - heading "Fazlan Bin Yusoff" [level=2] [ref=e769]
+                - paragraph [ref=e770]: Country Sales Leader - Malaysia
+            - article [ref=e771]:
+              - generic [ref=e772]:
+                - img "Anup Tondare" [ref=e775]
+                - heading "Anup Tondare" [level=2] [ref=e776]
+                - paragraph [ref=e777]: Sales & Business Development Manager – Thailand, Taiwan, Vietnam
+            - article [ref=e778]:
+              - generic [ref=e779]:
+                - img "Christian Sidarta" [ref=e782]
+                - heading "Christian Sidarta" [level=2] [ref=e783]
+                - paragraph [ref=e784]: Country Sales Leader - Indonesia
+            - article [ref=e785]:
+              - generic [ref=e786]:
+                - img "Mike Russell" [ref=e789]
+                - heading "Mike Russell" [level=2] [ref=e790]
+                - paragraph [ref=e791]: Country Sales Leader - Australia Pacific
+      - generic [ref=e794]:
+        - generic [ref=e795]:
+          - heading "Contact us" [level=2] [ref=e796]:
+            - generic [ref=e799]: Contact us
+          - heading "Looking for a partner in Asia Pacific?" [level=3] [ref=e800]
+          - link "Let's Talk" [ref=e801] [cursor=pointer]:
+            - /url: /en-US/contact-us
+            - generic [ref=e802]: Let's Talk
+            - img [ref=e803]
+        - img "Asia Pacific Contact" [ref=e810]
+    - contentinfo [ref=e812]:
+      - generic [ref=e813]:
+        - link "BV logo blue with text white":
+          - /url: /en-US
+          - generic:
+            - img "BV logo blue with text white"
+        - generic [ref=e814]:
+          - generic [ref=e815]:
+            - generic [ref=e816]:
+              - generic [ref=e817]:
+                - heading "About Us" [level=2] [ref=e818]:
+                  - link "About Us" [ref=e819] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e820]: About Us
+                - list [ref=e821]:
+                  - listitem [ref=e822]:
+                    - link "Leadership" [ref=e823] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e824]: Leadership
+                  - listitem [ref=e825]:
+                    - link "Insights and Resources" [ref=e826] [cursor=pointer]:
+                      - /url: /en-US/about-us/insights-and-resources
+                      - generic [ref=e827]: Insights and Resources
+                  - listitem [ref=e828]:
+                    - link "Employee Ownership Impact" [ref=e829] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e830]: Employee Ownership Impact
+                  - listitem [ref=e831]:
+                    - link "Investing in Innovation" [ref=e832] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e833]: Investing in Innovation
+                  - listitem [ref=e834]:
+                    - link "Safety and Health" [ref=e835] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e836]: Safety and Health
+                  - listitem [ref=e837]:
+                    - link "Awards and Rankings" [ref=e838] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e839]: Awards and Rankings
+                  - listitem [ref=e840]:
+                    - link "Diversity, Equity and Inclusion" [ref=e841] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e842]: Diversity, Equity and Inclusion
+                  - listitem [ref=e843]:
+                    - link "History" [ref=e844] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e845]: History
+                  - listitem [ref=e846]:
+                    - link "Foundation" [ref=e847] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e848]: Foundation
+                  - listitem [ref=e849]:
+                    - link "Newsroom" [ref=e850] [cursor=pointer]:
+                      - /url: /en-US/news
+                      - generic [ref=e851]: Newsroom
+              - generic [ref=e852]:
+                - heading "Who we serve" [level=2] [ref=e853]:
+                  - link "Who we serve" [ref=e854] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e855]: Who we serve
+                - list [ref=e856]:
+                  - listitem [ref=e857]:
+                    - link "Technology and Data Centers" [ref=e858] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e859]: Technology and Data Centers
+                  - listitem [ref=e860]:
+                    - link "Industrial and Manufacturing" [ref=e861] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e862]: Industrial and Manufacturing
+                  - listitem [ref=e863]:
+                    - link "Fuels and Natural Resources" [ref=e864] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e865]: Fuels and Natural Resources
+                  - listitem [ref=e866]:
+                    - link "Power Providers" [ref=e867] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e868]: Power Providers
+                  - listitem [ref=e869]:
+                    - link "Water Utilities" [ref=e870] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e871]: Water Utilities
+                  - listitem [ref=e872]:
+                    - link "Federal Agencies" [ref=e873] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e874]: Federal Agencies
+                  - listitem [ref=e875]:
+                    - link "Public Sector" [ref=e876] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e877]: Public Sector
+                  - listitem [ref=e878]:
+                    - link "Commercial" [ref=e879] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e880]: Commercial
+              - generic [ref=e881]:
+                - heading "What we do" [level=2] [ref=e882]:
+                  - link "What we do" [ref=e883] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e884]: What we do
+                - list [ref=e885]:
+                  - listitem [ref=e886]:
+                    - link "Infrastructure Advisory" [ref=e887] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/infrastructure-advisory
+                      - generic [ref=e888]: Infrastructure Advisory
+                  - listitem [ref=e889]:
+                    - link "Energy Transition" [ref=e890] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/energy-transition
+                      - generic [ref=e891]: Energy Transition
+                  - listitem [ref=e892]:
+                    - link "Power Generation" [ref=e893] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e894]: Power Generation
+                  - listitem [ref=e895]:
+                    - link "Power Delivery" [ref=e896] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e897]: Power Delivery
+                  - listitem [ref=e898]:
+                    - link "Water" [ref=e899] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e900]: Water
+                  - listitem [ref=e901]:
+                    - link "Process" [ref=e902] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e903]: Process
+                  - listitem [ref=e904]:
+                    - link "Fuels" [ref=e905] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e906]: Fuels
+                  - listitem [ref=e907]:
+                    - link "Industrial Cybersecurity" [ref=e908] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/industrial-cybersecurity
+                      - generic [ref=e909]: Industrial Cybersecurity
+                  - listitem [ref=e910]:
+                    - link "Environmental" [ref=e911] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e912]: Environmental
+                  - listitem [ref=e913]:
+                    - link "Lifecycle Services" [ref=e914] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e915]: Lifecycle Services
+              - generic [ref=e916]:
+                - heading "Sustainability" [level=2] [ref=e917]:
+                  - link "Sustainability" [ref=e918] [cursor=pointer]:
+                    - /url: /en-US/sustainability
+                    - generic [ref=e919]: Sustainability
+                - list [ref=e920]:
+                  - listitem [ref=e921]:
+                    - link "Corporate Sustainability" [ref=e922] [cursor=pointer]:
+                      - /url: /en-US/sustainability/corporate-sustainability
+                      - generic [ref=e923]: Corporate Sustainability
+                  - listitem [ref=e924]:
+                    - link "Client Sustainability" [ref=e925] [cursor=pointer]:
+                      - /url: /en-US/sustainability/client-sustainability
+                      - generic [ref=e926]: Client Sustainability
+                  - listitem [ref=e927]:
+                    - link "Community Sustainability" [ref=e928] [cursor=pointer]:
+                      - /url: /en-US/sustainability/community-sustainability
+                      - generic [ref=e929]: Community Sustainability
+              - generic [ref=e930]:
+                - heading "Careers" [level=2] [ref=e931]:
+                  - link "Careers" [ref=e932] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e933]: Careers
+                - list [ref=e934]:
+                  - listitem [ref=e935]:
+                    - link "Workplace Culture" [ref=e936] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e937]: Workplace Culture
+                  - listitem [ref=e938]:
+                    - link "Our Hiring Process" [ref=e939] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e940]: Our Hiring Process
+                  - listitem [ref=e941]:
+                    - link "Career Paths" [ref=e942] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e943]: Career Paths
+                  - listitem [ref=e944]:
+                    - link "Craft and Construction" [ref=e945] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e946]: Craft and Construction
+                  - listitem [ref=e947]:
+                    - link "Early Careers and Students" [ref=e948] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e949]: Early Careers and Students
+                  - listitem [ref=e950]:
+                    - link "ENT Accelerator Program" [ref=e951] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e952]: ENT Accelerator Program
+                  - listitem [ref=e953]:
+                    - link "Experienced Careers" [ref=e954] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e955]: Experienced Careers
+                  - listitem [ref=e956]:
+                    - link "Military Veterans" [ref=e957] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e958]: Military Veterans
+            - generic [ref=e959]:
+              - list [ref=e960]:
+                - listitem [ref=e961]:
+                  - link "Accessibility" [ref=e962] [cursor=pointer]:
+                    - /url: /en-US/careers/equal-opportunity-and-accessibility
+                    - generic [ref=e963]: Accessibility
+                - listitem [ref=e964]:
+                  - link "Privacy policy" [ref=e965] [cursor=pointer]:
+                    - /url: /en-US/privacy-notice
+                    - generic [ref=e966]: Privacy policy
+                - listitem [ref=e967]:
+                  - link "Terms of use" [ref=e968] [cursor=pointer]:
+                    - /url: /en-US/terms-of-use
+                    - generic [ref=e969]: Terms of use
+                - listitem [ref=e970]:
+                  - link "Compliance" [ref=e971] [cursor=pointer]:
+                    - /url: /en-US/about-us/governance-and-compliance
+                    - generic [ref=e972]: Compliance
+              - list [ref=e973]:
+                - listitem [ref=e974]:
+                  - link "Go to Facebook" [ref=e975] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BlackVeatch/
+                    - img [ref=e976]
+                - listitem [ref=e978]:
+                  - link "Go to LinkedIn" [ref=e979] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/company/black-and-veatch
+                    - img [ref=e980]
+                - listitem [ref=e982]:
+                  - link "Go to Instagram" [ref=e983] [cursor=pointer]:
+                    - /url: https://www.instagram.com/black_veatch/?hl=en
+                    - img [ref=e984]
+                - listitem [ref=e986]:
+                  - link "Go to YouTube" [ref=e987] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                    - img [ref=e988]
+                - listitem [ref=e990]:
+                  - link "Go to X" [ref=e991] [cursor=pointer]:
+                    - /url: https://twitter.com/Black_Veatch
+                    - img [ref=e992]
+          - paragraph [ref=e994]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e995]
+```

@@ -1,0 +1,6 @@
+[2026-03-06T16:32:57.486Z][HomePage][INFO] Navigating to homepage: https://staging--bv-ad.netlify.app
+[2026-03-06T16:32:59.841Z][HomePage][INFO] Checking for cookie banner
+[2026-03-06T16:33:01.413Z][HomePage][INFO] Opening search from header
+[2026-03-06T16:33:01.574Z][HomePage][INFO] Searching for term: energy
+[2026-03-06T16:33:01.792Z][HomePage][INFO] Asserting page title contains: Search
+[2026-03-06T16:33:02.213Z][HomePage][INFO] Asserting main heading (h1) is visible

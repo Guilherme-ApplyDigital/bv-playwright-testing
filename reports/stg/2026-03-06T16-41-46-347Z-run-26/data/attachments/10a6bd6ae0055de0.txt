@@ -1,0 +1,2 @@
+[2026-03-06T16:27:43.314Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/about-us/investing-in-innovation
+[2026-03-06T16:27:44.403Z][HomePage][INFO] Checking for cookie banner

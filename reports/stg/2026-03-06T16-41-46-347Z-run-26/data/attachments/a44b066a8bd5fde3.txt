@@ -1,0 +1,2 @@
+[2026-03-06T16:29:15.990Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/what-we-do/water
+[2026-03-06T16:29:16.034Z][HomePage][INFO] Checking for cookie banner
