@@ -1,0 +1,2 @@
+[2026-03-10T04:15:57.619Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/where-we-work/asia-pacific
+[2026-03-10T04:15:58.865Z][HomePage][INFO] Checking for cookie banner
