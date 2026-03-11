@@ -1,0 +1,51 @@
+[2026-03-11T04:14:44.981Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-03-11T04:14:45.314Z][HomePage][INFO] Checking for cookie banner
+[2026-03-11T04:14:48.635Z][HomePage][INFO] Asserting hero headline is visible
+[2026-03-11T04:14:48.664Z][HomePage][INFO] Asserting primary CTA button is visible
+[2026-03-11T04:14:48.705Z][HomePage][INFO] Asserting main header navigation items are visible
+[2026-03-11T04:14:48.705Z][HomePage][INFO] Checking header nav item: About Us
+[2026-03-11T04:14:48.825Z][HomePage][INFO] Checking header nav item: Who we serve
+[2026-03-11T04:14:48.848Z][HomePage][INFO] Checking header nav item: What we do
+[2026-03-11T04:14:48.926Z][HomePage][INFO] Checking header nav item: Sustainability
+[2026-03-11T04:14:49.104Z][HomePage][INFO] Checking header nav item: Projects
+[2026-03-11T04:14:49.411Z][HomePage][INFO] Checking header nav item: Careers
+[2026-03-11T04:14:49.568Z][HomePage][INFO] Asserting upper-right navigation items are visible
+[2026-03-11T04:14:49.568Z][HomePage][INFO] Checking upper-right nav item: Contact
+[2026-03-11T04:14:49.589Z][HomePage][INFO] Checking upper-right nav item: Newsroom
+[2026-03-11T04:14:49.609Z][HomePage][INFO] Checking upper-right nav item: Supplier
+[2026-03-11T04:14:49.639Z][HomePage][INFO] Checking upper-right nav item: Locations
+[2026-03-11T04:14:49.650Z][HomePage][INFO] Asserting hero KPI metrics are visible
+[2026-03-11T04:14:49.681Z][HomePage][INFO] Asserting Quick Links section and key links are visible
+[2026-03-11T04:14:49.686Z][HomePage][INFO] Checking Quick Link: Strategic Advisory
+[2026-03-11T04:14:49.694Z][HomePage][INFO] Checking Quick Link: Energy Transition
+[2026-03-11T04:14:49.701Z][HomePage][INFO] Checking Quick Link: Power Generation
+[2026-03-11T04:14:49.708Z][HomePage][INFO] Checking Quick Link: Power Delivery
+[2026-03-11T04:14:49.714Z][HomePage][INFO] Checking Quick Link: Water
+[2026-03-11T04:14:49.725Z][HomePage][INFO] Checking Quick Link: Process
+[2026-03-11T04:14:49.734Z][HomePage][INFO] Checking Quick Link: Fuels
+[2026-03-11T04:14:49.743Z][HomePage][INFO] Checking Quick Link: Industrial Cybersecurity
+[2026-03-11T04:14:49.752Z][HomePage][INFO] Checking Quick Link: Environmental
+[2026-03-11T04:14:49.761Z][HomePage][INFO] Checking Quick Link: Lifecycle Services
+[2026-03-11T04:14:49.771Z][HomePage][INFO] Asserting Lifecycle services section is visible
+[2026-03-11T04:14:49.781Z][HomePage][INFO] Checking lifecycle step: Strategy
+[2026-03-11T04:14:49.790Z][HomePage][INFO] Checking lifecycle step: Planning
+[2026-03-11T04:14:49.798Z][HomePage][INFO] Checking lifecycle step: Engineering
+[2026-03-11T04:14:49.805Z][HomePage][INFO] Checking lifecycle step: Procurement
+[2026-03-11T04:14:49.812Z][HomePage][INFO] Checking lifecycle step: Construction
+[2026-03-11T04:14:49.819Z][HomePage][INFO] Checking lifecycle step: Operations
+[2026-03-11T04:14:49.826Z][HomePage][INFO] Checking lifecycle step: Modernization
+[2026-03-11T04:14:49.836Z][HomePage][INFO] Checking lifecycle step: Decommissioning
+[2026-03-11T04:14:49.844Z][HomePage][INFO] Asserting footer navigation sections and key links are visible
+[2026-03-11T04:14:49.844Z][HomePage][INFO] Checking footer text/link: About Us
+[2026-03-11T04:14:49.849Z][HomePage][INFO] Checking footer text/link: Leadership
+[2026-03-11T04:14:49.854Z][HomePage][INFO] Checking footer text/link: Insights and Resources
+[2026-03-11T04:14:49.857Z][HomePage][INFO] Checking footer text/link: Newsroom
+[2026-03-11T04:14:49.862Z][HomePage][INFO] Checking footer text/link: Who we serve
+[2026-03-11T04:14:49.867Z][HomePage][INFO] Checking footer text/link: What we do
+[2026-03-11T04:14:49.872Z][HomePage][INFO] Checking footer text/link: Sustainability
+[2026-03-11T04:14:49.880Z][HomePage][INFO] Checking footer text/link: Careers
+[2026-03-11T04:14:49.884Z][HomePage][INFO] Checking footer text/link: Accessibility
+[2026-03-11T04:14:49.888Z][HomePage][INFO] Checking footer text/link: Privacy policy
+[2026-03-11T04:14:49.893Z][HomePage][INFO] Checking footer text/link: Terms of use
+[2026-03-11T04:14:49.896Z][HomePage][INFO] Checking footer text/link: Compliance
+[2026-03-11T04:14:49.900Z][HomePage][INFO] Checking footer text/link: Copyright ©

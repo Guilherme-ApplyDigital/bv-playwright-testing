@@ -1,0 +1,2 @@
+[2026-03-11T04:12:32.672Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/energy-transition
+[2026-03-11T04:12:33.957Z][HomePage][INFO] Checking for cookie banner
