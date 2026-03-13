@@ -1,0 +1,1339 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Back to homepage" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+          - img "Back to homepage" [ref=e10]
+        - generic [ref=e11]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e13]:
+            - menubar "Black & Veatch Top Links" [ref=e14]:
+              - menuitem "Contact" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Contact
+              - menuitem "Newsroom" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: Newsroom
+              - menuitem "Supplier" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: Supplier
+              - menuitem "Locations" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: Locations
+                - img [ref=e23]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e26]:
+            - menubar "Black & Veatch Items and Search" [ref=e27]:
+              - menuitem "About Us" [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: About Us
+                - img [ref=e30]
+              - menuitem "Who we serve" [ref=e32] [cursor=pointer]:
+                - generic [ref=e33]: Who we serve
+                - img [ref=e34]
+              - menuitem "What we do" [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]: What we do
+                - img [ref=e38]
+              - menuitem "Sustainability" [ref=e40] [cursor=pointer]:
+                - generic [ref=e41]: Sustainability
+                - img [ref=e42]
+              - menuitem "Projects" [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]: Projects
+              - menuitem "Careers" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: Careers
+                - img [ref=e48]
+            - button "Search Black & Veatch" [ref=e51] [cursor=pointer]:
+              - img [ref=e53]
+      - navigation:
+        - generic [ref=e55]:
+          - generic "Search" [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e60]
+              - textbox "Search" [ref=e62]:
+                - /placeholder: Search...
+          - generic [ref=e63]:
+            - heading "Quick Links" [level=2] [ref=e64]
+            - generic [ref=e65]:
+              - link "Strategic Advisory" [ref=e67] [cursor=pointer]:
+                - /url: /en-US/what-we-do/strategic-advisory
+                - generic [ref=e68]: Strategic Advisory
+                - img [ref=e69]
+              - link "Energy Transition" [ref=e75] [cursor=pointer]:
+                - /url: /en-US/what-we-do/energy-transition
+                - generic [ref=e76]: Energy Transition
+                - img [ref=e77]
+              - link "Power Generation" [ref=e83] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e84]: Power Generation
+                - img [ref=e85]
+              - link "Power Delivery" [ref=e91] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e92]: Power Delivery
+                - img [ref=e93]
+              - link "Water" [ref=e99] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e100]: Water
+                - img [ref=e101]
+              - link "Process" [ref=e107] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e108]: Process
+                - img [ref=e109]
+              - link "Fuels" [ref=e115] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e116]: Fuels
+                - img [ref=e117]
+              - link "Industrial Cybersecurity" [ref=e123] [cursor=pointer]:
+                - /url: /en-US/what-we-do/industrial-cybersecurity
+                - generic [ref=e124]: Industrial Cybersecurity
+                - img [ref=e125]
+              - link "Environmental" [ref=e131] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e132]: Environmental
+                - img [ref=e133]
+              - link "Lifecycle Services" [ref=e139] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e140]: Lifecycle Services
+                - img [ref=e141]
+      - navigation "Black & Veatch Subnav Links":
+        - generic [ref=e147]:
+          - button "Overview" [ref=e149] [cursor=pointer]
+          - button "Resources" [ref=e151] [cursor=pointer]
+          - button "work with us" [ref=e153] [cursor=pointer]
+    - region "Hero Banner" [ref=e154]:
+      - generic [ref=e159]:
+        - navigation "Breadcrumb" [ref=e161]:
+          - list [ref=e162]:
+            - listitem [ref=e163]:
+              - link "careers" [ref=e164] [cursor=pointer]:
+                - /url: /careers
+                - generic [ref=e165]: careers
+        - generic [ref=e166]:
+          - heading "Careers" [level=2] [ref=e167]
+          - paragraph [ref=e168]: Our professionals play a critical role in innovating and building the sustainable infrastructure for today’s generation and those to come. As a 100% employee-owned company, we take special pride in our work and our accomplishments.
+          - link "Explore Careers" [ref=e170] [cursor=pointer]:
+            - /url: https://careers.bv.com/
+            - generic [ref=e171]: Explore Careers
+            - img [ref=e172]
+      - generic "video" [ref=e184]
+    - main [ref=e185]:
+      - generic [ref=e187]:
+        - generic [ref=e189]:
+          - heading "Overview" [level=2] [ref=e191]:
+            - generic [ref=e194]: Overview
+          - generic [ref=e195]:
+            - heading "In our space, few companies are like us." [level=3] [ref=e197]
+            - generic [ref=e198]:
+              - paragraph [ref=e199]: We’re home to some of the smartest, most dedicated people in the world. We care deeply about people and the planet, create innovative solutions for the world’s toughest infrastructure challenges, and own our future as employee-owners.
+              - paragraph [ref=e200]: Our professionals act like the company belongs to them – because it does. Every decision we make reflects our commitment to safety, our values, and our people while driving progress for our clients and communities.
+              - paragraph [ref=e201]: At Black & Veatch, you’ll enjoy our hybrid work environment that allows you to work in ways that best support your personal and professional success. Here, you’ll be empowered to grow, explore new possibilities, and help create a sustainable future — all while owning your career journey.
+        - generic [ref=e204]:
+          - link [ref=e205] [cursor=pointer]:
+            - /url: /en-US/careers/workplace-culture
+            - article [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - img "Workplace Culture Icon White" [ref=e211]
+                  - heading "Workplace Culture" [level=3] [ref=e213]
+                - paragraph [ref=e214]: Our culture is cultivated by us and shaped by our values–Care, Create, Own.
+              - generic [ref=e215]:
+                - generic [ref=e216]: Learn more
+                - img [ref=e217]
+          - link [ref=e222] [cursor=pointer]:
+            - /url: /en-US/careers/our-hiring-process
+            - article [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - img "Our Hiring Process icon" [ref=e228]
+                  - heading "Our Hiring Process" [level=3] [ref=e230]
+                - paragraph [ref=e231]: Join us whether you're new to the job market or an experienced professional.
+              - generic [ref=e232]:
+                - generic [ref=e233]: Learn more
+                - img [ref=e234]
+          - link [ref=e239] [cursor=pointer]:
+            - /url: /en-US/careers/career-paths/craft-and-construction
+            - article [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - img "Services Construction icon" [ref=e245]
+                  - heading "Craft and Construction" [level=3] [ref=e247]
+                - paragraph [ref=e248]: As a construction professional, you’ll have opportunities to develop and enhance your skills.
+              - generic [ref=e249]:
+                - generic [ref=e250]: Learn more
+                - img [ref=e251]
+          - link [ref=e256] [cursor=pointer]:
+            - /url: /en-US/careers/career-paths/early-careers-and-students
+            - article [ref=e257]:
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - img "Strategy icon" [ref=e262]
+                  - heading "Early Careers and Students" [level=3] [ref=e264]
+                - paragraph [ref=e265]: Our early-career roles offer career growth, immediate hands-on work experience with experienced teams.
+              - generic [ref=e266]:
+                - generic [ref=e267]: Learn more
+                - img [ref=e268]
+          - link [ref=e273] [cursor=pointer]:
+            - /url: /en-US/about-us/diversity-equity-and-inclusion
+            - article [ref=e274]:
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - img "Diversity Equity and Inclusion" [ref=e279]
+                  - heading "Diversity Equity and Inclusion" [level=3] [ref=e281]
+                - paragraph [ref=e282]: We believe in creating and sustaining a more diverse, inclusive and equitable work environment.
+              - generic [ref=e283]:
+                - generic [ref=e284]: Learn more
+                - img [ref=e285]
+      - article [ref=e291]:
+        - generic [ref=e292]:
+          - generic [ref=e294]:
+            - heading "2025 Campus Forward Awards Winner" [level=2] [ref=e295]:
+              - generic [ref=e296]:
+                - paragraph [ref=e297]: 2025 Campus Forward Awards Winner
+                - paragraph
+            - paragraph [ref=e300]: Black & Veatch's Early Careers team has been named as a 2025 Campus Forward Award Winner! Recognizing excellence in early career hiring, this award is celebrating the programs that are embracing innovative recruitment strategies, making significant investments in diversity and inclusion and supporting the next generation of talent through impactful internships and entry-level programs.
+          - img "campus award" [ref=e303]
+      - generic [ref=e307]:
+        - heading "Now Hiring" [level=1] [ref=e309]:
+          - generic [ref=e312]: Now Hiring
+        - generic [ref=e313]:
+          - link [ref=e314] [cursor=pointer]:
+            - /url: "https://careers.bv.com/job/Irvine-Senior-Marine-Structural-Engineer-CA-92602/1250614101/ "
+            - article [ref=e315]:
+              - generic [ref=e316]:
+                - img "Hot Job Teaser" [ref=e319]
+                - heading "Senior Marine Structural Engineer" [level=2] [ref=e320]
+                - paragraph [ref=e321]: Join our talented Civil Works team at Black & Veatch as a Marine Structural Engineer.
+              - generic [ref=e322]:
+                - generic [ref=e323]: Learn more
+                - img [ref=e324]
+          - link [ref=e329] [cursor=pointer]:
+            - /url: "https://careers.bv.com/job/Project-Manager-Nuclear-ServicesEPC-WA/1272421001/ "
+            - article [ref=e330]:
+              - generic [ref=e331]:
+                - img "Construction engineer" [ref=e334]
+                - heading "Project Manager Nuclear Services/EPC" [level=2] [ref=e335]
+                - paragraph [ref=e336]: Step into a high‑visibility role leading some of the most impactful nuclear services and EPC projects in the industry—from SMR deployments to major plant upgrades and life‑extension initiatives.
+              - generic [ref=e337]:
+                - generic [ref=e338]: Learn more
+                - img [ref=e339]
+          - link [ref=e344] [cursor=pointer]:
+            - /url: https://careers.bv.com/search/?q=&q2=&alertId=&locationsearch=&title=%22overhead+transmission%22
+            - article [ref=e345]:
+              - generic [ref=e346]:
+                - img "True North Project" [ref=e349]
+                - heading "Overhead Transmission – Multiple locations!" [level=2] [ref=e350]
+                - paragraph [ref=e351]: We are hiring Overhead Transmission Line Structural Engineers to tackle complex challenges and drive innovation in transmission infrastructure. Bring your expertise and help build a more resilient grid.
+              - generic [ref=e352]:
+                - generic [ref=e353]: Learn more
+                - img [ref=e354]
+          - link [ref=e359] [cursor=pointer]:
+            - /url: "https://careers.bv.com/job/Metro-Manila-Sr_-Sales-Manager/1283610501/ "
+            - article [ref=e360]:
+              - generic [ref=e361]:
+                - img "senior sales" [ref=e364]
+                - heading "Sr. Sales Manager" [level=2] [ref=e365]
+                - paragraph [ref=e366]: Lead with purpose, drive meaningful client impact, and help build a world of difference as our next Sr. Sales Manager.
+              - generic [ref=e367]:
+                - generic [ref=e368]: Learn more
+                - img [ref=e369]
+          - link [ref=e374] [cursor=pointer]:
+            - /url: "https://careers.bv.com/job/Overland-Park-Lift-and-Rigging-Engineer-Construction-KS-66062/1273704201/ "
+            - article [ref=e375]:
+              - generic [ref=e376]:
+                - img "construction" [ref=e379]
+                - heading "Lift and Rigging Engineer – Construction" [level=2] [ref=e380]
+                - paragraph [ref=e381]: Lift and Rigging Engineering opportunity available! Great opportunity for someone with experience with 3D Lift Plans and an Engineering degree.
+              - generic [ref=e382]:
+                - generic [ref=e383]: Learn more
+                - img [ref=e384]
+      - generic [ref=e391]:
+        - generic [ref=e396]: Resources
+        - generic [ref=e398]:
+          - paragraph [ref=e399]:
+            - link "Equal Opportunity and Accessibility" [ref=e400] [cursor=pointer]:
+              - /url: /en-US/careers/equal-opportunity-and-accessibility
+              - generic [ref=e401]: Equal Opportunity and Accessibility
+          - paragraph [ref=e402]: "Please note: Black & Veatch careers supports a number of browsers. If you are using Internet Explorer, Black & Veatch careers website requires IE version 11 or higher to be able to apply for jobs."
+          - paragraph
+      - generic [ref=e405]:
+        - generic [ref=e406]:
+          - heading "work with us" [level=2] [ref=e407]:
+            - generic [ref=e410]: work with us
+          - heading "Work with us throughout the world" [level=3] [ref=e411]
+          - link "Search jobs" [ref=e412] [cursor=pointer]:
+            - /url: https://careers.bv.com
+            - generic [ref=e413]: Search jobs
+            - img [ref=e414]
+        - img "Careers Around the World" [ref=e421]
+    - contentinfo [ref=e423]:
+      - generic [ref=e424]:
+        - link "BV logo blue with text white":
+          - /url: /en-US
+          - generic:
+            - img "BV logo blue with text white"
+        - generic [ref=e425]:
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - heading "About Us" [level=2] [ref=e429]:
+                  - link "About Us" [ref=e430] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e431]: About Us
+                - list [ref=e432]:
+                  - listitem [ref=e433]:
+                    - link "Leadership" [ref=e434] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e435]: Leadership
+                  - listitem [ref=e436]:
+                    - link "Insights and Resources" [ref=e437] [cursor=pointer]:
+                      - /url: /en-US/about-us/insights-and-resources
+                      - generic [ref=e438]: Insights and Resources
+                  - listitem [ref=e439]:
+                    - link "Employee Ownership Impact" [ref=e440] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e441]: Employee Ownership Impact
+                  - listitem [ref=e442]:
+                    - link "Investing in Innovation" [ref=e443] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e444]: Investing in Innovation
+                  - listitem [ref=e445]:
+                    - link "Safety and Health" [ref=e446] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e447]: Safety and Health
+                  - listitem [ref=e448]:
+                    - link "Awards and Rankings" [ref=e449] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e450]: Awards and Rankings
+                  - listitem [ref=e451]:
+                    - link "Diversity, Equity and Inclusion" [ref=e452] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e453]: Diversity, Equity and Inclusion
+                  - listitem [ref=e454]:
+                    - link "History" [ref=e455] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e456]: History
+                  - listitem [ref=e457]:
+                    - link "Foundation" [ref=e458] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e459]: Foundation
+                  - listitem [ref=e460]:
+                    - link "Newsroom" [ref=e461] [cursor=pointer]:
+                      - /url: /en-US/news
+                      - generic [ref=e462]: Newsroom
+              - generic [ref=e463]:
+                - heading "Who we serve" [level=2] [ref=e464]:
+                  - link "Who we serve" [ref=e465] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e466]: Who we serve
+                - list [ref=e467]:
+                  - listitem [ref=e468]:
+                    - link "Technology and Data Centers" [ref=e469] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e470]: Technology and Data Centers
+                  - listitem [ref=e471]:
+                    - link "Industrial and Manufacturing" [ref=e472] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e473]: Industrial and Manufacturing
+                  - listitem [ref=e474]:
+                    - link "Fuels and Natural Resources" [ref=e475] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e476]: Fuels and Natural Resources
+                  - listitem [ref=e477]:
+                    - link "Power Providers" [ref=e478] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e479]: Power Providers
+                  - listitem [ref=e480]:
+                    - link "Water Utilities" [ref=e481] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e482]: Water Utilities
+                  - listitem [ref=e483]:
+                    - link "Federal Agencies" [ref=e484] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e485]: Federal Agencies
+                  - listitem [ref=e486]:
+                    - link "Public Sector" [ref=e487] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e488]: Public Sector
+                  - listitem [ref=e489]:
+                    - link "Commercial" [ref=e490] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e491]: Commercial
+              - generic [ref=e492]:
+                - heading "What we do" [level=2] [ref=e493]:
+                  - link "What we do" [ref=e494] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e495]: What we do
+                - list [ref=e496]:
+                  - listitem [ref=e497]:
+                    - link "Strategic Advisory" [ref=e498] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/strategic-advisory
+                      - generic [ref=e499]: Strategic Advisory
+                  - listitem [ref=e500]:
+                    - link "Energy Transition" [ref=e501] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/energy-transition
+                      - generic [ref=e502]: Energy Transition
+                  - listitem [ref=e503]:
+                    - link "Power Generation" [ref=e504] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e505]: Power Generation
+                  - listitem [ref=e506]:
+                    - link "Power Delivery" [ref=e507] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e508]: Power Delivery
+                  - listitem [ref=e509]:
+                    - link "Water" [ref=e510] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e511]: Water
+                  - listitem [ref=e512]:
+                    - link "Process" [ref=e513] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e514]: Process
+                  - listitem [ref=e515]:
+                    - link "Fuels" [ref=e516] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e517]: Fuels
+                  - listitem [ref=e518]:
+                    - link "Industrial Cybersecurity" [ref=e519] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/industrial-cybersecurity
+                      - generic [ref=e520]: Industrial Cybersecurity
+                  - listitem [ref=e521]:
+                    - link "Environmental" [ref=e522] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e523]: Environmental
+                  - listitem [ref=e524]:
+                    - link "Lifecycle Services" [ref=e525] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e526]: Lifecycle Services
+              - generic [ref=e527]:
+                - heading "Sustainability" [level=2] [ref=e528]:
+                  - link "Sustainability" [ref=e529] [cursor=pointer]:
+                    - /url: /en-US/sustainability
+                    - generic [ref=e530]: Sustainability
+                - list [ref=e531]:
+                  - listitem [ref=e532]:
+                    - link "Corporate Sustainability" [ref=e533] [cursor=pointer]:
+                      - /url: /en-US/sustainability/corporate-sustainability
+                      - generic [ref=e534]: Corporate Sustainability
+                  - listitem [ref=e535]:
+                    - link "Client Sustainability" [ref=e536] [cursor=pointer]:
+                      - /url: /en-US/sustainability/client-sustainability
+                      - generic [ref=e537]: Client Sustainability
+                  - listitem [ref=e538]:
+                    - link "Community Sustainability" [ref=e539] [cursor=pointer]:
+                      - /url: /en-US/sustainability/community-sustainability
+                      - generic [ref=e540]: Community Sustainability
+              - generic [ref=e541]:
+                - heading "Careers" [level=2] [ref=e542]:
+                  - link "Careers" [ref=e543] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e544]: Careers
+                - list [ref=e545]:
+                  - listitem [ref=e546]:
+                    - link "Workplace Culture" [ref=e547] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e548]: Workplace Culture
+                  - listitem [ref=e549]:
+                    - link "Our Hiring Process" [ref=e550] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e551]: Our Hiring Process
+                  - listitem [ref=e552]:
+                    - link "Career Paths" [ref=e553] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e554]: Career Paths
+                  - listitem [ref=e555]:
+                    - link "Craft and Construction" [ref=e556] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e557]: Craft and Construction
+                  - listitem [ref=e558]:
+                    - link "Early Careers and Students" [ref=e559] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e560]: Early Careers and Students
+                  - listitem [ref=e561]:
+                    - link "ENT Accelerator Program" [ref=e562] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e563]: ENT Accelerator Program
+                  - listitem [ref=e564]:
+                    - link "Experienced Careers" [ref=e565] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e566]: Experienced Careers
+                  - listitem [ref=e567]:
+                    - link "Military Veterans" [ref=e568] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e569]: Military Veterans
+            - generic [ref=e570]:
+              - list [ref=e571]:
+                - listitem [ref=e572]:
+                  - link "Accessibility" [ref=e573] [cursor=pointer]:
+                    - /url: /en-US/careers/equal-opportunity-and-accessibility
+                    - generic [ref=e574]: Accessibility
+                - listitem [ref=e575]:
+                  - link "Privacy policy" [ref=e576] [cursor=pointer]:
+                    - /url: /en-US/privacy-notice
+                    - generic [ref=e577]: Privacy policy
+                - listitem [ref=e578]:
+                  - link "Terms of use" [ref=e579] [cursor=pointer]:
+                    - /url: /en-US/terms-of-use
+                    - generic [ref=e580]: Terms of use
+                - listitem [ref=e581]:
+                  - link "Compliance" [ref=e582] [cursor=pointer]:
+                    - /url: /en-US/about-us/governance-and-compliance
+                    - generic [ref=e583]: Compliance
+              - list [ref=e584]:
+                - listitem [ref=e585]:
+                  - link "Go to Facebook" [ref=e586] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BlackVeatch/
+                    - img [ref=e587]
+                - listitem [ref=e589]:
+                  - link "Go to LinkedIn" [ref=e590] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/company/black-and-veatch
+                    - img [ref=e591]
+                - listitem [ref=e593]:
+                  - link "Go to Instagram" [ref=e594] [cursor=pointer]:
+                    - /url: https://www.instagram.com/black_veatch/?hl=en
+                    - img [ref=e595]
+                - listitem [ref=e597]:
+                  - link "Go to YouTube" [ref=e598] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                    - img [ref=e599]
+                - listitem [ref=e601]:
+                  - link "Go to X" [ref=e602] [cursor=pointer]:
+                    - /url: https://twitter.com/Black_Veatch
+                    - img [ref=e603]
+          - paragraph [ref=e605]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e606]
+  - iframe [ref=e609]:
+    - generic [ref=f1e3]:
+      - button [ref=f1e4] [cursor=pointer]:
+        - img
+      - generic [ref=f1e6]:
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]:
+            - generic [ref=f1e9]: Personalization Preview
+            - generic [ref=f1e10]: Select an audience to segment preview content.
+          - generic [ref=f1e11]:
+            - img [ref=f1e13]
+            - searchbox "Search Audiences and Experiences" [ref=f1e15]
+          - generic [ref=f1e16]:
+            - button "Collapse all" [ref=f1e17] [cursor=pointer]
+            - generic [ref=f1e18]:
+              - generic [ref=f1e19]:
+                - generic [ref=f1e20]:
+                  - generic [ref=f1e22]:
+                    - button [ref=f1e23] [cursor=pointer]:
+                      - img [ref=f1e24]
+                    - generic [ref=f1e26]:
+                      - generic "Dev Testing APAC Audience" [ref=f1e28] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e30]:
+                        - img [ref=f1e31]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e34]:
+                    - radio [checked] [ref=f1e36] [cursor=pointer]:
+                      - generic [ref=f1e37]:
+                        - img [ref=f1e38]
+                        - generic [ref=f1e40]: default
+                    - radio [ref=f1e42] [cursor=pointer]:
+                      - img [ref=f1e44]
+                    - radio [ref=f1e47] [cursor=pointer]:
+                      - img [ref=f1e49]
+                - generic [ref=f1e51]:
+                  - generic [ref=f1e52]:
+                    - generic [ref=f1e53]:
+                      - generic [ref=f1e54]:
+                        - generic [ref=f1e55]: Personalization
+                        - button [ref=f1e57] [cursor=pointer]:
+                          - img [ref=f1e58]
+                      - generic [ref=f1e60]: International Home Page Template > Swap Template > APAC Region Experience
+                    - radiogroup "Experience variants" [ref=f1e62]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e63]:
+                        - generic [ref=f1e65]:
+                          - generic [ref=f1e67] [cursor=pointer]: Baseline
+                          - generic [ref=f1e68]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e71]:
+                        - generic [ref=f1e73]:
+                          - generic [ref=f1e75] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e76]: 90%
+                  - generic [ref=f1e78]:
+                    - generic [ref=f1e79]:
+                      - generic [ref=f1e80]:
+                        - generic [ref=f1e81]: Personalization
+                        - button [ref=f1e83] [cursor=pointer]:
+                          - img [ref=f1e84]
+                      - generic [ref=f1e86]: "Training: Personalize Content Block on Intl Home Page"
+                    - radiogroup "Experience variants" [ref=f1e88]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e89]:
+                        - generic [ref=f1e91]:
+                          - generic [ref=f1e93] [cursor=pointer]: Baseline
+                          - generic [ref=f1e94]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e97]:
+                        - generic [ref=f1e99]:
+                          - generic [ref=f1e101] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e102]: 90%
+                  - generic [ref=f1e104]:
+                    - generic [ref=f1e105]:
+                      - generic [ref=f1e106]:
+                        - generic [ref=f1e107]: Personalization
+                        - button [ref=f1e109] [cursor=pointer]:
+                          - img [ref=f1e110]
+                      - generic [ref=f1e112]: "[testing] content download experience testing"
+                    - radiogroup "Experience variants" [ref=f1e114]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e115]:
+                        - generic [ref=f1e117]:
+                          - generic [ref=f1e119] [cursor=pointer]: Baseline
+                          - generic [ref=f1e120]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e123]:
+                        - generic [ref=f1e125]:
+                          - generic [ref=f1e127] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e128]: 90%
+                  - generic [ref=f1e130]:
+                    - generic [ref=f1e131]:
+                      - generic [ref=f1e132]:
+                        - generic [ref=f1e133]: Personalization
+                        - button [ref=f1e135] [cursor=pointer]:
+                          - img [ref=f1e136]
+                      - generic [ref=f1e138]: "[testing] ceros experience testing"
+                    - radiogroup "Experience variants" [ref=f1e140]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e141]:
+                        - generic [ref=f1e143]:
+                          - generic [ref=f1e145] [cursor=pointer]: Baseline
+                          - generic [ref=f1e146]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e149]:
+                        - generic [ref=f1e151]:
+                          - generic [ref=f1e153] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e154]: 90%
+                  - generic [ref=f1e156]:
+                    - generic [ref=f1e157]:
+                      - generic [ref=f1e158]:
+                        - generic [ref=f1e159]: Personalization
+                        - button [ref=f1e161] [cursor=pointer]:
+                          - img [ref=f1e162]
+                      - generic [ref=f1e164]: "[testing] social network"
+                    - radiogroup "Experience variants" [ref=f1e166]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e167]:
+                        - generic [ref=f1e169]:
+                          - generic [ref=f1e171] [cursor=pointer]: Baseline
+                          - generic [ref=f1e172]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e175]:
+                        - generic [ref=f1e177]:
+                          - generic [ref=f1e179] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e180]: 90%
+                  - generic [ref=f1e182]:
+                    - generic [ref=f1e183]:
+                      - generic [ref=f1e184]:
+                        - generic [ref=f1e185]: Personalization
+                        - button [ref=f1e187] [cursor=pointer]:
+                          - img [ref=f1e188]
+                      - generic [ref=f1e190]: "[testing] iframe"
+                    - radiogroup "Experience variants" [ref=f1e192]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e193]:
+                        - generic [ref=f1e195]:
+                          - generic [ref=f1e197] [cursor=pointer]: Baseline
+                          - generic [ref=f1e198]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e201]:
+                        - generic [ref=f1e203]:
+                          - generic [ref=f1e205] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e206]: 90%
+                  - generic [ref=f1e208]:
+                    - generic [ref=f1e209]:
+                      - generic [ref=f1e210]:
+                        - generic [ref=f1e211]: Personalization
+                        - button [ref=f1e213] [cursor=pointer]:
+                          - img [ref=f1e214]
+                      - generic [ref=f1e216]: "[testing] tabbed block experience testing"
+                    - radiogroup "Experience variants" [ref=f1e218]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e219]:
+                        - generic [ref=f1e221]:
+                          - generic [ref=f1e223] [cursor=pointer]: Baseline
+                          - generic [ref=f1e224]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e227]:
+                        - generic [ref=f1e229]:
+                          - generic [ref=f1e231] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e232]: 90%
+                  - generic [ref=f1e234]:
+                    - generic [ref=f1e235]:
+                      - generic [ref=f1e236]:
+                        - generic [ref=f1e237]: Personalization
+                        - button [ref=f1e239] [cursor=pointer]:
+                          - img [ref=f1e240]
+                      - generic [ref=f1e242]: "[testing] social media experience"
+                    - radiogroup "Experience variants" [ref=f1e244]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e245]:
+                        - generic [ref=f1e247]:
+                          - generic [ref=f1e249] [cursor=pointer]: Baseline
+                          - generic [ref=f1e250]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e253]:
+                        - generic [ref=f1e255]:
+                          - generic [ref=f1e257] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e258]: 90%
+                  - generic [ref=f1e260]:
+                    - generic [ref=f1e261]:
+                      - generic [ref=f1e262]:
+                        - generic [ref=f1e263]: Personalization
+                        - button [ref=f1e265] [cursor=pointer]:
+                          - img [ref=f1e266]
+                      - generic [ref=f1e268]: "[testing] sharebar"
+                    - radiogroup "Experience variants" [ref=f1e270]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e271]:
+                        - generic [ref=f1e273]:
+                          - generic [ref=f1e275] [cursor=pointer]: Baseline
+                          - generic [ref=f1e276]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e279]:
+                        - generic [ref=f1e281]:
+                          - generic [ref=f1e283] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e284]: 90%
+                  - generic [ref=f1e286]:
+                    - generic [ref=f1e287]:
+                      - generic [ref=f1e288]:
+                        - generic [ref=f1e289]: Personalization
+                        - button [ref=f1e291] [cursor=pointer]:
+                          - img [ref=f1e292]
+                      - generic [ref=f1e294]: "[testing] life cycle experience testing"
+                    - radiogroup "Experience variants" [ref=f1e296]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e297]:
+                        - generic [ref=f1e299]:
+                          - generic [ref=f1e301] [cursor=pointer]: Baseline
+                          - generic [ref=f1e302]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e305]:
+                        - generic [ref=f1e307]:
+                          - generic [ref=f1e309] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e310]: 90%
+                  - generic [ref=f1e312]:
+                    - generic [ref=f1e313]:
+                      - generic [ref=f1e314]:
+                        - generic [ref=f1e315]: Personalization
+                        - button [ref=f1e317] [cursor=pointer]:
+                          - img [ref=f1e318]
+                      - generic [ref=f1e320]: "[testing] media block experience testing"
+                    - radiogroup "Experience variants" [ref=f1e322]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e323]:
+                        - generic [ref=f1e325]:
+                          - generic [ref=f1e327] [cursor=pointer]: Baseline
+                          - generic [ref=f1e328]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e331]:
+                        - generic [ref=f1e333]:
+                          - generic [ref=f1e335] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e336]: 90%
+                  - generic [ref=f1e338]:
+                    - generic [ref=f1e339]:
+                      - generic [ref=f1e340]:
+                        - generic [ref=f1e341]: Personalization
+                        - button [ref=f1e343] [cursor=pointer]:
+                          - img [ref=f1e344]
+                      - generic [ref=f1e346]: "Organism: Accordion Block"
+                    - radiogroup "Experience variants" [ref=f1e348]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e349]:
+                        - generic [ref=f1e351]:
+                          - generic [ref=f1e353] [cursor=pointer]: Baseline
+                          - generic [ref=f1e354]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e357]:
+                        - generic [ref=f1e359]:
+                          - generic [ref=f1e361] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e362]: 90%
+                  - generic [ref=f1e364]:
+                    - generic [ref=f1e365]:
+                      - generic [ref=f1e366]:
+                        - generic [ref=f1e367]: Personalization
+                        - button [ref=f1e369] [cursor=pointer]:
+                          - img [ref=f1e370]
+                      - generic [ref=f1e372]: "[testing] bicolour media block"
+                    - radiogroup "Experience variants" [ref=f1e374]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e375]:
+                        - generic [ref=f1e377]:
+                          - generic [ref=f1e379] [cursor=pointer]: Baseline
+                          - generic [ref=f1e380]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e383]:
+                        - generic [ref=f1e385]:
+                          - generic [ref=f1e387] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e388]: 90%
+                  - generic [ref=f1e390]:
+                    - generic [ref=f1e391]:
+                      - generic [ref=f1e392]:
+                        - generic [ref=f1e393]: Personalization
+                        - button [ref=f1e395] [cursor=pointer]:
+                          - img [ref=f1e396]
+                      - generic [ref=f1e398]: "[testing] hero-mini experience testing"
+                    - radiogroup "Experience variants" [ref=f1e400]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e401]:
+                        - generic [ref=f1e403]:
+                          - generic [ref=f1e405] [cursor=pointer]: Baseline
+                          - generic [ref=f1e406]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e409]:
+                        - generic [ref=f1e411]:
+                          - generic [ref=f1e413] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e414]: 90%
+                  - generic [ref=f1e416]:
+                    - generic [ref=f1e417]:
+                      - generic [ref=f1e418]:
+                        - generic [ref=f1e419]: Personalization
+                        - button [ref=f1e421] [cursor=pointer]:
+                          - img [ref=f1e422]
+                      - generic [ref=f1e424]: "[testing] hero-primary experience testing"
+                    - radiogroup "Experience variants" [ref=f1e426]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e427]:
+                        - generic [ref=f1e429]:
+                          - generic [ref=f1e431] [cursor=pointer]: Baseline
+                          - generic [ref=f1e432]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e435]:
+                        - generic [ref=f1e437]:
+                          - generic [ref=f1e439] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e440]: 90%
+                  - generic [ref=f1e442]:
+                    - generic [ref=f1e443]:
+                      - generic [ref=f1e444]:
+                        - generic [ref=f1e445]: Personalization
+                        - button [ref=f1e447] [cursor=pointer]:
+                          - img [ref=f1e448]
+                      - generic [ref=f1e450]: "[testing] image gallery experience testing"
+                    - radiogroup "Experience variants" [ref=f1e452]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e453]:
+                        - generic [ref=f1e455]:
+                          - generic [ref=f1e457] [cursor=pointer]: Baseline
+                          - generic [ref=f1e458]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e461]:
+                        - generic [ref=f1e463]:
+                          - generic [ref=f1e465] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e466]: 90%
+                  - generic [ref=f1e468]:
+                    - generic [ref=f1e469]:
+                      - generic [ref=f1e470]:
+                        - generic [ref=f1e471]: Personalization
+                        - button [ref=f1e473] [cursor=pointer]:
+                          - img [ref=f1e474]
+                      - generic [ref=f1e476]: "[testing] gallery experience testing"
+                    - radiogroup "Experience variants" [ref=f1e478]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e479]:
+                        - generic [ref=f1e481]:
+                          - generic [ref=f1e483] [cursor=pointer]: Baseline
+                          - generic [ref=f1e484]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e487]:
+                        - generic [ref=f1e489]:
+                          - generic [ref=f1e491] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e492]: 90%
+                  - generic [ref=f1e494]:
+                    - generic [ref=f1e495]:
+                      - generic [ref=f1e496]:
+                        - generic [ref=f1e497]: Personalization
+                        - button [ref=f1e499] [cursor=pointer]:
+                          - img [ref=f1e500]
+                      - generic [ref=f1e502]: "[testing] featured block experience testing"
+                    - radiogroup "Experience variants" [ref=f1e504]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e505]:
+                        - generic [ref=f1e507]:
+                          - generic [ref=f1e509] [cursor=pointer]: Baseline
+                          - generic [ref=f1e510]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e513]:
+                        - generic [ref=f1e515]:
+                          - generic [ref=f1e517] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e518]: 90%
+                  - generic [ref=f1e520]:
+                    - generic [ref=f1e521]:
+                      - generic [ref=f1e522]:
+                        - generic [ref=f1e523]: Personalization
+                        - button [ref=f1e525] [cursor=pointer]:
+                          - img [ref=f1e526]
+                      - generic [ref=f1e528]: "[testing] form experience testing"
+                    - radiogroup "Experience variants" [ref=f1e530]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e531]:
+                        - generic [ref=f1e533]:
+                          - generic [ref=f1e535] [cursor=pointer]: Baseline
+                          - generic [ref=f1e536]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e539]:
+                        - generic [ref=f1e541]:
+                          - generic [ref=f1e543] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e544]: 90%
+                  - generic [ref=f1e546]:
+                    - generic [ref=f1e547]:
+                      - generic [ref=f1e548]:
+                        - generic [ref=f1e549]: Personalization
+                        - button [ref=f1e551] [cursor=pointer]:
+                          - img [ref=f1e552]
+                      - generic [ref=f1e554]: "[testing] content block"
+                    - radiogroup "Experience variants" [ref=f1e556]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e557]:
+                        - generic [ref=f1e559]:
+                          - generic [ref=f1e561] [cursor=pointer]: Baseline
+                          - generic [ref=f1e562]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e565]:
+                        - generic [ref=f1e567]:
+                          - generic [ref=f1e569] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e570]: 90%
+                  - generic [ref=f1e572]:
+                    - generic [ref=f1e573]:
+                      - generic [ref=f1e574]:
+                        - generic [ref=f1e575]: Personalization
+                        - button [ref=f1e577] [cursor=pointer]:
+                          - img [ref=f1e578]
+                      - generic [ref=f1e580]: "[testing] banner experience"
+                    - radiogroup "Experience variants" [ref=f1e582]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e583]:
+                        - generic [ref=f1e585]:
+                          - generic [ref=f1e587] [cursor=pointer]: Baseline
+                          - generic [ref=f1e588]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e591]:
+                        - generic [ref=f1e593]:
+                          - generic [ref=f1e595] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e596]: 90%
+                  - generic [ref=f1e598]:
+                    - generic [ref=f1e599]:
+                      - generic [ref=f1e600]:
+                        - generic [ref=f1e601]: Personalization
+                        - button [ref=f1e603] [cursor=pointer]:
+                          - img [ref=f1e604]
+                      - generic [ref=f1e606]: "[testing] cta strip experience"
+                    - radiogroup "Experience variants" [ref=f1e608]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e609]:
+                        - generic [ref=f1e611]:
+                          - generic [ref=f1e613] [cursor=pointer]: Baseline
+                          - generic [ref=f1e614]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e617]:
+                        - generic [ref=f1e619]:
+                          - generic [ref=f1e621] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e622]: 90%
+                  - generic [ref=f1e624]:
+                    - generic [ref=f1e625]:
+                      - generic [ref=f1e626]:
+                        - generic [ref=f1e627]: Personalization
+                        - button [ref=f1e629] [cursor=pointer]:
+                          - img [ref=f1e630]
+                      - generic [ref=f1e632]: "[testing] callout experience"
+                    - radiogroup "Experience variants" [ref=f1e634]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e635]:
+                        - generic [ref=f1e637]:
+                          - generic [ref=f1e639] [cursor=pointer]: Baseline
+                          - generic [ref=f1e640]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e643]:
+                        - generic [ref=f1e645]:
+                          - generic [ref=f1e647] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e648]: 90%
+                  - generic [ref=f1e650]:
+                    - generic [ref=f1e651]:
+                      - generic [ref=f1e652]:
+                        - generic [ref=f1e653]: Personalization
+                        - button [ref=f1e655] [cursor=pointer]:
+                          - img [ref=f1e656]
+                      - generic [ref=f1e658]: "[testing] block quote experience"
+                    - radiogroup "Experience variants" [ref=f1e660]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e661]:
+                        - generic [ref=f1e663]:
+                          - generic [ref=f1e665] [cursor=pointer]: Baseline
+                          - generic [ref=f1e666]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e669]:
+                        - generic [ref=f1e671]:
+                          - generic [ref=f1e673] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e674]: 90%
+                  - generic [ref=f1e676]:
+                    - generic [ref=f1e677]:
+                      - generic [ref=f1e678]:
+                        - generic [ref=f1e679]: Personalization
+                        - button [ref=f1e681] [cursor=pointer]:
+                          - img [ref=f1e682]
+                      - generic [ref=f1e684]: "[testing] banner glass experience"
+                    - radiogroup "Experience variants" [ref=f1e686]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e687]:
+                        - generic [ref=f1e689]:
+                          - generic [ref=f1e691] [cursor=pointer]: Baseline
+                          - generic [ref=f1e692]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e695]:
+                        - generic [ref=f1e697]:
+                          - generic [ref=f1e699] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e700]: 90%
+                  - generic [ref=f1e702]:
+                    - generic [ref=f1e703]:
+                      - generic [ref=f1e704]:
+                        - generic [ref=f1e705]: Personalization
+                        - button [ref=f1e707] [cursor=pointer]:
+                          - img [ref=f1e708]
+                      - generic [ref=f1e710]: "[testing] article rich text experience"
+                    - radiogroup "Experience variants" [ref=f1e712]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e713]:
+                        - generic [ref=f1e715]:
+                          - generic [ref=f1e717] [cursor=pointer]: Baseline
+                          - generic [ref=f1e718]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e721]:
+                        - generic [ref=f1e723]:
+                          - generic [ref=f1e725] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e726]: 90%
+                  - generic [ref=f1e728]:
+                    - generic [ref=f1e729]:
+                      - generic [ref=f1e730]:
+                        - generic [ref=f1e731]: Personalization
+                        - button [ref=f1e733] [cursor=pointer]:
+                          - img [ref=f1e734]
+                      - generic [ref=f1e736]: "[testing] project rich text experience"
+                    - radiogroup "Experience variants" [ref=f1e738]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e739]:
+                        - generic [ref=f1e741]:
+                          - generic [ref=f1e743] [cursor=pointer]: Baseline
+                          - generic [ref=f1e744]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e747]:
+                        - generic [ref=f1e749]:
+                          - generic [ref=f1e751] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e752]: 90%
+              - generic [ref=f1e754]:
+                - generic [ref=f1e755]:
+                  - generic [ref=f1e757]:
+                    - button [ref=f1e758] [cursor=pointer]:
+                      - img [ref=f1e759]
+                    - generic [ref=f1e761]:
+                      - 'generic "[QA] Use Case #2 Audience - Fuel" [ref=f1e763] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e765]:
+                        - img [ref=f1e766]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e769]:
+                    - radio [checked] [ref=f1e771] [cursor=pointer]:
+                      - generic [ref=f1e772]:
+                        - img [ref=f1e773]
+                        - generic [ref=f1e775]: default
+                    - radio [ref=f1e777] [cursor=pointer]:
+                      - img [ref=f1e779]
+                    - radio [ref=f1e782] [cursor=pointer]:
+                      - img [ref=f1e784]
+                - generic [ref=f1e786]:
+                  - generic [ref=f1e787]:
+                    - generic [ref=f1e788]:
+                      - generic [ref=f1e789]:
+                        - generic [ref=f1e790]: Personalization
+                        - button [ref=f1e792] [cursor=pointer]:
+                          - img [ref=f1e793]
+                      - generic [ref=f1e795]: "[QA] Use Case #2.2 - Bolder Vision (Fuel) - Hero Banner"
+                    - radiogroup "Experience variants" [ref=f1e797]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e798]:
+                        - generic [ref=f1e800]:
+                          - generic [ref=f1e802] [cursor=pointer]: Baseline
+                          - generic [ref=f1e803]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e806]:
+                        - generic [ref=f1e808]:
+                          - generic [ref=f1e810] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e811]: 90%
+                  - generic [ref=f1e813]:
+                    - generic [ref=f1e814]:
+                      - generic [ref=f1e815]:
+                        - generic [ref=f1e816]: Personalization
+                        - button [ref=f1e818] [cursor=pointer]:
+                          - img [ref=f1e819]
+                      - generic [ref=f1e821]: "[QA] Use Case #2.2 - Bolder Vision - Fuel Audience - Template"
+                    - radiogroup "Experience variants" [ref=f1e823]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e824]:
+                        - generic [ref=f1e826]:
+                          - generic [ref=f1e828] [cursor=pointer]: Baseline
+                          - generic [ref=f1e829]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e832]:
+                        - generic [ref=f1e834]:
+                          - generic [ref=f1e836] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e837]: 90%
+              - generic [ref=f1e839]:
+                - generic [ref=f1e840]:
+                  - generic [ref=f1e842]:
+                    - button [ref=f1e843] [cursor=pointer]:
+                      - img [ref=f1e844]
+                    - generic [ref=f1e846]:
+                      - 'generic "[QA] - Use Case #2 Audience - Power" [ref=f1e848] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e850]:
+                        - img [ref=f1e851]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e854]:
+                    - radio [checked] [ref=f1e856] [cursor=pointer]:
+                      - generic [ref=f1e857]:
+                        - img [ref=f1e858]
+                        - generic [ref=f1e860]: default
+                    - radio [ref=f1e862] [cursor=pointer]:
+                      - img [ref=f1e864]
+                    - radio [ref=f1e867] [cursor=pointer]:
+                      - img [ref=f1e869]
+                - generic [ref=f1e871]:
+                  - generic [ref=f1e872]:
+                    - generic [ref=f1e873]:
+                      - generic [ref=f1e874]:
+                        - generic [ref=f1e875]: Personalization
+                        - button [ref=f1e877] [cursor=pointer]:
+                          - img [ref=f1e878]
+                      - generic [ref=f1e880]: "[QA] Use Case #2.3 - Bolder Vision (Power) - Hero Banner"
+                    - radiogroup "Experience variants" [ref=f1e882]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e883]:
+                        - generic [ref=f1e885]:
+                          - generic [ref=f1e887] [cursor=pointer]: Baseline
+                          - generic [ref=f1e888]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e891]:
+                        - generic [ref=f1e893]:
+                          - generic [ref=f1e895] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e896]: 90%
+                  - generic [ref=f1e898]:
+                    - generic [ref=f1e899]:
+                      - generic [ref=f1e900]:
+                        - generic [ref=f1e901]: Personalization
+                        - button [ref=f1e903] [cursor=pointer]:
+                          - img [ref=f1e904]
+                      - generic [ref=f1e906]: "[QA] Use Case #2.3 - Bolder Vision - Power Audience - Template"
+                    - radiogroup "Experience variants" [ref=f1e908]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e909]:
+                        - generic [ref=f1e911]:
+                          - generic [ref=f1e913] [cursor=pointer]: Baseline
+                          - generic [ref=f1e914]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e917]:
+                        - generic [ref=f1e919]:
+                          - generic [ref=f1e921] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e922]: 90%
+              - generic [ref=f1e924]:
+                - generic [ref=f1e925]:
+                  - generic [ref=f1e927]:
+                    - button [ref=f1e928] [cursor=pointer]:
+                      - img [ref=f1e929]
+                    - generic [ref=f1e931]:
+                      - 'generic "[QA] Use Case #2 Audience - Water" [ref=f1e933] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e935]:
+                        - img [ref=f1e936]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e939]:
+                    - radio [checked] [ref=f1e941] [cursor=pointer]:
+                      - generic [ref=f1e942]:
+                        - img [ref=f1e943]
+                        - generic [ref=f1e945]: default
+                    - radio [ref=f1e947] [cursor=pointer]:
+                      - img [ref=f1e949]
+                    - radio [ref=f1e952] [cursor=pointer]:
+                      - img [ref=f1e954]
+                - generic [ref=f1e957]:
+                  - generic [ref=f1e958]:
+                    - generic [ref=f1e959]:
+                      - generic [ref=f1e960]: Personalization
+                      - button [ref=f1e962] [cursor=pointer]:
+                        - img [ref=f1e963]
+                    - generic [ref=f1e965]: "[QA] Use Case #2.1 - Bolder Vision (Water) - Hero Banner"
+                  - radiogroup "Experience variants" [ref=f1e967]:
+                    - radio "Baseline" [checked] [disabled] [ref=f1e968]:
+                      - generic [ref=f1e970]:
+                        - generic [ref=f1e972] [cursor=pointer]: Baseline
+                        - generic [ref=f1e973]: 10%
+                    - radio "Variant 1" [disabled] [ref=f1e976]:
+                      - generic [ref=f1e978]:
+                        - generic [ref=f1e980] [cursor=pointer]: Variant 1
+                        - generic [ref=f1e981]: 90%
+              - generic [ref=f1e983]:
+                - generic [ref=f1e984]:
+                  - generic [ref=f1e986]:
+                    - button [ref=f1e987] [cursor=pointer]:
+                      - img [ref=f1e988]
+                    - generic [ref=f1e990]:
+                      - 'generic "[QA] Use Case # 1 Audience - APAC Region" [ref=f1e992] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e994]:
+                        - img [ref=f1e995]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e998]:
+                    - radio [checked] [ref=f1e1000] [cursor=pointer]:
+                      - generic [ref=f1e1001]:
+                        - img [ref=f1e1002]
+                        - generic [ref=f1e1004]: default
+                    - radio [ref=f1e1006] [cursor=pointer]:
+                      - img [ref=f1e1008]
+                    - radio [ref=f1e1011] [cursor=pointer]:
+                      - img [ref=f1e1013]
+                - generic [ref=f1e1015]:
+                  - generic [ref=f1e1016]:
+                    - generic [ref=f1e1017]:
+                      - generic [ref=f1e1018]:
+                        - generic [ref=f1e1019]: Personalization
+                        - button [ref=f1e1021] [cursor=pointer]:
+                          - img [ref=f1e1022]
+                      - generic [ref=f1e1024]: "[QA] Use Case # 1 - Project Page - Hero Banner"
+                    - radiogroup "Experience variants" [ref=f1e1026]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e1027]:
+                        - generic [ref=f1e1029]:
+                          - generic [ref=f1e1031] [cursor=pointer]: Baseline
+                          - generic [ref=f1e1032]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e1035]:
+                        - generic [ref=f1e1037]:
+                          - generic [ref=f1e1039] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e1040]: 90%
+                  - generic [ref=f1e1042]:
+                    - generic [ref=f1e1043]:
+                      - generic [ref=f1e1044]:
+                        - generic [ref=f1e1045]: Personalization
+                        - button [ref=f1e1047] [cursor=pointer]:
+                          - img [ref=f1e1048]
+                      - generic [ref=f1e1050]: "[QA] Use Case # 1 - Contact Us Page - Hero Banner"
+                    - radiogroup "Experience variants" [ref=f1e1052]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e1053]:
+                        - generic [ref=f1e1055]:
+                          - generic [ref=f1e1057] [cursor=pointer]: Baseline
+                          - generic [ref=f1e1058]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e1061]:
+                        - generic [ref=f1e1063]:
+                          - generic [ref=f1e1065] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e1066]: 90%
+                  - generic [ref=f1e1068]:
+                    - generic [ref=f1e1069]:
+                      - generic [ref=f1e1070]:
+                        - generic [ref=f1e1071]: Personalization
+                        - button [ref=f1e1073] [cursor=pointer]:
+                          - img [ref=f1e1074]
+                      - generic [ref=f1e1076]: "[QA] Use Case # 1 - Home Page - Featured Banner"
+                    - radiogroup "Experience variants" [ref=f1e1078]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e1079]:
+                        - generic [ref=f1e1081]:
+                          - generic [ref=f1e1083] [cursor=pointer]: Baseline
+                          - generic [ref=f1e1084]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e1087]:
+                        - generic [ref=f1e1089]:
+                          - generic [ref=f1e1091] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e1092]: 90%
+                  - generic [ref=f1e1094]:
+                    - generic [ref=f1e1095]:
+                      - generic [ref=f1e1096]:
+                        - generic [ref=f1e1097]: Personalization
+                        - button [ref=f1e1099] [cursor=pointer]:
+                          - img [ref=f1e1100]
+                      - generic [ref=f1e1102]: "[QA] Use Case # 1 - Home Page Content Block Personalization"
+                    - radiogroup "Experience variants" [ref=f1e1104]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e1105]:
+                        - generic [ref=f1e1107]:
+                          - generic [ref=f1e1109] [cursor=pointer]: Baseline
+                          - generic [ref=f1e1110]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e1113]:
+                        - generic [ref=f1e1115]:
+                          - generic [ref=f1e1117] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e1118]: 90%
+                  - generic [ref=f1e1120]:
+                    - generic [ref=f1e1121]:
+                      - generic [ref=f1e1122]:
+                        - generic [ref=f1e1123]: Personalization
+                        - button [ref=f1e1125] [cursor=pointer]:
+                          - img [ref=f1e1126]
+                      - generic [ref=f1e1128]: "[QA] Use Case #1 - Home Page - Hero Banner Personalization"
+                    - radiogroup "Experience variants" [ref=f1e1130]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e1131]:
+                        - generic [ref=f1e1133]:
+                          - generic [ref=f1e1135] [cursor=pointer]: Baseline
+                          - generic [ref=f1e1136]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e1139]:
+                        - generic [ref=f1e1141]:
+                          - generic [ref=f1e1143] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e1144]: 90%
+              - generic [ref=f1e1146]:
+                - generic [ref=f1e1147]:
+                  - generic [ref=f1e1149]:
+                    - button [ref=f1e1150] [cursor=pointer]:
+                      - img [ref=f1e1151]
+                    - generic [ref=f1e1153]:
+                      - 'generic "[QA] Use Case #3 Audience - Has Downloaded Report" [ref=f1e1155] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e1157]:
+                        - img [ref=f1e1158]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e1161]:
+                    - radio [checked] [ref=f1e1163] [cursor=pointer]:
+                      - generic [ref=f1e1164]:
+                        - img [ref=f1e1165]
+                        - generic [ref=f1e1167]: default
+                    - radio [ref=f1e1169] [cursor=pointer]:
+                      - img [ref=f1e1171]
+                    - radio [ref=f1e1174] [cursor=pointer]:
+                      - img [ref=f1e1176]
+                - generic [ref=f1e1179]:
+                  - img [ref=f1e1180]
+                  - generic [ref=f1e1182]:
+                    - paragraph [ref=f1e1183]: No Experiences
+                    - paragraph [ref=f1e1184]: Get started by creating a new Experience.
+                    - paragraph [ref=f1e1185]:
+                      - text: Check
+                      - link "Ninetailed documentation" [ref=f1e1186] [cursor=pointer]:
+                        - /url: https://docs.ninetailed.io/cms/managing-experiences
+                      - text: to learn how.
+              - generic [ref=f1e1187]:
+                - generic [ref=f1e1188]:
+                  - generic [ref=f1e1190]:
+                    - button [ref=f1e1191] [cursor=pointer]:
+                      - img [ref=f1e1192]
+                    - generic [ref=f1e1194]:
+                      - 'generic "[QA] Use Case #3 Audience - Has Submitted Contact Us Form" [ref=f1e1196] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e1198]:
+                        - img [ref=f1e1199]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e1202]:
+                    - radio [checked] [ref=f1e1204] [cursor=pointer]:
+                      - generic [ref=f1e1205]:
+                        - img [ref=f1e1206]
+                        - generic [ref=f1e1208]: default
+                    - radio [ref=f1e1210] [cursor=pointer]:
+                      - img [ref=f1e1212]
+                    - radio [ref=f1e1215] [cursor=pointer]:
+                      - img [ref=f1e1217]
+                - generic [ref=f1e1220]:
+                  - img [ref=f1e1221]
+                  - generic [ref=f1e1223]:
+                    - paragraph [ref=f1e1224]: No Experiences
+                    - paragraph [ref=f1e1225]: Get started by creating a new Experience.
+                    - paragraph [ref=f1e1226]:
+                      - text: Check
+                      - link "Ninetailed documentation" [ref=f1e1227] [cursor=pointer]:
+                        - /url: https://docs.ninetailed.io/cms/managing-experiences
+                      - text: to learn how.
+              - generic [ref=f1e1228]:
+                - generic [ref=f1e1229]:
+                  - generic [ref=f1e1231]:
+                    - button [ref=f1e1232] [cursor=pointer]:
+                      - img [ref=f1e1233]
+                    - generic [ref=f1e1235]:
+                      - 'generic "[QA] Use Case # 3 Audience - Return Users" [ref=f1e1237] [cursor=pointer]'
+                      - button "Audience Insights" [disabled] [ref=f1e1239]:
+                        - img [ref=f1e1240]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e1243]:
+                    - radio [checked] [ref=f1e1245] [cursor=pointer]:
+                      - generic [ref=f1e1246]:
+                        - img [ref=f1e1247]
+                        - generic [ref=f1e1249]: default
+                    - radio [ref=f1e1251] [cursor=pointer]:
+                      - img [ref=f1e1253]
+                    - radio [ref=f1e1256] [cursor=pointer]:
+                      - img [ref=f1e1258]
+                - generic [ref=f1e1261]:
+                  - img [ref=f1e1262]
+                  - generic [ref=f1e1264]:
+                    - paragraph [ref=f1e1265]: No Experiences
+                    - paragraph [ref=f1e1266]: Get started by creating a new Experience.
+                    - paragraph [ref=f1e1267]:
+                      - text: Check
+                      - link "Ninetailed documentation" [ref=f1e1268] [cursor=pointer]:
+                        - /url: https://docs.ninetailed.io/cms/managing-experiences
+                      - text: to learn how.
+              - generic [ref=f1e1269]:
+                - generic [ref=f1e1270]:
+                  - generic [ref=f1e1272]:
+                    - button [ref=f1e1273] [cursor=pointer]:
+                      - img [ref=f1e1274]
+                    - generic [ref=f1e1276]:
+                      - generic "Kera > Dev > Audience" [ref=f1e1278] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e1280]:
+                        - img [ref=f1e1281]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e1284]:
+                    - radio [checked] [ref=f1e1286] [cursor=pointer]:
+                      - generic [ref=f1e1287]:
+                        - img [ref=f1e1288]
+                        - generic [ref=f1e1290]: default
+                    - radio [ref=f1e1292] [cursor=pointer]:
+                      - img [ref=f1e1294]
+                    - radio [ref=f1e1297] [cursor=pointer]:
+                      - img [ref=f1e1299]
+                - generic [ref=f1e1302]:
+                  - img [ref=f1e1303]
+                  - generic [ref=f1e1305]:
+                    - paragraph [ref=f1e1306]: No Experiences
+                    - paragraph [ref=f1e1307]: Get started by creating a new Experience.
+                    - paragraph [ref=f1e1308]:
+                      - text: Check
+                      - link "Ninetailed documentation" [ref=f1e1309] [cursor=pointer]:
+                        - /url: https://docs.ninetailed.io/cms/managing-experiences
+                      - text: to learn how.
+        - generic [ref=f1e1311]:
+          - button "Close" [ref=f1e1312] [cursor=pointer]
+          - button "Reset Profile" [ref=f1e1313] [cursor=pointer]
+  - generic:
+    - region "Cookie banner" [active] [ref=e610]:
+      - dialog "Privacy" [ref=e611]:
+        - generic [ref=e613]:
+          - generic [ref=e614]:
+            - img "Black & Veatch" [ref=e615]
+            - generic [ref=e617]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+          - generic [ref=e619]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=e620] [cursor=pointer]: Cookies Settings
+            - button "Reject All" [ref=e621] [cursor=pointer]
+            - button "Accept All Cookies" [ref=e622] [cursor=pointer]
+        - button "Close" [ref=e624] [cursor=pointer]
+    - text: Cookies Settings
+```
