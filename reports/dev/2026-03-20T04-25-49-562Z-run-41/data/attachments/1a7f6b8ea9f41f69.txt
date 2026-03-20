@@ -1,0 +1,14 @@
+[2026-03-20T04:19:13.080Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-03-20T04:19:13.119Z][HomePage][INFO] Checking for cookie banner
+[2026-03-20T04:19:15.652Z][HomePage][INFO] Asserting main header navigation items are visible
+[2026-03-20T04:19:15.653Z][HomePage][INFO] Checking header nav item: About Us
+[2026-03-20T04:19:15.925Z][HomePage][INFO] Checking header nav item: Who we serve
+[2026-03-20T04:19:16.095Z][HomePage][INFO] Checking header nav item: What we do
+[2026-03-20T04:19:16.418Z][HomePage][INFO] Checking header nav item: Sustainability
+[2026-03-20T04:19:16.795Z][HomePage][INFO] Checking header nav item: Projects
+[2026-03-20T04:19:16.895Z][HomePage][INFO] Checking header nav item: Careers
+[2026-03-20T04:19:16.966Z][HomePage][INFO] Asserting upper-right navigation items are visible
+[2026-03-20T04:19:16.966Z][HomePage][INFO] Checking upper-right nav item: Contact
+[2026-03-20T04:19:16.994Z][HomePage][INFO] Checking upper-right nav item: Newsroom
+[2026-03-20T04:19:17.171Z][HomePage][INFO] Checking upper-right nav item: Supplier
+[2026-03-20T04:19:17.299Z][HomePage][INFO] Checking upper-right nav item: Locations
