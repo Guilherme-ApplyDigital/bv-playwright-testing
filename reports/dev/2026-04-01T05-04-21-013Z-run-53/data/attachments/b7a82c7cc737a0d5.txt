@@ -1,0 +1,2 @@
+[2026-04-01T04:49:54.640Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/investing-in-innovation
+[2026-04-01T04:49:54.733Z][HomePage][INFO] Checking for cookie banner
