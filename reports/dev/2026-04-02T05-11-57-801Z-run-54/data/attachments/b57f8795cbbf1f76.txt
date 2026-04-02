@@ -1,0 +1,22 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Homepage business-critical smoke
+URL: https://develop--bv-ad.netlify.app/
+Final URL: https://develop--bv-ad.netlify.app/en-US
+
+Critical console errors:
+Loading the image 'https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=31de4c69-e3ba-46d8-bd58-3b3a5363f97e' violates the following Content Security Policy directive: "img-src 'self' images.ctfassets.net downloads.ctfassets.net assets.ctfassets.net cdn.bfldr.com https://storage-us-gcs.bfldr.com https://*.adsrvr.org https://insight.adsrvr.org img.youtube.com https://*.googletagmanager.com https://*.google-analytics.com https://*.g.doubleclick.net https://sp.analytics.yahoo.com https://tracking.bv.com http://tracking.bv.com https://vumbnail.com https://media.licdn.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://um.simpli.fi https://www.googleadservices.com https://*.ads.linkedin.com https://*.bing.com https://www.facebook.com data: blob:". The action has been blocked.
+
+Non-blocking console errors:
+Failed to load resource: the server responded with a status of 400 ()
+
+All console messages:
+[error] Loading the image 'https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=31de4c69-e3ba-46d8-bd58-3b3a5363f97e' violates the following Content Security Policy directive: "img-src 'self' images.ctfassets.net downloads.ctfassets.net assets.ctfassets.net cdn.bfldr.com https://storage-us-gcs.bfldr.com https://*.adsrvr.org https://insight.adsrvr.org img.youtube.com https://*.googletagmanager.com https://*.google-analytics.com https://*.g.doubleclick.net https://sp.analytics.yahoo.com https://tracking.bv.com http://tracking.bv.com https://vumbnail.com https://media.licdn.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://um.simpli.fi https://www.googleadservices.com https://*.ads.linkedin.com https://*.bing.com https://www.facebook.com data: blob:". The action has been blocked.
+[error] Failed to load resource: the server responded with a status of 400 ()
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+

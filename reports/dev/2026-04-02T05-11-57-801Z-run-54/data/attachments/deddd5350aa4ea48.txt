@@ -1,0 +1,2 @@
+[2026-04-02T04:33:28.311Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects/delivering-the-philippines-first-lng-to-power-project
+[2026-04-02T04:33:28.399Z][HomePage][INFO] Checking for cookie banner
