@@ -1,0 +1,28 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Locations Asia Pacific integrity
+URL: https://develop--bv-ad.netlify.app/locations/asia-pacific
+Final URL: https://develop--bv-ad.netlify.app/en-US/locations/asia-pacific
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+Failed to load resource: the server responded with a status of 400 ()
+Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+
+All console messages:
+[warning] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://go.bv.com') does not match the recipient window's origin ('https://develop--bv-ad.netlify.app').
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[warning] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: uid_0f313bd566_mdq6nte6mze] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: iFrameResizer1] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: uid_0f313bd566_mdq6nte6mze] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
