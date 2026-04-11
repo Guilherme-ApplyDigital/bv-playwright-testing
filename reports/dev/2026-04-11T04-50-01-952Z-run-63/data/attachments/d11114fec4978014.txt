@@ -1,0 +1,2 @@
+[2026-04-11T04:26:26.390Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects
+[2026-04-11T04:26:26.487Z][HomePage][INFO] Checking for cookie banner

@@ -1,0 +1,2 @@
+[2026-04-11T04:27:29.765Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/where-we-work/middle-east-and-africa
+[2026-04-11T04:27:29.933Z][HomePage][INFO] Checking for cookie banner
