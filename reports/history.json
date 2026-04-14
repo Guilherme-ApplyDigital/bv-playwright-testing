@@ -1,5 +1,16 @@
 [
   {
+    "id": "24381442750-dev",
+    "date": "2026-04-14T05:11:03.482Z",
+    "env": "dev",
+    "runNumber": "66",
+    "runId": "24381442750",
+    "sha": "033d12d",
+    "reportPath": "reports/dev/2026-04-14T05-11-03-482Z-run-66/index.html",
+    "analysisPath": "reports/dev/2026-04-14T05-11-03-482Z-run-66/REGRESSION_ANALYSIS.html",
+    "runUrl": "https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/24381442750"
+  },
+  {
     "id": "24326901263-dev",
     "date": "2026-04-13T05:42:39.106Z",
     "env": "dev",
