@@ -1,2 +1,0 @@
-[2026-03-13T04:16:20.969Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/sustainability/corporate-sustainability
-[2026-03-13T04:16:21.434Z][HomePage][INFO] Checking for cookie banner

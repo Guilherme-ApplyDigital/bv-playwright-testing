@@ -1,1 +1,0 @@
-[2026-02-24T15:39:28.766Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us

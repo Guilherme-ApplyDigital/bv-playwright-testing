@@ -1,2 +1,0 @@
-[2026-03-06T16:27:57.687Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/careers/career-paths
-[2026-03-06T16:27:58.887Z][HomePage][INFO] Checking for cookie banner

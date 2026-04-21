@@ -1,3 +1,0 @@
-[2026-02-27T22:31:54.383Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-02-27T22:31:54.480Z][HomePage][INFO] Checking for cookie banner
-[2026-02-27T22:31:57.736Z][HomePage][INFO] Opening feature card with title: It's a new era for power utilities

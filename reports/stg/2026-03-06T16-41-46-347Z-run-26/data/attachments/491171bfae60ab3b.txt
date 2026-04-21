@@ -1,8 +1,0 @@
-[2026-03-06T16:37:11.421Z][HomePage][INFO] Navigating to homepage: https://staging--bv-ad.netlify.app
-[2026-03-06T16:37:14.578Z][HomePage][INFO] Checking for cookie banner
-[2026-03-06T16:37:16.454Z][HomePage][INFO] Opening Contact page from upper-right navigation
-[2026-03-06T16:37:16.924Z][HomePage][INFO] Asserting page title contains: Contact Us
-[2026-03-06T16:37:17.874Z][HomePage][INFO] Asserting main heading (h1) is visible
-[2026-03-06T16:37:17.903Z][HomePage][INFO] Navigating to homepage: https://staging--bv-ad.netlify.app
-[2026-03-06T16:37:19.424Z][HomePage][INFO] Checking for cookie banner
-[2026-03-06T16:37:20.973Z][HomePage][INFO] Opening Newsroom page from upper-right navigation

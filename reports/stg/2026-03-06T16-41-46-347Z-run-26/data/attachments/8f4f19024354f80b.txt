@@ -1,2 +1,0 @@
-[2026-03-06T16:27:29.592Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/about-us/employee-ownership
-[2026-03-06T16:27:30.615Z][HomePage][INFO] Checking for cookie banner

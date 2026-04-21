@@ -1,5 +1,0 @@
-[2026-03-12T04:17:38.754Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-03-12T04:17:38.798Z][HomePage][INFO] Checking for cookie banner
-[2026-03-12T04:17:40.657Z][HomePage][INFO] Opening Newsroom page from upper-right navigation
-[2026-03-12T04:17:42.471Z][HomePage][INFO] Asserting page title contains: Newsroom
-[2026-03-12T04:17:43.372Z][HomePage][INFO] Asserting main heading (h1) is visible

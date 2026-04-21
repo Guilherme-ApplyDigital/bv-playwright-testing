@@ -1,2 +1,0 @@
-[2026-03-06T16:35:47.779Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/careers
-[2026-03-06T16:35:48.757Z][HomePage][INFO] Checking for cookie banner

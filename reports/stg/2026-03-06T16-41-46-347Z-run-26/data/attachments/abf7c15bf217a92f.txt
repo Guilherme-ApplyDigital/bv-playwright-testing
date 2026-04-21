@@ -1,2 +1,0 @@
-[2026-03-06T16:28:10.497Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/careers/career-paths/military-veterans
-[2026-03-06T16:28:11.585Z][HomePage][INFO] Checking for cookie banner

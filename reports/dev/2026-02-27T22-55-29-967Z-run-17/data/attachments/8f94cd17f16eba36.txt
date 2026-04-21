@@ -1,5 +1,0 @@
-[2026-02-27T22:26:33.908Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-02-27T22:26:34.945Z][HomePage][INFO] Checking for cookie banner
-[2026-02-27T22:26:36.504Z][HomePage][INFO] Opening Who We Serve page from top navigation
-[2026-02-27T22:26:37.407Z][HomePage][INFO] Asserting page title contains: Who We Serve
-[2026-02-27T22:26:37.559Z][HomePage][INFO] Asserting main heading (h1) is visible

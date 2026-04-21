@@ -1,2 +1,0 @@
-[2026-03-06T16:40:01.557Z][HomePage][INFO] Navigating to: https://staging--bv-ad.netlify.app/locations/middle-east-and-africa
-[2026-03-06T16:40:02.919Z][HomePage][INFO] Checking for cookie banner
