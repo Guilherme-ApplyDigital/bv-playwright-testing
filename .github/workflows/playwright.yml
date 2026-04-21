@@ -36,15 +36,17 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       BV_ENV: ${{ github.event_name == 'workflow_dispatch' && inputs.target_env || 'dev' }}
       BV_BASE_URL: ${{ github.event_name == 'workflow_dispatch' && inputs.base_url_override || '' }}
       BV_DEV_USER: ${{ secrets.BV_DEV_USER }}
       BV_DEV_PASSWORD: ${{ secrets.BV_DEV_PASSWORD }}
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
         node-version: lts/*
+        package-manager-cache: false
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers (Chromium only)
@@ -61,7 +63,7 @@ jobs:
       run: npx playwright test --reporter=line,html,allure-playwright
     - name: Restore Allure history cache
       id: allure-cache-restore
-      uses: actions/cache/restore@v4
+      uses: actions/cache/restore@v5
       with:
         path: .allure-history-cache
         key: allure-history-${{ github.ref_name }}-${{ github.run_id }}
@@ -126,28 +128,35 @@ jobs:
         cp -R allure-report/history .allure-history-cache/history
     - name: Save Allure history cache
       if: ${{ always() && !cancelled() }}
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@v5
       with:
         path: .allure-history-cache
         key: ${{ steps.allure-cache-restore.outputs.cache-primary-key }}
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v6
       if: ${{ always() && !cancelled() }}
       with:
         name: playwright-report-${{ env.BV_ENV }}-run-${{ github.run_number }}
         path: playwright-report/
-        retention-days: 90
-    - uses: actions/upload-artifact@v4
+        retention-days: 30
+        compression-level: 6
+    - uses: actions/upload-artifact@v6
       if: ${{ always() && !cancelled() }}
       with:
         name: allure-results-${{ env.BV_ENV }}-run-${{ github.run_number }}
         path: allure-results/
-        retention-days: 90
-    - uses: actions/upload-artifact@v4
+        retention-days: 30
+        if-no-files-found: ignore
+        compression-level: 0
+    - uses: actions/upload-artifact@v6
       if: ${{ always() && !cancelled() }}
       with:
         name: allure-report-${{ env.BV_ENV }}-run-${{ github.run_number }}
         path: allure-report/
-        retention-days: 90
+        retention-days: 30
+        compression-level: 6
+    - name: Pages artifact size (must stay under ~1GB for GitHub Pages)
+      if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
+      run: du -sh .pages-artifact .pages-artifact/reports 2>/dev/null || true
     - name: Upload Allure report to Pages artifact
       if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
       uses: actions/upload-pages-artifact@v3
@@ -194,6 +203,8 @@ jobs:
     if: ${{ always() && !cancelled() && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -202,4 +213,4 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Deploy Allure report to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -1,5 +1,63 @@
-import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { dirname, join, relative, resolve } from 'node:path';
+
+const parsedMax = Number.parseInt(process.env.REPORT_HISTORY_MAX ?? '', 10);
+/** Max report runs kept on the Pages site (newest first); older runs are removed from disk. */
+const MAX_HISTORY_ENTRIES = Number.isFinite(parsedMax) ? Math.min(100, Math.max(5, parsedMax)) : 30;
+
+/** Remove bulky binaries from a generated Allure report tree (keeps HTML/JSON usable for CI history). */
+function stripHeavyAssetsFromAllureReport(reportRoot) {
+  if (!existsSync(reportRoot)) return;
+
+  const heavyExt = /\.(mp4|webm|mov|mkv|avi|wmv|m4v|zip|gz|tar|rar|7z|trace)$/i;
+
+  function walk(dir) {
+    let entries;
+    try {
+      entries = readdirSync(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const ent of entries) {
+      const full = join(dir, ent.name);
+      if (ent.isDirectory()) {
+        walk(full);
+        continue;
+      }
+      if (!ent.isFile()) continue;
+      if (heavyExt.test(ent.name)) {
+        try {
+          rmSync(full, { force: true });
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+  }
+
+  walk(reportRoot);
+}
+
+/** Drop report run folders under reports/<env>/ that are not referenced by history.json (fixes stale disk bloat). */
+function pruneOrphanReportRuns(siteRoot, history) {
+  const reportsRoot = join(siteRoot, 'reports');
+  if (!existsSync(reportsRoot)) return;
+
+  const kept = new Set(
+    history.map((item) => resolve(dirname(join(siteRoot, item.reportPath)))),
+  );
+
+  for (const envEnt of readdirSync(reportsRoot, { withFileTypes: true })) {
+    if (!envEnt.isDirectory()) continue;
+    const envDir = join(reportsRoot, envEnt.name);
+    for (const runEnt of readdirSync(envDir, { withFileTypes: true })) {
+      if (!runEnt.isDirectory()) continue;
+      const runDir = join(envDir, runEnt.name);
+      if (kept.has(resolve(runDir))) continue;
+      rmSync(runDir, { recursive: true, force: true });
+    }
+  }
+}
 
 const siteRoot = process.env.PAGES_SITE_DIR ?? '.pages-site';
 const sourceReportDir = process.env.SOURCE_REPORT_DIR ?? 'allure-report';
@@ -170,6 +228,7 @@ const runStamp = `${iso.replace(/[:.]/g, '-')}-run-${runNumber}`;
 const runDir = join(siteRoot, 'reports', envName, runStamp);
 mkdirSync(runDir, { recursive: true });
 cpSync(sourceReportDir, runDir, { recursive: true, force: true });
+stripHeavyAssetsFromAllureReport(runDir);
 
 let analysisPath = '';
 if (existsSync(regressionReportsDir)) {
@@ -214,6 +273,26 @@ const entry = {
 };
 
 history = [entry, ...history.filter((item) => item.id !== entry.id)];
+
+const overflow = history.slice(MAX_HISTORY_ENTRIES);
+history = history.slice(0, MAX_HISTORY_ENTRIES);
+
+for (const item of overflow) {
+  const runDir = dirname(join(siteRoot, item.reportPath));
+  const rel = relative(siteRoot, runDir);
+  if (!rel || rel.startsWith('..') || rel.split(/[/\\]/).length < 3) {
+    continue;
+  }
+  if (existsSync(runDir)) {
+    rmSync(runDir, { recursive: true, force: true });
+  }
+}
+
+pruneOrphanReportRuns(siteRoot, history);
+for (const item of history) {
+  stripHeavyAssetsFromAllureReport(dirname(join(siteRoot, item.reportPath)));
+}
+
 writeFileSync(metadataPath, JSON.stringify(history, null, 2), 'utf8');
 
 const sortedHistory = history.sort((a, b) => b.date.localeCompare(a.date));
