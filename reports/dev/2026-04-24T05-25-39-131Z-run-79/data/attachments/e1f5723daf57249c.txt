@@ -1,0 +1,5 @@
+[2026-04-24T04:58:55.268Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-04-24T04:58:55.357Z][HomePage][INFO] Checking for cookie banner
+[2026-04-24T04:58:59.870Z][HomePage][INFO] Opening Sustainability page from top navigation
+[2026-04-24T04:59:00.784Z][HomePage][INFO] Asserting page title contains: Sustainability
+[2026-04-24T04:59:00.989Z][HomePage][INFO] Asserting main heading (h1) is visible
