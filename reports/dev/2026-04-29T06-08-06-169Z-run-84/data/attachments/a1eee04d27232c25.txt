@@ -1,0 +1,24 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Contact path integrity
+URL: https://develop--bv-ad.netlify.app/contact-us
+Final URL: https://develop--bv-ad.netlify.app/en-US/contact-us
+
+Critical console errors:
+Framing 'http://www.bv.com/' violates the following Content Security Policy directive: "frame-src https://go.bv.com https://view.ceros.com https://*.ceros.com https://preview.widgets.ninetailed.io https://www.youtube.com https://player.vimeo.com https://www.google.com https://www.recaptcha.net https://www.googletagmanager.com https://www.3dvista.com https://*.3dvista.com https://storage.net-fs.com https://*.net-fs.com https://www.facebook.com https://airtable.com https://*.airtable.com https://gateway.zscalertwo.net". The request has been blocked.
+
+
+Non-blocking console errors:
+Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+
+All console messages:
+[error] Framing 'http://www.bv.com/' violates the following Content Security Policy directive: "frame-src https://go.bv.com https://view.ceros.com https://*.ceros.com https://preview.widgets.ninetailed.io https://www.youtube.com https://player.vimeo.com https://www.google.com https://www.recaptcha.net https://www.googletagmanager.com https://www.3dvista.com https://*.3dvista.com https://storage.net-fs.com https://*.net-fs.com https://www.facebook.com https://airtable.com https://*.airtable.com https://gateway.zscalertwo.net". The request has been blocked.
+
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
