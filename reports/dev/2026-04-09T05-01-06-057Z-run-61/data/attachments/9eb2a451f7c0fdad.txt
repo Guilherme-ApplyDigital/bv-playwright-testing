@@ -1,2 +1,0 @@
-[2026-04-09T04:38:36.467Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/fuels
-[2026-04-09T04:38:36.497Z][HomePage][INFO] Checking for cookie banner
