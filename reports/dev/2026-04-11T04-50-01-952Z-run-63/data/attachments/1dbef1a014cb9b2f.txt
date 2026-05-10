@@ -1,3 +1,0 @@
-[2026-04-11T04:27:35.458Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-04-11T04:27:35.578Z][HomePage][INFO] Checking for cookie banner
-Perf metrics (ms): { domContentLoaded: 1237.8000000000175, loadEvent: 1238 }

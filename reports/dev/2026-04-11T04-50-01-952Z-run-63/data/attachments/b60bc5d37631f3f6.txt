@@ -1,4 +1,0 @@
-[2026-04-11T04:25:57.873Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-04-11T04:25:58.932Z][HomePage][INFO] Checking for cookie banner
-[2026-04-11T04:26:00.555Z][HomePage][INFO] Opening Who We Serve page from top navigation
-[2026-04-11T04:26:00.710Z][HomePage][INFO] Asserting page title contains: Who We Serve

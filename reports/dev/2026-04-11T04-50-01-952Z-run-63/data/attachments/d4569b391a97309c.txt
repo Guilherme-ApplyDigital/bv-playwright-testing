@@ -1,2 +1,0 @@
-[2026-04-11T04:26:33.777Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects/plant-upgrade-minimizes-wastewater-discharge-into-ocean-maximizes-production
-[2026-04-11T04:26:33.894Z][HomePage][INFO] Checking for cookie banner
