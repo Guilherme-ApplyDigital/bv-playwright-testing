@@ -1,5 +1,16 @@
 [
   {
+    "id": "25844245238-dev",
+    "date": "2026-05-14T06:26:55.203Z",
+    "env": "dev",
+    "runNumber": "99",
+    "runId": "25844245238",
+    "sha": "3b4ea5f",
+    "reportPath": "reports/dev/2026-05-14T06-26-55-203Z-run-99/index.html",
+    "analysisPath": "reports/dev/2026-05-14T06-26-55-203Z-run-99/REGRESSION_ANALYSIS.html",
+    "runUrl": "https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/25844245238"
+  },
+  {
     "id": "25781054539-dev",
     "date": "2026-05-13T06:26:00.490Z",
     "env": "dev",
@@ -317,16 +328,5 @@
     "reportPath": "reports/dev/2026-04-16T05-15-16-834Z-run-68/index.html",
     "analysisPath": "reports/dev/2026-04-16T05-15-16-834Z-run-68/REGRESSION_ANALYSIS.html",
     "runUrl": "https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/24492792467"
-  },
-  {
-    "id": "24436921035-dev",
-    "date": "2026-04-15T05:11:05.140Z",
-    "env": "dev",
-    "runNumber": "67",
-    "runId": "24436921035",
-    "sha": "033d12d",
-    "reportPath": "reports/dev/2026-04-15T05-11-05-140Z-run-67/index.html",
-    "analysisPath": "reports/dev/2026-04-15T05-11-05-140Z-run-67/REGRESSION_ANALYSIS.html",
-    "runUrl": "https://github.com/Guilherme-ApplyDigital/bv-playwright-testing/actions/runs/24436921035"
   }
 ]

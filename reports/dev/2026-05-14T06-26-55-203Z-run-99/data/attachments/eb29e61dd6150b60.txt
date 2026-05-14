@@ -1,0 +1,18 @@
+Scenario: Localized careers route health
+URL: https://develop--bv-ad.netlify.app/en-US/careers
+Final URL: https://develop--bv-ad.netlify.app/en-US/careers
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+(none)
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
