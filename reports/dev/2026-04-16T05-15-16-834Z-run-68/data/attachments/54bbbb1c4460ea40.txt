@@ -1,5 +1,0 @@
-[2026-04-16T04:59:49.792Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-04-16T04:59:51.163Z][HomePage][INFO] Checking for cookie banner
-[2026-04-16T04:59:52.994Z][HomePage][INFO] Asserting hero headline is visible
-[2026-04-16T04:59:53.197Z][HomePage][INFO] Asserting primary CTA button is visible
-[2026-04-16T04:59:53.402Z][HomePage][INFO] Asserting hero KPI metrics are visible

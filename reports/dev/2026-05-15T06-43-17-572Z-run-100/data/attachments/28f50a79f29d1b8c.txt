@@ -1,0 +1,21 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Careers funnel stability
+URL: https://develop--bv-ad.netlify.app/careers
+Final URL: https://develop--bv-ad.netlify.app/en-US/careers
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+(none)
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
