@@ -1,0 +1,30 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Contact path integrity
+URL: https://develop--bv-ad.netlify.app/contact-us
+Final URL: https://develop--bv-ad.netlify.app/en-US/contact-us
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+[warning] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://go.bv.com') does not match the recipient window's origin ('https://develop--bv-ad.netlify.app').
+[warning] Field with class "source" not found for utm_source
+[warning] Field with class "utm_medium" not found for utm_medium
+[warning] Field with class "utm_campaign" not found for utm_campaign
+[warning] Field with class "GCLID" not found for GCLID
+[warning] Field with class "utm_content" not found for utm_content
+[warning] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: uid_f3955defd5_mdy6mjg6ntg] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: iFrameResizer1] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+[warning] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
