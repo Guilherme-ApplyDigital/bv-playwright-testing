@@ -1,0 +1,25 @@
+Scenario: Leadership page reliability
+URL: https://develop--bv-ad.netlify.app/about-us/leadership
+Final URL: https://develop--bv-ad.netlify.app/en-US/about-us/leadership
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+[warning] Unrecognized feature: 'web-share'.
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+[warning] The YouTube player is not attached to the DOM. API calls should be made after the onReady event. See more: https://developers.google.com/youtube/iframe_api_reference#Events
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)

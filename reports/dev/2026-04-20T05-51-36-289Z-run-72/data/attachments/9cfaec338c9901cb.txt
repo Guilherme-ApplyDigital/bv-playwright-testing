@@ -1,1 +1,0 @@
-[2026-04-20T05:33:12.770Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/en-US/careers
