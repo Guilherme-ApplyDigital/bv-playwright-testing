@@ -1,0 +1,840 @@
+Scenario: About Us content integrity
+URL: https://develop--bv-ad.netlify.app/about-us
+Final URL: https://develop--bv-ad.netlify.app/en-US/about-us
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+Failed to load resource: the server responded with a status of 401 ()
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-qiZLOfy5LqF6UdvqSHtqfl' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-qiZLOfy5LqF6UdvqSHtqfl' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+Failed to load resource: the server responded with a status of 401 ()
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-2PIS8v1N5hsxehCGuW0Y5p' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-2PIS8v1N5hsxehCGuW0Y5p' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-GtS6UiXvDWXSU701YUUHZ6' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-GtS6UiXvDWXSU701YUUHZ6' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-jdcZhwRnmIAA7r4RhhnEyR' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-jdcZhwRnmIAA7r4RhhnEyR' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-QV1pjrTuBz3f51l8KAqRVZ' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-QV1pjrTuBz3f51l8KAqRVZ' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Failed to load resource: the server responded with a status of 401 ()
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-gKkSDI3CGAaaJ4NjeQIrYG' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-gKkSDI3CGAaaJ4NjeQIrYG' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-blWeUx0F4KulP6Qixboa2o' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-blWeUx0F4KulP6Qixboa2o' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-K8EEJMckzgvC5rP3zbL1um' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-K8EEJMckzgvC5rP3zbL1um' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-FlXB4vgxYAkhYKojPJJ8PM' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-FlXB4vgxYAkhYKojPJJ8PM' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+Failed to load resource: the server responded with a status of 401 ()
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-6RnvvjyGTYJQmQJTA9O1UO' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-6RnvvjyGTYJQmQJTA9O1UO' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Failed to load resource: the server responded with a status of 401 ()
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-4yaTwaGCJGm0vidEHet9ro' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-4yaTwaGCJGm0vidEHet9ro' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Failed to load resource: the server responded with a status of 401 ()
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedHTML' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-AlXT3123homJeo2hIeq3KC' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-AlXT3123homJeo2hIeq3KC' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+This document requires 'TrustedScript' assignment. The action has been blocked.
+%c%d font-size:0;color:transparent NaN
+%c%d font-size:0;color:transparent NaN
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+Failed to load resource: the server responded with a status of 401 ()
+
+All console messages:
+[warning] Unrecognized feature: 'web-share'.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[warning] [Cloudflare Turnstile] Turnstile has already been rendered in this container. The render attempt was rejected.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] [.WebGL-0x2994049cde00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x2994049cde00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] No available adapters.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-qiZLOfy5LqF6UdvqSHtqfl' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-qiZLOfy5LqF6UdvqSHtqfl' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Form submission canceled because the form is not connected
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] [.WebGL-0x29940013a600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x29940013a600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[warning] No available adapters.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-2PIS8v1N5hsxehCGuW0Y5p' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-2PIS8v1N5hsxehCGuW0Y5p' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[warning] Form submission canceled because the form is not connected
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://challenges.cloudflare.com') does not match the recipient window's origin ('https://player.vimeo.com').
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-GtS6UiXvDWXSU701YUUHZ6' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-GtS6UiXvDWXSU701YUUHZ6' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-jdcZhwRnmIAA7r4RhhnEyR' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-jdcZhwRnmIAA7r4RhhnEyR' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-QV1pjrTuBz3f51l8KAqRVZ' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-QV1pjrTuBz3f51l8KAqRVZ' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] Form submission canceled because the form is not connected
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-gKkSDI3CGAaaJ4NjeQIrYG' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-gKkSDI3CGAaaJ4NjeQIrYG' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-blWeUx0F4KulP6Qixboa2o' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-blWeUx0F4KulP6Qixboa2o' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-K8EEJMckzgvC5rP3zbL1um' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-K8EEJMckzgvC5rP3zbL1um' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Form submission canceled because the form is not connected
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-FlXB4vgxYAkhYKojPJJ8PM' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-FlXB4vgxYAkhYKojPJJ8PM' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-6RnvvjyGTYJQmQJTA9O1UO' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-6RnvvjyGTYJQmQJTA9O1UO' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Form submission canceled because the form is not connected
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Form submission canceled because the form is not connected
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-4yaTwaGCJGm0vidEHet9ro' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-4yaTwaGCJGm0vidEHet9ro' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[warning] [Cloudflare Turnstile] Error: 600010.
+[warning] The resource https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ac-3
+[warning] Failed to parse audio contentType: audio/mp4; codecs=ec-3
+[warning] Invalid (ambiguous) video codec string: video/webm; codecs=vp9
+[warning] Failed to parse video contentType: video/ogg; codecs=theora
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedHTML' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] This document requires 'TrustedScriptURL' assignment. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-AlXT3123homJeo2hIeq3KC' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] Executing inline script violates the following Content Security Policy directive 'script-src 'nonce-AlXT3123homJeo2hIeq3KC' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[error] This document requires 'TrustedScript' assignment. The action has been blocked.
+[startGroupCollapsed] 
+[debug] Error
+[log] /.*.*=.*/
+[log] /.*.*=.*/
+[log] function () { [native code] }
+[log] function () { [native code] }
+[log] JSHandle@node
+[log] JSHandle@node
+[count]  : 1
+[count]  : 1
+[debug] %c%d font-size:0;color:transparent NaN
+[debug] %c%d font-size:0;color:transparent NaN
+[dir]  Error
+[dir]  Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[dirxml] %c%d font-size:0;color:transparent Error
+[error] %c%d font-size:0;color:transparent NaN
+[error] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[info] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[log] %c%d font-size:0;color:transparent NaN
+[table] %c%d font-size:0;color:transparent Error
+[table] %c%d font-size:0;color:transparent Error
+[trace] %c%d font-size:0;color:transparent NaN
+[trace] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[warning] %c%d font-size:0;color:transparent NaN
+[endGroup] console.groupEnd
+[warning] Form submission canceled because the form is not connected
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[error] Permissions policy violation: xr-spatial-tracking is not allowed in this document.
+[warning] No available adapters.
+[startGroupCollapsed] Request for the Private Access Token challenge.
+[log] The next request for the Private Access Token challenge may return a 401 and show a warning in console.
+[error] Failed to load resource: the server responded with a status of 401 ()
+[endGroup] console.groupEnd
+[warning] [Cloudflare Turnstile] Error: 600010.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
