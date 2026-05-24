@@ -1,0 +1,21 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Homepage business-critical smoke
+URL: https://develop--bv-ad.netlify.app/
+Final URL: https://develop--bv-ad.netlify.app/en-US
+
+Critical console errors:
+Loading the image 'https://dsum-sec.casalemedia.com/rum?cm_dsp_id=39&external_user_id=a4203556-a5a0-4c73-9c4f-4f9154a94eff&expiration=1782195178&gdpr=0&gdpr_consent=' violates the following Content Security Policy directive: "img-src 'self' images.ctfassets.net downloads.ctfassets.net assets.ctfassets.net cdn.bfldr.com https://storage-us-gcs.bfldr.com https://*.adsrvr.org https://insight.adsrvr.org https://*.adnxs.com img.youtube.com https://*.googletagmanager.com https://*.google-analytics.com https://*.g.doubleclick.net https://sp.analytics.yahoo.com https://tracking.bv.com http://tracking.bv.com https://vumbnail.com https://media.licdn.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://um.simpli.fi https://www.googleadservices.com https://*.ads.linkedin.com https://*.bing.com https://www.facebook.com https://gateway.zscalertwo.net data: blob:". The action has been blocked.
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+[error] Loading the image 'https://dsum-sec.casalemedia.com/rum?cm_dsp_id=39&external_user_id=a4203556-a5a0-4c73-9c4f-4f9154a94eff&expiration=1782195178&gdpr=0&gdpr_consent=' violates the following Content Security Policy directive: "img-src 'self' images.ctfassets.net downloads.ctfassets.net assets.ctfassets.net cdn.bfldr.com https://storage-us-gcs.bfldr.com https://*.adsrvr.org https://insight.adsrvr.org https://*.adnxs.com img.youtube.com https://*.googletagmanager.com https://*.google-analytics.com https://*.g.doubleclick.net https://sp.analytics.yahoo.com https://tracking.bv.com http://tracking.bv.com https://vumbnail.com https://media.licdn.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://um.simpli.fi https://www.googleadservices.com https://*.ads.linkedin.com https://*.bing.com https://www.facebook.com https://gateway.zscalertwo.net data: blob:". The action has been blocked.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
