@@ -1,0 +1,21 @@
+
+[FAILURE DIAGNOSTICS]
+Scenario: Locations hub route integrity
+URL: https://develop--bv-ad.netlify.app/locations
+Final URL: https://develop--bv-ad.netlify.app/en-US/office-locations?size=n_9_n&sort-field=heading&sort-direction=asc
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+
+All console messages:
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)
+
