@@ -1,2 +1,0 @@
-[2026-04-27T05:29:32.315Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects/developing-biomass-gasification-for-hydrogen-production
-[2026-04-27T05:29:32.395Z][HomePage][INFO] Checking for cookie banner
