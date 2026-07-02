@@ -1,0 +1,2 @@
+[2026-07-02T06:04:49.326Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/workplace-culture
+[2026-07-02T06:04:50.018Z][HomePage][INFO] Checking for cookie banner
