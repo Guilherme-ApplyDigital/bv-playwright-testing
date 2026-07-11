@@ -1,0 +1,1 @@
+[2026-07-11T05:18:03.477Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/energy-transition
