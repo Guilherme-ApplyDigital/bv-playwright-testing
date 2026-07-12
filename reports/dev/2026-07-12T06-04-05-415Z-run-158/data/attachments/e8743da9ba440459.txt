@@ -1,0 +1,2 @@
+[2026-07-12T05:32:55.639Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/leadership
+[2026-07-12T05:32:55.683Z][HomePage][INFO] Checking for cookie banner
