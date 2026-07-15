@@ -1,0 +1,5 @@
+[2026-07-15T04:57:54.479Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-07-15T04:57:54.540Z][HomePage][INFO] Checking for cookie banner
+[2026-07-15T04:57:57.741Z][HomePage][INFO] Opening Contact page from upper-right navigation
+[2026-07-15T04:57:59.132Z][HomePage][INFO] Asserting page title contains: Contact Us
+[2026-07-15T04:58:00.180Z][HomePage][INFO] Asserting main heading (h1) is visible
