@@ -1,4 +1,0 @@
-[2026-05-12T05:53:52.743Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-05-12T05:53:53.942Z][HomePage][INFO] Checking for cookie banner
-[2026-05-12T05:53:56.383Z][HomePage][INFO] Asserting Quick Links section and key links are visible
-[2026-05-12T05:53:56.668Z][HomePage][INFO] Checking Quick Link: Strategic Advisory

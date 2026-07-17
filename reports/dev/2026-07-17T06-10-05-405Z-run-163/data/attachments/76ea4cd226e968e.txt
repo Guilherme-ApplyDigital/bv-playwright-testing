@@ -1,0 +1,2 @@
+[2026-07-17T05:19:42.726Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/lifecycle-services
+[2026-07-17T05:19:43.509Z][HomePage][INFO] Checking for cookie banner
