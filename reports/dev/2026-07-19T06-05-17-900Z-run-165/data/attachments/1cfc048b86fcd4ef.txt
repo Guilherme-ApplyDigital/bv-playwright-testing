@@ -1,0 +1,7 @@
+[2026-07-19T05:31:39.495Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-07-19T05:31:41.873Z][HomePage][INFO] Checking for cookie banner
+[2026-07-19T05:31:45.696Z][HomePage][INFO] Asserting main header navigation items are visible
+[2026-07-19T05:31:45.696Z][HomePage][INFO] Checking header nav item: About Us
+[2026-07-19T05:31:45.862Z][HomePage][INFO] Checking header nav item: Who we serve
+[2026-07-19T05:31:45.945Z][HomePage][INFO] Checking header nav item: What we do
+[2026-07-19T05:31:46.009Z][HomePage][INFO] Checking header nav item: Sustainability
