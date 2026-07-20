@@ -1,2 +1,0 @@
-[2026-05-15T05:59:14.713Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/industrial-cybersecurity
-[2026-05-15T05:59:15.637Z][HomePage][INFO] Checking for cookie banner

@@ -1,0 +1,1 @@
+[2026-07-20T05:43:40.426Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/strategic-advisory
