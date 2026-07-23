@@ -1,1 +1,0 @@
-[2026-05-18T06:50:44.715Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/locations/middle-east-and-africa
