@@ -1,0 +1,2 @@
+[2026-07-26T05:37:41.580Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/environmental
+[2026-07-26T05:37:42.717Z][HomePage][INFO] Checking for cookie banner

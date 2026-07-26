@@ -1,0 +1,2 @@
+[2026-07-26T05:56:34.727Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/en-US/careers
+[2026-07-26T05:56:37.639Z][HomePage][INFO] Checking for cookie banner
