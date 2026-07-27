@@ -1,1 +1,0 @@
-[2026-05-22T06:13:25.962Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app

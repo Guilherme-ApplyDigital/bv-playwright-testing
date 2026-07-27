@@ -1,2 +1,0 @@
-[2026-05-22T06:13:38.559Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects/black-and-veatch-clients-sustainability-project-will-increase-production-at
-[2026-05-22T06:13:43.072Z][HomePage][INFO] Checking for cookie banner
