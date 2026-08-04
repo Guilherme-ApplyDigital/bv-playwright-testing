@@ -1,1 +1,0 @@
-[2026-07-03T05:59:06.974Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/insights-and-resources

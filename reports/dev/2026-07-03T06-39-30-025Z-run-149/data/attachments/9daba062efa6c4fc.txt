@@ -1,8 +1,0 @@
-[2026-07-03T06:08:41.474Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-07-03T06:08:42.643Z][HomePage][INFO] Checking for cookie banner
-[2026-07-03T06:08:44.572Z][HomePage][INFO] Opening Contact page from upper-right navigation
-[2026-07-03T06:08:44.798Z][HomePage][INFO] Asserting page title contains: Contact Us
-[2026-07-03T06:08:45.721Z][HomePage][INFO] Asserting main heading (h1) is visible
-[2026-07-03T06:08:45.748Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
-[2026-07-03T06:08:47.116Z][HomePage][INFO] Checking for cookie banner
-[2026-07-03T06:08:48.639Z][HomePage][INFO] Opening Newsroom page from upper-right navigation
