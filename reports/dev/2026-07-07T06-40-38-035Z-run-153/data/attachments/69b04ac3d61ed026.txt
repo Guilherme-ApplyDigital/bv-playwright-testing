@@ -1,2 +1,0 @@
-[2026-07-07T06:12:46.340Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/equal-opportunity-and-accessibility
-[2026-07-07T06:12:46.482Z][HomePage][INFO] Checking for cookie banner
