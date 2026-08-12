@@ -1,0 +1,2 @@
+[2026-08-12T04:12:46.618Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/perspectives/ai-on-the-frontlines-battling-cyberattacks-to-protect-critical-infrastructure
+[2026-08-12T04:12:46.689Z][HomePage][INFO] Checking for cookie banner

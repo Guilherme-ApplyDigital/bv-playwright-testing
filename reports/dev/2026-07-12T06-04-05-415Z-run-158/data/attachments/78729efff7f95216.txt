@@ -1,2 +1,0 @@
-[2026-07-12T05:35:21.795Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/who-we-serve/commercial
-[2026-07-12T05:35:22.740Z][HomePage][INFO] Checking for cookie banner
