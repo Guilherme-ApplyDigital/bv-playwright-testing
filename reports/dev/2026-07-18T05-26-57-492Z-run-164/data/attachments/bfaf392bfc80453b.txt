@@ -1,1 +1,0 @@
-[2026-07-18T05:15:39.269Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/locations

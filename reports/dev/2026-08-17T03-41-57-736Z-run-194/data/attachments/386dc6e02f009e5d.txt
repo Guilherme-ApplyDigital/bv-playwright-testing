@@ -1,0 +1,2 @@
+[2026-08-17T03:03:49.653Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/career-paths/early-careers-and-students/ent-accelerator-program
+[2026-08-17T03:03:49.741Z][HomePage][INFO] Checking for cookie banner
