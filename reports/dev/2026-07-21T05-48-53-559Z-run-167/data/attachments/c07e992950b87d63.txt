@@ -1,2 +1,0 @@
-[2026-07-21T05:25:06.255Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/career-paths/experienced-careers
-[2026-07-21T05:25:06.346Z][HomePage][INFO] Checking for cookie banner
