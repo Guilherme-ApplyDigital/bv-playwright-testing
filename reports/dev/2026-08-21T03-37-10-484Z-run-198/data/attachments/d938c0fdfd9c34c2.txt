@@ -1,0 +1,1 @@
+[2026-08-21T03:30:01.909Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/locations/americas
