@@ -1,0 +1,18 @@
+Scenario: Locations Europe integrity
+URL: https://develop--bv-ad.netlify.app/locations/europe
+Final URL: about:blank
+
+Critical console errors:
+(none)
+
+Non-blocking console errors:
+(none)
+
+All console messages:
+(none)
+
+Same-origin failed requests:
+(none)
+
+Same-origin HTTP errors:
+(none)

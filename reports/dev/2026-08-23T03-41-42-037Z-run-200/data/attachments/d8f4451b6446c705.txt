@@ -1,0 +1,2 @@
+[2026-08-23T03:05:13.273Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/diversity-equity-and-inclusion
+[2026-08-23T03:05:13.358Z][HomePage][INFO] Checking for cookie banner
