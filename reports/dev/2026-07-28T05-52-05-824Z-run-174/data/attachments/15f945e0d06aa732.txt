@@ -1,1 +1,0 @@
-[2026-07-28T05:49:14.151Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/locations/europe
