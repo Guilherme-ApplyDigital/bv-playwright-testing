@@ -1,2 +1,0 @@
-[2026-07-31T05:41:09.561Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/resources/2025-electric-report
-[2026-07-31T05:41:10.423Z][HomePage][INFO] Checking for cookie banner
