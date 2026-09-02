@@ -1,0 +1,2 @@
+[2026-09-02T06:56:56.349Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/bolder-vision
+[2026-09-02T06:56:56.773Z][HomePage][INFO] Checking for cookie banner

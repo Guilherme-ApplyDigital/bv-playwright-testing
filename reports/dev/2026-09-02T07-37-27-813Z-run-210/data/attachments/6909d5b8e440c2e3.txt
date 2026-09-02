@@ -1,0 +1,21 @@
+Scenario: Homepage business-critical smoke
+URL: https://develop--bv-ad.netlify.app/
+Final URL: https://develop--bv-ad.netlify.app/en-US
+
+Critical console errors:
+Failed to load resource: the server responded with a status of 403 ()
+
+Non-blocking console errors:
+Connecting to 'https://ad.doubleclick.net/ccm/s/collect?auid=812336432.1788332138&gtm=45He68v1v812855135za200zd812855135xea&fmt=8' violates the following Content Security Policy directive: "connect-src 'self' ws: wss: https://gateway.zscalertwo.net https://*.contentful.com https://cdn.contentful.com https://preview.contentful.com https://assets.ctfassets.net https://*.ninetailed.io https://experience.ninetailed.co https://ingest.insights.ninetailed.co https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.googletagmanager.com https://www.googleapis.com https://maps.googleapis.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://www.recaptcha.net https://www.googleadservices.com https://s.yimg.com https://cdnjs.cloudflare.com https://*.gcp.cloud.es.io https://vimeo.com https://view.ceros.com https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://*.ads.linkedin.com https://*.adsrvr.org https://insight.adsrvr.org https://ingesteer.services-prod.nsvcs.net". The action has been blocked.
+Fetch API cannot load https://ad.doubleclick.net/ccm/s/collect?auid=812336432.1788332138&gtm=45He68v1v812855135za200zd812855135xea&fmt=8. Refused to connect because it violates the document's Content Security Policy.
+
+All console messages:
+[error] Failed to load resource: the server responded with a status of 403 ()
+[error] Connecting to 'https://ad.doubleclick.net/ccm/s/collect?auid=812336432.1788332138&gtm=45He68v1v812855135za200zd812855135xea&fmt=8' violates the following Content Security Policy directive: "connect-src 'self' ws: wss: https://gateway.zscalertwo.net https://*.contentful.com https://cdn.contentful.com https://preview.contentful.com https://assets.ctfassets.net https://*.ninetailed.io https://experience.ninetailed.co https://ingest.insights.ninetailed.co https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.googletagmanager.com https://www.googleapis.com https://maps.googleapis.com https://www.google.com https://www.google.com.ar https://www.google.com.mx https://www.google.de https://www.google.co.uk https://www.google.es https://www.google.com.br https://www.recaptcha.net https://www.googleadservices.com https://s.yimg.com https://cdnjs.cloudflare.com https://*.gcp.cloud.es.io https://vimeo.com https://view.ceros.com https://pagead2.googlesyndication.com https://*.onetrust.com https://*.clarity.ms https://*.ads.linkedin.com https://*.adsrvr.org https://insight.adsrvr.org https://ingesteer.services-prod.nsvcs.net". The action has been blocked.
+[error] Fetch API cannot load https://ad.doubleclick.net/ccm/s/collect?auid=812336432.1788332138&gtm=45He68v1v812855135za200zd812855135xea&fmt=8. Refused to connect because it violates the document's Content Security Policy.
+
+Same-origin failed requests:
+fetch https://develop--bv-ad.netlify.app/.netlify/submit-challenge - net::ERR_ABORTED
+
+Same-origin HTTP errors:
+403 https://develop--bv-ad.netlify.app/

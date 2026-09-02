@@ -1,0 +1,1 @@
+[2026-09-02T07:21:03.147Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/our-hiring-process
