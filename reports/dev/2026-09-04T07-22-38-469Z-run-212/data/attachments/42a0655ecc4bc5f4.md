@@ -1,0 +1,966 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Black & Veatch - Back to Home" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+        - generic [ref=e10]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e12]:
+            - menubar "Black & Veatch Top Links" [ref=e13]:
+              - menuitem "Contact" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Contact
+              - menuitem "News & Events" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: News & Events
+                - img [ref=e18]
+              - menuitem "Supplier" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: Supplier
+              - menuitem "Locations" [ref=e22] [cursor=pointer]:
+                - generic [ref=e23]: Locations
+                - img [ref=e24]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e27]:
+            - menubar "Black & Veatch Items and Search" [ref=e28]:
+              - menuitem "About Us" [ref=e29] [cursor=pointer]:
+                - generic [ref=e30]: About Us
+                - img [ref=e31]
+              - menuitem "Who we serve" [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: Who we serve
+                - img [ref=e35]
+              - menuitem "What we do" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: What we do
+                - img [ref=e39]
+              - menuitem "Projects" [ref=e41] [cursor=pointer]:
+                - generic [ref=e42]: Projects
+              - menuitem "Insights" [ref=e43] [cursor=pointer]:
+                - generic [ref=e44]: Insights
+              - menuitem "Careers" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]: Careers
+                - img [ref=e47]
+            - button "Search Black & Veatch" [ref=e50] [cursor=pointer]:
+              - img [ref=e52]
+      - navigation:
+        - generic [ref=e54]:
+          - generic [ref=e57]:
+            - img [ref=e59]
+            - textbox "Search" [ref=e61]:
+              - /placeholder: Search...
+          - generic [ref=e62]:
+            - heading "Quick Links" [level=2] [ref=e63]
+            - generic [ref=e64]:
+              - link "Infrastructure Advisory" [ref=e66] [cursor=pointer]:
+                - /url: /en-US/what-we-do/infrastructure-advisory
+                - generic [ref=e67]: Infrastructure Advisory
+                - img [ref=e68]
+              - link "Construction" [ref=e74] [cursor=pointer]:
+                - /url: /en-US/what-we-do/construction
+                - generic [ref=e75]: Construction
+                - img [ref=e76]
+              - link "Power Generation" [ref=e82] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e83]: Power Generation
+                - img [ref=e84]
+              - link "Power Delivery" [ref=e90] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e91]: Power Delivery
+                - img [ref=e92]
+              - link "Water" [ref=e98] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e99]: Water
+                - img [ref=e100]
+              - link "Process" [ref=e106] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e107]: Process
+                - img [ref=e108]
+              - link "Fuels" [ref=e114] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e115]: Fuels
+                - img [ref=e116]
+              - link "Environmental" [ref=e122] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e123]: Environmental
+                - img [ref=e124]
+              - link "Lifecycle Services" [ref=e130] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e131]: Lifecycle Services
+                - img [ref=e132]
+      - navigation "Black & Veatch Subnav Links":
+        - generic [ref=e138]:
+          - button "Expertise" [ref=e140] [cursor=pointer]
+          - button "Brands" [ref=e142] [cursor=pointer]
+          - button "Culture" [ref=e144] [cursor=pointer]
+          - button "History" [ref=e146] [cursor=pointer]
+    - region "Hero Banner" [ref=e147]:
+      - generic [ref=e152]:
+        - navigation "Breadcrumb" [ref=e154]:
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "about us" [ref=e157] [cursor=pointer]:
+                - /url: /about-us
+                - generic [ref=e158]: about us
+        - generic [ref=e159]:
+          - heading "About Us" [level=2] [ref=e160]
+          - paragraph [ref=e161]: Creating the framework for tomorrow's cities, industries and humanity's potential. If you have a dream, come talk with us. We seek partners in innovation.
+          - link "Contact Us" [ref=e163] [cursor=pointer]:
+            - /url: /en-US/contact-us
+            - generic [ref=e164]: Contact Us
+            - img [ref=e165]
+      - generic "video" [ref=e178]
+    - main [ref=e179]:
+      - generic [ref=e181]:
+        - generic [ref=e183]:
+          - heading "Overview" [level=2] [ref=e185]:
+            - generic [ref=e188]: Overview
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - paragraph [ref=e191]: For 110 years, Black & Veatch has been synonymous with innovation and delivery of human infrastructure projects that shape the fabric of organizations, populations and communities. Clients rely on us for bolder vision in strategic planning, courage and creativity to solve complex challenges, deep technical expertise, and our ability to execute and deliver.
+              - paragraph [ref=e192]: Our commitment to research and innovation runs deep. A century of experience delivering water and power. Forty years of experience in process solutions like hydrogen and ammonia. We’re the designers and makers of many firsts on the planet for human infrastructure. Now, as we look to lower carbon footprints, we’re propelling a global energy transition through resilient power and cleaner energy like liquefied natural gas, ammonia, hydrogen and other constantly maturing renewables.
+              - paragraph [ref=e193]: As employee-owners, we have a personal stake in solving the world’s foremost infrastructure challenges — today, and for generations to come. Innovative, intuitive and indispensable since 1915. We are Black & Veatch.
+            - link "See what we do" [ref=e195] [cursor=pointer]:
+              - /url: /en-US/what-we-do
+              - generic [ref=e196]: See what we do
+              - img [ref=e197]
+        - generic [ref=e204]:
+          - article [ref=e205]:
+            - generic [ref=e206]:
+              - img "Growth hands icon" [ref=e209]
+              - heading "Our purpose" [level=3] [ref=e210]
+              - paragraph [ref=e211]:
+                - paragraph [ref=e213]:
+                  - text: 8787 Interstate 20 Access Rd
+                  - text: Eastland, TX 76448
+                  - text: (254) 653-2950
+          - article [ref=e214]:
+            - generic [ref=e215]:
+              - img "Presentation board icon" [ref=e218]
+              - heading "Vision" [level=3] [ref=e219]
+              - paragraph [ref=e220]: THE Leader in Sustainable Infrastructure
+          - article [ref=e221]:
+            - generic [ref=e222]:
+              - img "Values icon" [ref=e225]
+              - heading "Values" [level=3] [ref=e226]
+              - paragraph [ref=e227]: Care, Create, Own
+      - generic [ref=e229]:
+        - generic [ref=e232]:
+          - heading "Our brainpower" [level=2] [ref=e234]
+          - paragraph [ref=e236]:
+            - text: In the words of our Chairman and CEO Mario Azar, "At Black & Veatch, we believe that innovation and gathering the
+            - emphasis [ref=e237]:
+              - strong [ref=e238]: best, diverse
+            - text: minds is key in solving the world's most pressing problems." Our collective intellect, ingenuity and imagination drive our work.
+        - generic [ref=e241]:
+          - link [ref=e242] [cursor=pointer]:
+            - /url: /en-US/about-us/leadership
+            - article [ref=e243]:
+              - generic [ref=e245]:
+                - img "Leadership Icon" [ref=e248]
+                - heading "Leadership" [level=2] [ref=e250]
+              - generic [ref=e251]:
+                - generic [ref=e252]: Learn more
+                - img [ref=e253]
+          - link [ref=e258] [cursor=pointer]:
+            - /url: /en-US/about-us/insights-and-resources
+            - article [ref=e259]:
+              - generic [ref=e261]:
+                - img "Insights and resources icon" [ref=e264]
+                - heading "Insights and Resources" [level=2] [ref=e266]
+              - generic [ref=e267]:
+                - generic [ref=e268]: Learn more
+                - img [ref=e269]
+          - link [ref=e274] [cursor=pointer]:
+            - /url: /en-US/about-us/investing-in-innovation
+            - article [ref=e275]:
+              - generic [ref=e277]:
+                - img "Investing in innovation icon" [ref=e280]
+                - heading "Investing for Innovation" [level=2] [ref=e282]
+              - generic [ref=e283]:
+                - generic [ref=e284]: Learn more
+                - img [ref=e285]
+      - generic [ref=e291]:
+        - heading "Our brands" [level=2] [ref=e296]
+        - generic [ref=e298]:
+          - tablist [ref=e299]:
+            - tab "Bird Electric" [selected] [ref=e300] [cursor=pointer]:
+              - generic [ref=e301]: Bird Electric
+              - img [ref=e302]
+            - tab "BVCI™" [ref=e307] [cursor=pointer]:
+              - generic [ref=e308]: BVCI™
+              - img [ref=e309]
+            - tab "Diode Ventures®" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]:
+                - text: Diode Ventures
+                - superscript [ref=e316]: ®
+              - img [ref=e317]
+            - tab "Overland Contracting®" [ref=e322] [cursor=pointer]:
+              - generic [ref=e323]:
+                - text: Overland Contracting
+                - superscript [ref=e324]: ®
+              - img [ref=e325]
+          - tabpanel "Bird Electric" [ref=e330]:
+            - heading "Bird Electric" [level=3] [ref=e331]
+            - generic [ref=e333]:
+              - paragraph [ref=e334]: Bird Electric is a U.S. self-perform electrical construction services provider to electric utility clients with a national reach in emergency power restoration. With more than 600 employees, Bird Electric also has long-established relationships with fuels producers, and its capabilities span additional markets.
+              - img "Bird Electric Image" [ref=e336]
+              - paragraph
+            - link "Learn more" [ref=e338] [cursor=pointer]:
+              - /url: https://birdelectricinc.com/
+              - generic [ref=e339]: Learn more
+              - img [ref=e340]
+      - article [ref=e346]:
+        - generic [ref=e347]:
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - heading "Our culture" [level=2] [ref=e350]:
+                - paragraph [ref=e352]: Our culture
+              - paragraph [ref=e355]: At Black & Veatch, we do business like we own it, because we do. As employee-owners, we recognize the importance of keeping ourselves and others safe as we work toward a stronger future together. One that includes everyone.
+            - link "Join our team" [ref=e356] [cursor=pointer]:
+              - /url: /en-US/careers/workplace-culture
+              - generic [ref=e357]: Join our team
+              - img [ref=e358]
+          - generic [ref=e365]:
+            - img "1017276140" [ref=e367]
+            - button "play button" [ref=e368] [cursor=pointer]:
+              - img [ref=e369]
+      - generic [ref=e375]:
+        - link [ref=e376] [cursor=pointer]:
+          - /url: /en-US/about-us/employee-ownership
+          - article [ref=e377]:
+            - generic [ref=e379]:
+              - img "Employee Ownership Impact icon" [ref=e382]
+              - heading "Employee Ownership Impact" [level=2] [ref=e384]
+            - generic [ref=e385]:
+              - generic [ref=e386]: Learn more
+              - img [ref=e387]
+        - link [ref=e392] [cursor=pointer]:
+          - /url: /en-US/about-us/safety-and-health
+          - article [ref=e393]:
+            - generic [ref=e395]:
+              - img "Safety and health icon" [ref=e398]
+              - heading "Safety & Health" [level=2] [ref=e400]
+            - generic [ref=e401]:
+              - generic [ref=e402]: Learn more
+              - img [ref=e403]
+        - link [ref=e408] [cursor=pointer]:
+          - /url: /en-US/about-us/diversity-equity-and-inclusion
+          - article [ref=e409]:
+            - generic [ref=e411]:
+              - img "Diversity, Equity, and Inclusion icon" [ref=e414]
+              - heading "Diversity, Equity and Inclusion" [level=2] [ref=e416]
+            - generic [ref=e417]:
+              - generic [ref=e418]: Learn more
+              - img [ref=e419]
+      - article [ref=e425]:
+        - generic [ref=e426]:
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - heading "Our history" [level=2] [ref=e429]:
+                - paragraph [ref=e431]: Our history
+              - paragraph [ref=e434]: For more than a century, Black & Veatch has brought deep technical insight and expertise to our clients, constantly evolving with the times. Find out how our past got us to our present and future potential.
+            - link "Explore our timeline" [ref=e435] [cursor=pointer]:
+              - /url: /en-US/about-us/history
+              - generic [ref=e436]: Explore our timeline
+              - img [ref=e437]
+          - img "Truman appoints Black and Veatch" [ref=e444]
+      - generic [ref=e446]:
+        - generic [ref=e449]:
+          - heading "Proven results" [level=2] [ref=e451]
+          - paragraph [ref=e453]: Execution certainty and care for the communities we serve are integral parts of how we do business. The Black & Veatch difference is clearly seen in our proven industry track record, the impact of our charitable investments and our high standards for how we work.
+        - generic [ref=e456]:
+          - link [ref=e457] [cursor=pointer]:
+            - /url: /en-US/about-us/awards-and-rankings
+            - article [ref=e458]:
+              - generic [ref=e460]:
+                - img "Bullseye target icon" [ref=e463]
+                - heading "Awards and Rankings" [level=2] [ref=e465]
+              - generic [ref=e466]:
+                - generic [ref=e467]: Learn more
+                - img [ref=e468]
+          - link [ref=e473] [cursor=pointer]:
+            - /url: /en-US/about-us/foundation
+            - article [ref=e474]:
+              - generic [ref=e476]:
+                - img "Foundation Icon" [ref=e479]
+                - heading "Foundation" [level=2] [ref=e481]
+              - generic [ref=e482]:
+                - generic [ref=e483]: Learn more
+                - img [ref=e484]
+          - link [ref=e489] [cursor=pointer]:
+            - /url: /en-US/about-us/governance-and-compliance
+            - article [ref=e490]:
+              - generic [ref=e492]:
+                - img "Compliance Icon" [ref=e495]
+                - heading "Compliance" [level=2] [ref=e497]
+              - generic [ref=e498]:
+                - generic [ref=e499]: Learn more
+                - img [ref=e500]
+      - generic [ref=e507]:
+        - generic [ref=e508]:
+          - heading "Work With Us" [level=2] [ref=e509]:
+            - generic [ref=e512]: Work With Us
+          - heading "Shape your career, own your future." [level=3] [ref=e513]
+          - link "Explore Careers" [ref=e514] [cursor=pointer]:
+            - /url: https://careers.bv.com/
+            - generic [ref=e515]: Explore Careers
+            - img [ref=e516]
+        - img "Groundwater Replenishment System Final Expansion hero image" [ref=e523]
+    - contentinfo [ref=e525]:
+      - generic [ref=e526]:
+        - generic:
+          - link "Black & Veatch - Back to Home":
+            - /url: /en-US
+            - generic:
+              - img "BV logo blue with text white"
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - generic [ref=e530]:
+                - heading "About Us" [level=2] [ref=e531]:
+                  - link "About Us" [ref=e532] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e533]: About Us
+                - list [ref=e534]:
+                  - listitem [ref=e535]:
+                    - link "Leadership and Governance" [ref=e536] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e537]: Leadership and Governance
+                  - listitem [ref=e538]:
+                    - link "Sustainability" [ref=e539] [cursor=pointer]:
+                      - /url: /en-US/sustainability
+                      - generic [ref=e540]: Sustainability
+                  - listitem [ref=e541]:
+                    - link "Employee Ownership Impact" [ref=e542] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e543]: Employee Ownership Impact
+                  - listitem [ref=e544]:
+                    - link "Investing in Innovation" [ref=e545] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e546]: Investing in Innovation
+                  - listitem [ref=e547]:
+                    - link "Safety and Health" [ref=e548] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e549]: Safety and Health
+                  - listitem [ref=e550]:
+                    - link "Awards and Rankings" [ref=e551] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e552]: Awards and Rankings
+                  - listitem [ref=e553]:
+                    - link "Diversity, Equity and Inclusion" [ref=e554] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e555]: Diversity, Equity and Inclusion
+                  - listitem [ref=e556]:
+                    - link "History" [ref=e557] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e558]: History
+                  - listitem [ref=e559]:
+                    - link "Foundation" [ref=e560] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e561]: Foundation
+              - generic [ref=e562]:
+                - heading "Who we serve" [level=2] [ref=e563]:
+                  - link "Who we serve" [ref=e564] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e565]: Who we serve
+                - list [ref=e566]:
+                  - listitem [ref=e567]:
+                    - link "Technology and Data Centers" [ref=e568] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e569]: Technology and Data Centers
+                  - listitem [ref=e570]:
+                    - link "Industrial and Manufacturing" [ref=e571] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e572]: Industrial and Manufacturing
+                  - listitem [ref=e573]:
+                    - link "Fuels and Natural Resources" [ref=e574] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e575]: Fuels and Natural Resources
+                  - listitem [ref=e576]:
+                    - link "Power Providers" [ref=e577] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e578]: Power Providers
+                  - listitem [ref=e579]:
+                    - link "Water Utilities" [ref=e580] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e581]: Water Utilities
+                  - listitem [ref=e582]:
+                    - link "Federal Agencies" [ref=e583] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e584]: Federal Agencies
+                  - listitem [ref=e585]:
+                    - link "Public Sector" [ref=e586] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e587]: Public Sector
+                  - listitem [ref=e588]:
+                    - link "Commercial" [ref=e589] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e590]: Commercial
+              - generic [ref=e591]:
+                - heading "What we do" [level=2] [ref=e592]:
+                  - link "What we do" [ref=e593] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e594]: What we do
+                - list [ref=e595]:
+                  - listitem [ref=e596]:
+                    - link "Infrastructure Advisory" [ref=e597] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/infrastructure-advisory
+                      - generic [ref=e598]: Infrastructure Advisory
+                  - listitem [ref=e599]:
+                    - link "Construction" [ref=e600] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/construction
+                      - generic [ref=e601]: Construction
+                  - listitem [ref=e602]:
+                    - link "Power Generation" [ref=e603] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e604]: Power Generation
+                  - listitem [ref=e605]:
+                    - link "Power Delivery" [ref=e606] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e607]: Power Delivery
+                  - listitem [ref=e608]:
+                    - link "Water" [ref=e609] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e610]: Water
+                  - listitem [ref=e611]:
+                    - link "Process" [ref=e612] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e613]: Process
+                  - listitem [ref=e614]:
+                    - link "Fuels" [ref=e615] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e616]: Fuels
+                  - listitem [ref=e617]:
+                    - link "Environmental" [ref=e618] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e619]: Environmental
+                  - listitem [ref=e620]:
+                    - link "Lifecycle Services" [ref=e621] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e622]: Lifecycle Services
+              - generic [ref=e623]:
+                - heading "News & Insights" [level=2] [ref=e624]:
+                  - link "News & Insights" [ref=e625] [cursor=pointer]:
+                    - /url: /en-US/about-us#
+                    - generic [ref=e626]: News & Insights
+                - list [ref=e627]:
+                  - listitem [ref=e628]:
+                    - link "Newsroom" [ref=e629] [cursor=pointer]:
+                      - /url: /en-US/newsroom
+                      - generic [ref=e630]: Newsroom
+                  - listitem [ref=e631]:
+                    - link "Events" [ref=e632] [cursor=pointer]:
+                      - /url: /en-US/events
+                      - generic [ref=e633]: Events
+                  - listitem [ref=e634]:
+                    - link "Insights and Resources" [ref=e635] [cursor=pointer]:
+                      - /url: /en-US/insights-and-resources
+                      - generic [ref=e636]: Insights and Resources
+              - generic [ref=e637]:
+                - heading "Careers" [level=2] [ref=e638]:
+                  - link "Careers" [ref=e639] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e640]: Careers
+                - list [ref=e641]:
+                  - listitem [ref=e642]:
+                    - link "Workplace Culture" [ref=e643] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e644]: Workplace Culture
+                  - listitem [ref=e645]:
+                    - link "Our Hiring Process" [ref=e646] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e647]: Our Hiring Process
+                  - listitem [ref=e648]:
+                    - link "Career Paths" [ref=e649] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e650]: Career Paths
+                  - listitem [ref=e651]:
+                    - link "Craft and Construction" [ref=e652] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e653]: Craft and Construction
+                  - listitem [ref=e654]:
+                    - link "Early Careers and Students" [ref=e655] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e656]: Early Careers and Students
+                  - listitem [ref=e657]:
+                    - link "ENT Accelerator Program" [ref=e658] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e659]: ENT Accelerator Program
+                  - listitem [ref=e660]:
+                    - link "Experienced Careers" [ref=e661] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e662]: Experienced Careers
+                  - listitem [ref=e663]:
+                    - link "Military Veterans" [ref=e664] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e665]: Military Veterans
+            - generic [ref=e666]:
+              - generic [ref=e667]:
+                - list [ref=e668]:
+                  - listitem [ref=e669]:
+                    - link "Accessibility" [ref=e670] [cursor=pointer]:
+                      - /url: /en-US/careers/equal-opportunity-and-accessibility
+                      - generic [ref=e671]: Accessibility
+                  - listitem [ref=e672]:
+                    - link "Privacy policy" [ref=e673] [cursor=pointer]:
+                      - /url: /en-US/privacy-notice
+                      - generic [ref=e674]: Privacy policy
+                  - listitem [ref=e675]:
+                    - link "Terms of use" [ref=e676] [cursor=pointer]:
+                      - /url: /en-US/terms-of-use
+                      - generic [ref=e677]: Terms of use
+                  - listitem [ref=e678]:
+                    - link "Compliance" [ref=e679] [cursor=pointer]:
+                      - /url: /en-US/about-us/governance-and-compliance
+                      - generic [ref=e680]: Compliance
+                - list [ref=e681]:
+                  - listitem [ref=e682]:
+                    - link "Go to Facebook" [ref=e683] [cursor=pointer]:
+                      - /url: https://www.facebook.com/BlackVeatch/
+                      - img [ref=e684]
+                  - listitem [ref=e686]:
+                    - link "Go to LinkedIn" [ref=e687] [cursor=pointer]:
+                      - /url: http://www.linkedin.com/company/black-and-veatch
+                      - img [ref=e688]
+                  - listitem [ref=e690]:
+                    - link "Go to Instagram" [ref=e691] [cursor=pointer]:
+                      - /url: https://www.instagram.com/black_veatch/?hl=en
+                      - img [ref=e692]
+                  - listitem [ref=e694]:
+                    - link "Go to YouTube" [ref=e695] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                      - img [ref=e696]
+                  - listitem [ref=e698]:
+                    - link "Go to X" [ref=e699] [cursor=pointer]:
+                      - /url: https://twitter.com/Black_Veatch
+                      - img [ref=e700]
+              - link "Level AA conformance, W3C Web Content Accessibility Guidelines 2.0" [ref=e703] [cursor=pointer]:
+                - /url: https://www.w3.org/WAI/WCAG2AA-Conformance
+                - img [ref=e704]
+          - paragraph [ref=e713]:
+            - generic [ref=e714]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e715]
+  - iframe [ref=e718]:
+    - generic [ref=f2e3]:
+      - button [ref=f2e4] [cursor=pointer]:
+        - img
+      - generic [ref=f2e6]:
+        - generic [ref=f2e7]:
+          - generic [ref=f2e8]:
+            - generic [ref=f2e9]: Personalization Preview
+            - generic [ref=f2e10]: Select an audience to segment preview content.
+          - generic [ref=f2e11]:
+            - img [ref=f2e13]
+            - searchbox "Search Audiences and Experiences" [ref=f2e15]
+          - generic [ref=f2e16]:
+            - button "Collapse all" [ref=f2e17] [cursor=pointer]
+            - generic [ref=f2e18]:
+              - generic [ref=f2e19]:
+                - generic [ref=f2e20]:
+                  - generic [ref=f2e22]:
+                    - button [ref=f2e23] [cursor=pointer]:
+                      - img [ref=f2e24]
+                    - generic [ref=f2e26]:
+                      - generic "APAC Users" [ref=f2e28] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e30]:
+                        - img [ref=f2e31]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e34]:
+                    - radio [checked] [ref=f2e36] [cursor=pointer]:
+                      - generic [ref=f2e37]:
+                        - img [ref=f2e38]
+                        - generic [ref=f2e40]: default
+                    - radio [ref=f2e42] [cursor=pointer]:
+                      - img [ref=f2e44]
+                    - radio [ref=f2e47] [cursor=pointer]:
+                      - img [ref=f2e49]
+                - generic [ref=f2e51]:
+                  - generic [ref=f2e52]:
+                    - generic [ref=f2e53]:
+                      - generic [ref=f2e54]:
+                        - generic [ref=f2e55]: Experiment
+                        - button [ref=f2e57] [cursor=pointer]:
+                          - img [ref=f2e58]
+                      - generic [ref=f2e60]: "[NT AB TEST] About us > Company Overview > Content Block"
+                    - radiogroup "Experience variants" [ref=f2e62]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e63]:
+                        - generic [ref=f2e65]:
+                          - generic [ref=f2e67] [cursor=pointer]: Baseline
+                          - generic [ref=f2e68]: 50%
+                      - radio "Variant 1" [disabled] [ref=f2e71]:
+                        - generic [ref=f2e73]:
+                          - generic [ref=f2e75] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e76]: 50%
+                  - generic [ref=f2e78]:
+                    - generic [ref=f2e79]:
+                      - generic [ref=f2e80]:
+                        - generic [ref=f2e81]: Personalization
+                        - button [ref=f2e83] [cursor=pointer]:
+                          - img [ref=f2e84]
+                      - generic [ref=f2e86]: "[NT Personalization] Projects Hub > Hero Banner (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f2e88]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e89]:
+                        - generic [ref=f2e91]:
+                          - generic [ref=f2e93] [cursor=pointer]: Baseline
+                          - generic [ref=f2e94]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e97]:
+                        - generic [ref=f2e99]:
+                          - generic [ref=f2e101] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e102]: 90%
+                  - generic [ref=f2e104]:
+                    - generic [ref=f2e105]:
+                      - generic [ref=f2e106]:
+                        - generic [ref=f2e107]: Personalization
+                        - button [ref=f2e109] [cursor=pointer]:
+                          - img [ref=f2e110]
+                      - generic [ref=f2e112]: "[NT Personalization] Contact US > Hero Banner (APAC)"
+                    - radiogroup "Experience variants" [ref=f2e114]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e115]:
+                        - generic [ref=f2e117]:
+                          - generic [ref=f2e119] [cursor=pointer]: Baseline
+                          - generic [ref=f2e120]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e123]:
+                        - generic [ref=f2e125]:
+                          - generic [ref=f2e127] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e128]: 90%
+                  - generic [ref=f2e130]:
+                    - generic [ref=f2e131]:
+                      - generic [ref=f2e132]:
+                        - generic [ref=f2e133]: Personalization
+                        - button [ref=f2e135] [cursor=pointer]:
+                          - img [ref=f2e136]
+                      - generic [ref=f2e138]: "[NT Personalization] Homepage > Solving today’s infrastructure challenges (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f2e140]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e141]:
+                        - generic [ref=f2e143]:
+                          - generic [ref=f2e145] [cursor=pointer]: Baseline
+                          - generic [ref=f2e146]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e149]:
+                        - generic [ref=f2e151]:
+                          - generic [ref=f2e153] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e154]: 90%
+                  - generic [ref=f2e156]:
+                    - generic [ref=f2e157]:
+                      - generic [ref=f2e158]:
+                        - generic [ref=f2e159]: Personalization
+                        - button [ref=f2e161] [cursor=pointer]:
+                          - img [ref=f2e162]
+                      - generic [ref=f2e164]: "[NT Personalization] Homepage - BV.com > Hero Banner (APAC Regionalization)"
+                    - radiogroup "Experience variants" [ref=f2e166]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e167]:
+                        - generic [ref=f2e169]:
+                          - generic [ref=f2e171] [cursor=pointer]: Baseline
+                          - generic [ref=f2e172]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e175]:
+                        - generic [ref=f2e177]:
+                          - generic [ref=f2e179] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e180]: 90%
+                  - generic [ref=f2e182]:
+                    - generic [ref=f2e183]:
+                      - generic [ref=f2e184]:
+                        - generic [ref=f2e185]: Personalization
+                        - button [ref=f2e187] [cursor=pointer]:
+                          - img [ref=f2e188]
+                      - generic [ref=f2e190]: "[NT Personalization] Contact us (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f2e192]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e193]:
+                        - generic [ref=f2e195]:
+                          - generic [ref=f2e197] [cursor=pointer]: Baseline
+                          - generic [ref=f2e198]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e201]:
+                        - generic [ref=f2e203]:
+                          - generic [ref=f2e205] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e206]: 90%
+                  - generic [ref=f2e208]:
+                    - generic [ref=f2e209]:
+                      - generic [ref=f2e210]:
+                        - generic [ref=f2e211]: Personalization
+                        - button [ref=f2e213] [cursor=pointer]:
+                          - img [ref=f2e214]
+                      - generic [ref=f2e216]: "[NT Personalization] Home page > Intl Featured Projects (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f2e218]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e219]:
+                        - generic [ref=f2e221]:
+                          - generic [ref=f2e223] [cursor=pointer]: Baseline
+                          - generic [ref=f2e224]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e227]:
+                        - generic [ref=f2e229]:
+                          - generic [ref=f2e231] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e232]: 90%
+              - generic [ref=f2e234]:
+                - generic [ref=f2e235]:
+                  - generic [ref=f2e237]:
+                    - button [ref=f2e238] [cursor=pointer]:
+                      - img [ref=f2e239]
+                    - generic [ref=f2e241]:
+                      - generic "Return Users OR Downloaded Report OR Submitted Form" [ref=f2e243] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e245]:
+                        - img [ref=f2e246]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e249]:
+                    - radio [checked] [ref=f2e251] [cursor=pointer]:
+                      - generic [ref=f2e252]:
+                        - img [ref=f2e253]
+                        - generic [ref=f2e255]: default
+                    - radio [ref=f2e257] [cursor=pointer]:
+                      - img [ref=f2e259]
+                    - radio [ref=f2e262] [cursor=pointer]:
+                      - img [ref=f2e264]
+                - generic [ref=f2e267]:
+                  - generic [ref=f2e268]:
+                    - generic [ref=f2e269]:
+                      - generic [ref=f2e270]: Personalization
+                      - button [ref=f2e272] [cursor=pointer]:
+                        - img [ref=f2e273]
+                    - generic [ref=f2e275]: "[NT Personalization] Contact Us > Hero Banner (Call CTA)"
+                  - radiogroup "Experience variants" [ref=f2e277]:
+                    - radio "Baseline" [checked] [disabled] [ref=f2e278]:
+                      - generic [ref=f2e280]:
+                        - generic [ref=f2e282] [cursor=pointer]: Baseline
+                        - generic [ref=f2e283]: 10%
+                    - radio "Variant 1" [disabled] [ref=f2e286]:
+                      - generic [ref=f2e288]:
+                        - generic [ref=f2e290] [cursor=pointer]: Variant 1
+                        - generic [ref=f2e291]: 90%
+              - generic [ref=f2e293]:
+                - generic [ref=f2e294]:
+                  - generic [ref=f2e296]:
+                    - button [ref=f2e297] [cursor=pointer]:
+                      - img [ref=f2e298]
+                    - generic [ref=f2e300]:
+                      - generic "Bolder Vision LinkedIn Power Campaign" [ref=f2e302] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e304]:
+                        - img [ref=f2e305]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e308]:
+                    - radio [checked] [ref=f2e310] [cursor=pointer]:
+                      - generic [ref=f2e311]:
+                        - img [ref=f2e312]
+                        - generic [ref=f2e314]: default
+                    - radio [ref=f2e316] [cursor=pointer]:
+                      - img [ref=f2e318]
+                    - radio [ref=f2e321] [cursor=pointer]:
+                      - img [ref=f2e323]
+                - generic [ref=f2e325]:
+                  - generic [ref=f2e326]:
+                    - generic [ref=f2e327]:
+                      - generic [ref=f2e328]:
+                        - generic [ref=f2e329]: Personalization
+                        - button [ref=f2e331] [cursor=pointer]:
+                          - img [ref=f2e332]
+                      - generic [ref=f2e334]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Power Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e336]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e337]:
+                        - generic [ref=f2e339]:
+                          - generic [ref=f2e341] [cursor=pointer]: Baseline
+                          - generic [ref=f2e342]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e345]:
+                        - generic [ref=f2e347]:
+                          - generic [ref=f2e349] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e350]: 90%
+                  - generic [ref=f2e352]:
+                    - generic [ref=f2e353]:
+                      - generic [ref=f2e354]:
+                        - generic [ref=f2e355]: Personalization
+                        - button [ref=f2e357] [cursor=pointer]:
+                          - img [ref=f2e358]
+                      - generic [ref=f2e360]: "[NT Personalization] Bolder Vision (LinkedIn Power Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e362]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e363]:
+                        - generic [ref=f2e365]:
+                          - generic [ref=f2e367] [cursor=pointer]: Baseline
+                          - generic [ref=f2e368]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e371]:
+                        - generic [ref=f2e373]:
+                          - generic [ref=f2e375] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e376]: 90%
+              - generic [ref=f2e378]:
+                - generic [ref=f2e379]:
+                  - generic [ref=f2e381]:
+                    - button [ref=f2e382] [cursor=pointer]:
+                      - img [ref=f2e383]
+                    - generic [ref=f2e385]:
+                      - generic "Bolder Vision LinkedIn Water Campaign" [ref=f2e387] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e389]:
+                        - img [ref=f2e390]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e393]:
+                    - radio [checked] [ref=f2e395] [cursor=pointer]:
+                      - generic [ref=f2e396]:
+                        - img [ref=f2e397]
+                        - generic [ref=f2e399]: default
+                    - radio [ref=f2e401] [cursor=pointer]:
+                      - img [ref=f2e403]
+                    - radio [ref=f2e406] [cursor=pointer]:
+                      - img [ref=f2e408]
+                - generic [ref=f2e410]:
+                  - generic [ref=f2e411]:
+                    - generic [ref=f2e412]:
+                      - generic [ref=f2e413]:
+                        - generic [ref=f2e414]: Personalization
+                        - button [ref=f2e416] [cursor=pointer]:
+                          - img [ref=f2e417]
+                      - generic [ref=f2e419]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Water Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e421]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e422]:
+                        - generic [ref=f2e424]:
+                          - generic [ref=f2e426] [cursor=pointer]: Baseline
+                          - generic [ref=f2e427]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e430]:
+                        - generic [ref=f2e432]:
+                          - generic [ref=f2e434] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e435]: 90%
+                  - generic [ref=f2e437]:
+                    - generic [ref=f2e438]:
+                      - generic [ref=f2e439]:
+                        - generic [ref=f2e440]: Personalization
+                        - button [ref=f2e442] [cursor=pointer]:
+                          - img [ref=f2e443]
+                      - generic [ref=f2e445]: "[NT Personalization] Bolder Vision (LinkedIn Water Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e447]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e448]:
+                        - generic [ref=f2e450]:
+                          - generic [ref=f2e452] [cursor=pointer]: Baseline
+                          - generic [ref=f2e453]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e456]:
+                        - generic [ref=f2e458]:
+                          - generic [ref=f2e460] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e461]: 90%
+              - generic [ref=f2e463]:
+                - generic [ref=f2e464]:
+                  - generic [ref=f2e466]:
+                    - button [ref=f2e467] [cursor=pointer]:
+                      - img [ref=f2e468]
+                    - generic [ref=f2e470]:
+                      - generic "Bolder Vision LinkedIn Fuels Campaign" [ref=f2e472] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e474]:
+                        - img [ref=f2e475]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e478]:
+                    - radio [checked] [ref=f2e480] [cursor=pointer]:
+                      - generic [ref=f2e481]:
+                        - img [ref=f2e482]
+                        - generic [ref=f2e484]: default
+                    - radio [ref=f2e486] [cursor=pointer]:
+                      - img [ref=f2e488]
+                    - radio [ref=f2e491] [cursor=pointer]:
+                      - img [ref=f2e493]
+                - generic [ref=f2e495]:
+                  - generic [ref=f2e496]:
+                    - generic [ref=f2e497]:
+                      - generic [ref=f2e498]:
+                        - generic [ref=f2e499]: Personalization
+                        - button [ref=f2e501] [cursor=pointer]:
+                          - img [ref=f2e502]
+                      - generic [ref=f2e504]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Fuels Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e506]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e507]:
+                        - generic [ref=f2e509]:
+                          - generic [ref=f2e511] [cursor=pointer]: Baseline
+                          - generic [ref=f2e512]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e515]:
+                        - generic [ref=f2e517]:
+                          - generic [ref=f2e519] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e520]: 90%
+                  - generic [ref=f2e522]:
+                    - generic [ref=f2e523]:
+                      - generic [ref=f2e524]:
+                        - generic [ref=f2e525]: Personalization
+                        - button [ref=f2e527] [cursor=pointer]:
+                          - img [ref=f2e528]
+                      - generic [ref=f2e530]: "[NT Personalization] Bolder Vision (LinkedIn Fuels Campaign)"
+                    - radiogroup "Experience variants" [ref=f2e532]:
+                      - radio "Baseline" [checked] [disabled] [ref=f2e533]:
+                        - generic [ref=f2e535]:
+                          - generic [ref=f2e537] [cursor=pointer]: Baseline
+                          - generic [ref=f2e538]: 10%
+                      - radio "Variant 1" [disabled] [ref=f2e541]:
+                        - generic [ref=f2e543]:
+                          - generic [ref=f2e545] [cursor=pointer]: Variant 1
+                          - generic [ref=f2e546]: 90%
+              - generic [ref=f2e548]:
+                - generic [ref=f2e549]:
+                  - generic [ref=f2e551]:
+                    - button [ref=f2e552] [cursor=pointer]:
+                      - img [ref=f2e553]
+                    - generic [ref=f2e555]:
+                      - generic "Downloaded Water Report" [ref=f2e557] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e559]:
+                        - img [ref=f2e560]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e563]:
+                    - radio [checked] [ref=f2e565] [cursor=pointer]:
+                      - generic [ref=f2e566]:
+                        - img [ref=f2e567]
+                        - generic [ref=f2e569]: default
+                    - radio [ref=f2e571] [cursor=pointer]:
+                      - img [ref=f2e573]
+                    - radio [ref=f2e576] [cursor=pointer]:
+                      - img [ref=f2e578]
+                - generic [ref=f2e581]:
+                  - generic [ref=f2e582]:
+                    - generic [ref=f2e583]:
+                      - generic [ref=f2e584]: Personalization
+                      - button [ref=f2e586] [cursor=pointer]:
+                        - img [ref=f2e587]
+                    - generic [ref=f2e589]: "[NT Personalization] Homepage - BV.com > Hero Banner (Water Report Downloaded)"
+                  - radiogroup "Experience variants" [ref=f2e591]:
+                    - radio "Baseline" [checked] [disabled] [ref=f2e592]:
+                      - generic [ref=f2e594]:
+                        - generic [ref=f2e596] [cursor=pointer]: Baseline
+                        - generic [ref=f2e597]: 10%
+                    - radio "Variant 1" [disabled] [ref=f2e600]:
+                      - generic [ref=f2e602]:
+                        - generic [ref=f2e604] [cursor=pointer]: Variant 1
+                        - generic [ref=f2e605]: 90%
+              - generic [ref=f2e607]:
+                - generic [ref=f2e608]:
+                  - generic [ref=f2e610]:
+                    - button [ref=f2e611] [cursor=pointer]:
+                      - img [ref=f2e612]
+                    - generic [ref=f2e614]:
+                      - generic "Return Users" [ref=f2e616] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f2e618]:
+                        - img [ref=f2e619]
+                        - text: Audience Insights
+                  - radiogroup [ref=f2e622]:
+                    - radio [checked] [ref=f2e624] [cursor=pointer]:
+                      - generic [ref=f2e625]:
+                        - img [ref=f2e626]
+                        - generic [ref=f2e628]: default
+                    - radio [ref=f2e630] [cursor=pointer]:
+                      - img [ref=f2e632]
+                    - radio [ref=f2e635] [cursor=pointer]:
+                      - img [ref=f2e637]
+                - generic [ref=f2e640]:
+                  - generic [ref=f2e641]:
+                    - generic [ref=f2e642]:
+                      - generic [ref=f2e643]: Personalization
+                      - button [ref=f2e645] [cursor=pointer]:
+                        - img [ref=f2e646]
+                    - generic [ref=f2e648]: "[NT Personalization] Contact us (Return Users)"
+                  - radiogroup "Experience variants" [ref=f2e650]:
+                    - radio "Baseline" [checked] [disabled] [ref=f2e651]:
+                      - generic [ref=f2e653]:
+                        - generic [ref=f2e655] [cursor=pointer]: Baseline
+                        - generic [ref=f2e656]: 10%
+                    - radio "Variant 1" [disabled] [ref=f2e659]:
+                      - generic [ref=f2e661]:
+                        - generic [ref=f2e663] [cursor=pointer]: Variant 1
+                        - generic [ref=f2e664]: 90%
+        - generic [ref=f2e667]:
+          - button "Close" [ref=f2e668] [cursor=pointer]
+          - button "Reset Profile" [ref=f2e669] [cursor=pointer]
+  - generic:
+    - region "Cookie banner" [active] [ref=e719]:
+      - dialog "Privacy" [ref=e720]:
+        - generic [ref=e722]:
+          - generic [ref=e723]:
+            - img "Black & Veatch" [ref=e724]
+            - generic [ref=e726]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+          - generic [ref=e728]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=e729] [cursor=pointer]: Cookies Settings
+            - button "Reject All" [ref=e730] [cursor=pointer]
+            - button "Accept All Cookies" [ref=e731] [cursor=pointer]
+        - button "Close" [ref=e733] [cursor=pointer]
+    - text: Cookies Settings
+```
