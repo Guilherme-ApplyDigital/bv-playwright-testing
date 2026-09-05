@@ -1,0 +1,5 @@
+[2026-09-05T06:49:36.876Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-05T06:49:37.989Z][HomePage][INFO] Checking for cookie banner
+[2026-09-05T06:49:39.866Z][HomePage][INFO] Opening Careers page from top navigation
+[2026-09-05T06:49:40.625Z][HomePage][INFO] Asserting page title contains: Careers
+[2026-09-05T06:49:41.084Z][HomePage][INFO] Asserting main heading (h1) is visible
