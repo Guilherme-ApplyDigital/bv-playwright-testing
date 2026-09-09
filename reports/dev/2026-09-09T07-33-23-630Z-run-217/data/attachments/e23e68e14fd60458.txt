@@ -1,0 +1,5 @@
+[2026-09-09T07:11:34.782Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-09T07:11:35.904Z][HomePage][INFO] Checking for cookie banner
+[2026-09-09T07:11:38.069Z][HomePage][INFO] Opening Projects page from top navigation
+[2026-09-09T07:11:38.844Z][HomePage][INFO] Asserting page title contains: Projects
+[2026-09-09T07:11:39.084Z][HomePage][INFO] Asserting main heading (h1) is visible
