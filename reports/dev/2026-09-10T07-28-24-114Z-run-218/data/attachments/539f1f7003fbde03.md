@@ -1,0 +1,1051 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Black & Veatch" [level=1] [ref=e7]
+        - link "Black & Veatch - Back to Home" [ref=e8] [cursor=pointer]:
+          - /url: /en-US
+        - generic [ref=e10]:
+          - navigation "Black & Veatch Top Links Navigation" [ref=e12]:
+            - menubar "Black & Veatch Top Links" [ref=e13]:
+              - menuitem "Contact" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Contact
+              - menuitem "News & Events" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: News & Events
+                - img [ref=e18]
+              - menuitem "Supplier" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: Supplier
+              - menuitem "Locations" [ref=e22] [cursor=pointer]:
+                - generic [ref=e23]: Locations
+                - img [ref=e24]
+          - navigation "Black & Veatch Items and Search Navigation" [ref=e27]:
+            - menubar "Black & Veatch Items and Search" [ref=e28]:
+              - menuitem "About Us" [ref=e29] [cursor=pointer]:
+                - generic [ref=e30]: About Us
+                - img [ref=e31]
+              - menuitem "Who we serve" [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: Who we serve
+                - img [ref=e35]
+              - menuitem "What we do" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: What we do
+                - img [ref=e39]
+              - menuitem "Projects" [ref=e41] [cursor=pointer]:
+                - generic [ref=e42]: Projects
+              - menuitem "Insights" [ref=e43] [cursor=pointer]:
+                - generic [ref=e44]: Insights
+              - menuitem "Careers" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]: Careers
+                - img [ref=e47]
+            - button "Search Black & Veatch" [ref=e50] [cursor=pointer]:
+              - img [ref=e52]
+      - navigation:
+        - generic [ref=e54]:
+          - generic [ref=e57]:
+            - img [ref=e59]
+            - textbox "Search" [ref=e61]:
+              - /placeholder: Search...
+          - generic [ref=e62]:
+            - heading "Quick Links" [level=2] [ref=e63]
+            - generic [ref=e64]:
+              - link "Infrastructure Advisory" [ref=e66] [cursor=pointer]:
+                - /url: /en-US/what-we-do/infrastructure-advisory
+                - generic [ref=e67]: Infrastructure Advisory
+                - img [ref=e68]
+              - link "Construction" [ref=e74] [cursor=pointer]:
+                - /url: /en-US/what-we-do/construction
+                - generic [ref=e75]: Construction
+                - img [ref=e76]
+              - link "Power Generation" [ref=e82] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-generation
+                - generic [ref=e83]: Power Generation
+                - img [ref=e84]
+              - link "Power Delivery" [ref=e90] [cursor=pointer]:
+                - /url: /en-US/what-we-do/power-delivery
+                - generic [ref=e91]: Power Delivery
+                - img [ref=e92]
+              - link "Water" [ref=e98] [cursor=pointer]:
+                - /url: /en-US/what-we-do/water
+                - generic [ref=e99]: Water
+                - img [ref=e100]
+              - link "Process" [ref=e106] [cursor=pointer]:
+                - /url: /en-US/what-we-do/process
+                - generic [ref=e107]: Process
+                - img [ref=e108]
+              - link "Fuels" [ref=e114] [cursor=pointer]:
+                - /url: /en-US/what-we-do/fuels
+                - generic [ref=e115]: Fuels
+                - img [ref=e116]
+              - link "Environmental" [ref=e122] [cursor=pointer]:
+                - /url: /en-US/what-we-do/environmental
+                - generic [ref=e123]: Environmental
+                - img [ref=e124]
+              - link "Lifecycle Services" [ref=e130] [cursor=pointer]:
+                - /url: /en-US/what-we-do/lifecycle-services
+                - generic [ref=e131]: Lifecycle Services
+                - img [ref=e132]
+      - navigation "Black & Veatch Subnav Links":
+        - generic [ref=e138]:
+          - button "Overview" [ref=e140] [cursor=pointer]
+          - button "Process Education" [ref=e142] [cursor=pointer]
+          - button "Communication" [ref=e144] [cursor=pointer]
+          - button "Work With Us" [ref=e146] [cursor=pointer]
+    - region "Hero Banner" [ref=e147]:
+      - generic [ref=e152]:
+        - navigation "Breadcrumb" [ref=e154]:
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "careers" [ref=e157] [cursor=pointer]:
+                - /url: /careers
+                - generic [ref=e158]: careers
+              - generic [ref=e159]: /
+            - listitem [ref=e160]:
+              - link "our hiring process" [ref=e161] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e162]: our hiring process
+        - generic [ref=e163]:
+          - heading "Our Hiring Process" [level=2] [ref=e164]
+          - paragraph [ref=e165]: Whether you’re new to the job market or mid-career and looking for a change, your entire hiring experience at Black & Veatch should be positive.
+          - link "Search Career Opportunities" [ref=e167] [cursor=pointer]:
+            - /url: https://careers.bv.com
+            - generic [ref=e168]: Search Career Opportunities
+            - img [ref=e169]
+      - img "Video Call" [ref=e182]
+    - main [ref=e183]:
+      - generic [ref=e185]:
+        - generic [ref=e187]:
+          - heading "Overview" [level=2] [ref=e189]:
+            - generic [ref=e192]: Overview
+          - generic [ref=e194]:
+            - paragraph [ref=e195]:
+              - emphasis [ref=e196]: Did they get my resume? What’s their interview style? What’s the next step?
+            - paragraph [ref=e197]: So much of what we don’t like about a job search boils down to a lack of transparency. We don’t believe it has to be that way; we want you to have a clear understanding of each step in our process, so you know what to expect from us and when.
+        - generic [ref=e199]:
+          - tablist [ref=e200]:
+            - tab "Apply" [selected] [ref=e201] [cursor=pointer]:
+              - generic [ref=e202]: Apply
+              - img [ref=e203]
+            - tab "Review" [ref=e208] [cursor=pointer]:
+              - generic [ref=e209]: Review
+              - img [ref=e210]
+            - tab "Interview" [ref=e215] [cursor=pointer]:
+              - generic [ref=e216]: Interview
+              - img [ref=e217]
+            - tab "Offer" [ref=e222] [cursor=pointer]:
+              - generic [ref=e223]: Offer
+              - img [ref=e224]
+          - tabpanel "Apply" [ref=e229]:
+            - heading "Apply" [level=3] [ref=e230]
+            - paragraph [ref=e233]: What gets you excited? What problems do you want to solve? Which skills, interests and insights can you bring? Your best chance of success getting hired at Black & Veatch comes when your experience and education most strongly matches the job requirements, so review our openings with that in mind. Once you submit your application and answer any qualifying questions, we’ll send you a quick email to let you know your application has been received.
+      - generic [ref=e237]:
+        - heading "Process Education" [level=2] [ref=e239]:
+          - generic [ref=e242]: Process Education
+        - generic [ref=e243]:
+          - heading "Talent acquisition process education" [level=3] [ref=e245]
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: Our new comprehensive process education aims to simplify the recruitment journey at Black & Veatch, providing potential candidates with detailed information about our procedures. This initiative, developed in collaboration with our human resources, legal and IT departments, covers every stage from job postings and applications to screening, interviews and offers.
+            - paragraph [ref=e248]: The education tool has been designed to thoroughly inform candidates, enabling them to present themselves effectively and enhance their overall experience with us. The process includes critical stages such as submitting a job application, awaiting contact about an application, understanding candidate status visibility, navigating the human resources phone screen and hiring manager interview, and what to expect after the interview.
+            - paragraph [ref=e249]: Around the world, we are united in our commitment to our mission, and life here is anchored by our ASPiRE guiding principles which shape our culture. We encourage you to read more about this in our Code of Conduct.
+            - paragraph
+          - link "Read Our Code of Conduct" [ref=e251] [cursor=pointer]:
+            - /url: https://cdn.bfldr.com/E1EVDN8O/as/jq8hh8kskvtvn9vthbxmtmf7/23_Code_of_Conduct
+            - generic [ref=e252]: Read Our Code of Conduct
+            - img [ref=e253]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - separator [ref=e263]
+          - heading "Submitting a Job Application" [level=2] [ref=e264]:
+            - button "Submitting a Job Application" [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]: Submitting a Job Application
+              - img [ref=e267]
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - paragraph [ref=e272]:
+                - strong [ref=e273]: Make sure your resume is up to date
+                - text: and tailored to show your skills, experience and education that best relates to the job you are applying for. Ensure your contact information is accurate and that you are checking your email and spam boxes for updates.
+            - listitem [ref=e274]:
+              - paragraph [ref=e275]:
+                - strong [ref=e276]: It is advisable to submit a cover letter
+                - text: along with your application to explain your interest in the position and emphasize why you feel you are a strong candidate.
+            - listitem [ref=e277]:
+              - paragraph [ref=e278]:
+                - strong [ref=e279]: Make sure to fill out all the required fields on the application form
+                - text: ", including your personal information and contact information (confirm correct spelling), work experience, education and skills."
+            - listitem [ref=e280]:
+              - paragraph [ref=e281]:
+                - strong [ref=e282]: Before submitting your application, make sure to proofread
+                - text: it for any spelling or grammatical errors.
+            - listitem [ref=e283]:
+              - paragraph [ref=e284]:
+                - strong [ref=e285]: You will receive an automated email after you submit your application
+                - text: confirming that it is in our system and ready for one of our human resources recruiters to view.
+            - listitem [ref=e286]:
+              - paragraph [ref=e287]:
+                - strong [ref=e288]: If you do not meet the minimum requirements of the position,
+                - text: you may receive an automated email alerting you that you are not qualified for the role you applied for.
+            - listitem [ref=e289]:
+              - paragraph [ref=e290]:
+                - strong [ref=e291]: If you were referred by a Black & Veatch employee
+                - text: ", please be sure to document that in your application."
+        - generic [ref=e292]:
+          - separator [ref=e293]
+          - heading "Waiting on Black & Veatch to Contact You About Your Application" [level=2] [ref=e294]:
+            - button "Waiting on Black & Veatch to Contact You About Your Application" [ref=e295] [cursor=pointer]:
+              - generic [ref=e296]: Waiting on Black & Veatch to Contact You About Your Application
+              - img [ref=e297]
+          - generic [ref=e299]:
+            - paragraph [ref=e300]: After submitting your job application, we aim to promptly review it and provide an update on whether we will proceed to scheduling an interview. Please note that there may be unforeseen circumstances that could potentially cause delays in our feedback process.
+            - list [ref=e301]:
+              - listitem [ref=e302]:
+                - paragraph [ref=e303]:
+                  - strong [ref=e304]: High volume of applications
+              - listitem [ref=e305]:
+                - paragraph [ref=e306]:
+                  - strong [ref=e307]: Multiple rounds of interviews
+              - listitem [ref=e308]:
+                - paragraph [ref=e309]:
+                  - strong [ref=e310]: Delays in decision-making – key stakeholders out of office.
+        - generic [ref=e311]:
+          - separator [ref=e312]
+          - heading "Candidate Status Visibility" [level=2] [ref=e313]:
+            - button "Candidate Status Visibility" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: Candidate Status Visibility
+              - img [ref=e316]
+          - generic [ref=e318]:
+            - paragraph [ref=e319]: The following statuses will be updated for each position to which you may have applied.
+            - list [ref=e320]:
+              - listitem [ref=e321]:
+                - paragraph [ref=e322]:
+                  - strong [ref=e323]: "Applied:"
+                  - text: When your application is in this status, it has been received by human resources and is being reviewed. This could include internal discussions, scheduling and conducting human resources phone screens and any other additional screening required to ensure you are qualified to move forward to the Interview stage.
+              - listitem [ref=e324]:
+                - paragraph [ref=e325]:
+                  - strong [ref=e326]: "Thank you for your interest in this opportunity. We have decided to pursue other candidates:"
+                  - text: This status indicates that although you were initially considered, Black & Veatch has decided to not proceed with your application for this specific position. Please be advised that you will also receive an email notification to the email address associated with your application. If you applied for multiple positions, you can expect to receive separate emails for each position if you are not selected to advance to the interview stage.
+              - listitem [ref=e327]:
+                - paragraph [ref=e328]:
+                  - strong [ref=e329]: "Interview:"
+                  - text: When moved to this status, you have successfully passed the initial
+                  - strong [ref=e330]: human resources
+                  - text: phone screening and are now in the interview process. This includes the scheduling of interviews with hiring managers, conducting all necessary interviews and ultimately deciding whether to extend a job offer.
+              - listitem [ref=e331]:
+                - paragraph [ref=e332]:
+                  - strong [ref=e333]: "Offer Extended:"
+                  - text: If Black & Veatch has formally extended an offer to you, this status will be reflected until a decision has been reached.
+              - listitem [ref=e334]:
+                - paragraph [ref=e335]:
+                  - strong [ref=e336]: "Onboarding:"
+                  - text: Should you receive and accept an offer; this status will be used while the background check and drug screening are being completed.
+              - listitem [ref=e337]:
+                - paragraph [ref=e338]:
+                  - strong [ref=e339]: "Onboarding Complete:"
+                  - text: This status indicates all pre-employment requirements have been met and you are cleared to begin your career at Black & Veatch on your agreed upon start date.
+        - generic [ref=e340]:
+          - separator [ref=e341]
+          - heading "Human Resources Phone Screen" [level=2] [ref=e342]:
+            - button "Human Resources Phone Screen" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]: Human Resources Phone Screen
+              - img [ref=e345]
+          - generic [ref=e347]:
+            - paragraph [ref=e348]: At Black & Veatch, our human resources phone screen is a preliminary step in our hiring process where a representative from our department contacts you by phone to discuss your qualifications, skills, experience and other relevant information to ensure you would be a fit for our opening.
+            - paragraph [ref=e349]: They may ask behavioral and situational questions to assess your ability to handle certain situations and work well within our teams and culture. The human resources representative also would love to provide information about the position, Black & Veatch and our total rewards program (benefits), as well as answer any questions you may have. Our phone screens typically take approximately 30 minutes depending on the role and number of questions you may have.
+            - paragraph [ref=e350]:
+              - strong [ref=e351]: Phone Screen Tips
+              - strong [ref=e352]: ":"
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - paragraph [ref=e355]:
+                  - strong [ref=e356]: Take the time to research Black & Veatch
+                  - text: and the position before the phone screen. This will help you understand our culture, values, mission, and the skills and experience required for the position.
+              - listitem [ref=e357]:
+                - paragraph [ref=e358]:
+                  - strong [ref=e359]: Carefully review the job description to understand the responsibilities and requirements
+                  - text: of the position. Be prepared to discuss and provide examples of how your skills and experience align with the job description and what you know about Black & Veatch.
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]:
+                  - strong [ref=e362]: Practice answering common interview questions
+                  - text: to help you feel more confident and prepared during the phone screen. You can find lists of common interview questions online and practice answering them aloud.
+              - listitem [ref=e363]:
+                - paragraph [ref=e364]:
+                  - strong [ref=e365]: Be prepared to discuss
+                  - strong [ref=e366]: examples from your professional experience
+                  - text: that demonstrate your possession of the requisite skills and expertise required to fulfill the responsibilities of the role.
+              - listitem [ref=e367]:
+                - paragraph [ref=e368]:
+                  - strong [ref=e369]: Prepare a list of questions ahead of time
+                  - text: to ask the human resource representative during the phone screen. This will show you are interested in the position and Black & Veatch and may also help you gain more insight.
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]:
+                  - strong [ref=e372]: Have an idea of what your compensation expectation will be
+                  - text: for the role. You are not required to answer this question, but disclosing salary expectations upfront can save time for both you and Black & Veatch. If your salary expectations are not in line with our salary range for the position, it is better to find out early in the process rather than after investing time in further interviews.
+              - listitem [ref=e373]:
+                - paragraph [ref=e374]:
+                  - strong [ref=e375]: Ensure that you are on time and in a quiet, distraction-free environment
+                  - text: "with a reliable internet connection and/or phone service during the phone screen. This will help you focus on the conversation and demonstrate your professionalism. Important note: Please do not schedule the phone screen while you are driving, or the phone screen will have to be rescheduled."
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]:
+                  - strong [ref=e378]: Some of our roles require an online assessment
+                  - text: to qualify for the position. If this applies to you, the human resource representative will alert you to this requirement and provide instructions.
+            - paragraph [ref=e379]: "Our human resource representatives may utilize two methods of communication for the Phone screen: calling the phone number provided in your application or sending a Microsoft Teams link to the personal email provided in your application. Your human resource representative will confirm which method will be used at the time of scheduling."
+            - paragraph [ref=e380]: If your phone screen is conducted via Microsoft Teams, your human resource representative will send a confirmation email. This will include a Microsoft Teams meeting link and instructions on how to join the meeting.
+        - generic [ref=e381]:
+          - separator [ref=e382]
+          - heading "Hiring Manager Interview" [level=2] [ref=e383]:
+            - button "Hiring Manager Interview" [ref=e384] [cursor=pointer]:
+              - generic [ref=e385]: Hiring Manager Interview
+              - img [ref=e386]
+          - generic [ref=e388]:
+            - paragraph [ref=e389]: "Our human resource representative will coordinate your hiring manager interview(s) and will confirm the interview method and details with you directly. Your hiring manager interview(s) may be in one of the below methods:"
+            - paragraph [ref=e390]:
+              - strong [ref=e391]: "In-Office Interview:"
+              - text: If your interview is going to be held in-person at one of our Black & Veatch locations, our human resource representative will coordinate with you to schedule a suitable time and provide necessary location and any other details in advance of that interview.
+            - paragraph [ref=e392]: Should you require an accommodation or you have any inquiries or concerns, we encourage you to contact us, as we are committed to providing reasonable accommodations for all individuals.
+            - paragraph [ref=e393]:
+              - strong [ref=e394]: "Microsoft Teams Video Interview:"
+              - text: If your interview(s) are conducted via Microsoft Teams, your human resource representative will give you a Microsoft Teams meeting link and instructions on how to join the meeting.
+            - paragraph [ref=e395]: Once your interview date, time, and location are confirmed, your human resource representative will provide you with a confirmation email containing the interview details, such as the interview location/platform, interviewer names and titles, and the date and time.
+            - paragraph [ref=e396]:
+              - strong [ref=e397]: Interview Tips
+              - text: ":"
+            - list [ref=e398]:
+              - listitem [ref=e399]:
+                - paragraph [ref=e400]:
+                  - strong [ref=e401]: Take the time to research Black & Veatch
+                  - text: and the position before the interview(s). This will help you understand our culture, values, mission, and the skills and experience required for the position.
+              - listitem [ref=e402]:
+                - paragraph [ref=e403]:
+                  - strong [ref=e404]: Prepare a list of questions ahead of time and a method for taking notes
+                  - text: in the interview. This demonstrates your interest in the position and Black & Veatch. It also allows you to gain a deeper understanding of our work and documents valuable information for future reference.
+              - listitem [ref=e405]:
+                - paragraph [ref=e406]:
+                  - strong [ref=e407]: Ask about the role's scope
+                  - text: ", our team structure, normal work schedule, project locations, upcoming projects or anything else important to you."
+              - listitem [ref=e408]:
+                - paragraph [ref=e409]:
+                  - strong [ref=e410]: Don’t be afraid to ask clarifying questions
+                  - text: if you aren’t following something we say. We do our best to utilize industry recognized lingo and not Black & Veatch-specific language to avoid confusion, but if you still need clarification, we will be happy to accommodate.
+              - listitem [ref=e411]:
+                - paragraph [ref=e412]:
+                  - strong [ref=e413]: We understand that an interview can be an uncomfortable experience, but just take a deep breath and try to relax.
+                  - text: Our culture is very supportive and we're here to guide you through this stage of the process. Just be yourself because we're interested in getting to know the real you.
+              - listitem [ref=e414]:
+                - paragraph [ref=e415]:
+                  - strong [ref=e416]: Review the professional profiles of the people you will be interviewing with (if available).
+                  - text: This will assist you in developing thoughtful questions for each interviewer, allowing you to gain a better understanding of their background and roles within Black & Veatch.
+              - listitem [ref=e417]:
+                - paragraph [ref=e418]:
+                  - strong [ref=e419]: Be prepared to communicate how your education, skills and experience
+                  - text: have prepared you for the position, including behavioral abilities, technical skills, knowledge of technologies, projects worked on, etc.
+              - listitem [ref=e420]:
+                - paragraph [ref=e421]:
+                  - strong [ref=e422]: Keep your answers concise, practice beforehand and stick to the point
+                  - text: when answering questions. If you have them, use examples to illustrate your points. Be confident in your abilities and listen carefully to the questions being asked to ensure you stay on topic.
+              - listitem [ref=e423]:
+                - paragraph [ref=e424]:
+                  - strong [ref=e425]: Consider ahead of the interview how this position is going to align with your long-term career goals.
+              - listitem [ref=e426]:
+                - paragraph [ref=e427]:
+                  - strong [ref=e428]: Make sure to arrive promptly and well-prepared
+                  - text: for your interview. If it is a video interview conducted via Microsoft Teams, strive to be in a quiet and undisturbed setting with a reliable internet connection.
+              - listitem [ref=e429]:
+                - paragraph [ref=e430]:
+                  - strong [ref=e431]: During the hiring manager interviews, unless specifically requested, it is recommended to refrain from asking about compensation and benefits
+                  - text: . If you have questions in these areas that were not fully answered during your
+                  - strong [ref=e432]: human resource
+                  - text: phone screen, please inform your human resource representative. They will gladly schedule another call to address additional questions or concerns. If an offer is extended to you after all interviews, your recruiter will ensure that all questions regarding compensation and benefits are addressed at that time so you can be confident in your decision.
+              - listitem [ref=e433]:
+                - paragraph [ref=e434]:
+                  - strong [ref=e435]: If you have a pending offer deadline from another company
+                  - text: ", please promptly inform your human resource representative. We will make every effort to accommodate this deadline as we schedule interviews and provide you with feedback."
+        - generic [ref=e436]:
+          - separator [ref=e437]
+          - heading "After the Interview" [level=2] [ref=e438]:
+            - button "After the Interview" [ref=e439] [cursor=pointer]:
+              - generic [ref=e440]: After the Interview
+              - img [ref=e441]
+          - generic [ref=e443]:
+            - paragraph [ref=e444]: Following the conclusion of all interview rounds for the vacant position, a debrief meeting is convened with all interviewers and human resources personnel to collectively assess all candidates and deliberate on the potential offer of employment to one or more of the interviewed candidates.
+            - paragraph [ref=e445]: Our primary objective is to promptly communicate to all candidates regarding our decision on extending an offer. We kindly ask for your patience as we manage a large number of candidates. However, if you require a timely response, we encourage you to contact the human resource representative for further assistance.
+      - generic [ref=e449]:
+        - heading "Communication" [level=2] [ref=e451]:
+          - generic [ref=e454]: Communication
+        - generic [ref=e455]:
+          - heading "We'll stay in touch" [level=3] [ref=e457]
+          - generic [ref=e458]:
+            - paragraph [ref=e459]: Too many times, it feels like a resume or application disappears into a black hole. Once we’ve been in touch with you to start the interview process, we’ll stay in touch. We’ll make sure everyone’s clear on next steps, that you have the information you need to have a successful interview, and that you’re up to date on the status of your application.
+            - paragraph [ref=e460]: No matter which position we’re interviewing for, we look for candidates who value diverse opinions, who are comfortable learning on the fly, who work well in a collaborative environment, and who hold themselves to the highest standards of integrity and accountability. We’ve made sure our hiring process is adaptable and accessible to anyone who’s interested in joining our team. From start to finish, we’ll work to meet any unique needs you may have and give you every chance to show us your best. Visit our accessibility page for more information about reasonable accommodation.
+          - link "Visit Our Accessibility Page" [ref=e462] [cursor=pointer]:
+            - /url: /en-US/careers/equal-opportunity-and-accessibility
+            - generic [ref=e463]: Visit Our Accessibility Page
+            - img [ref=e464]
+      - generic [ref=e471]:
+        - generic [ref=e472]:
+          - heading "Work With Us" [level=2] [ref=e473]:
+            - generic [ref=e476]: Work With Us
+          - heading "Shape your career, own your future." [level=3] [ref=e477]
+          - link "Explore Careers" [ref=e478] [cursor=pointer]:
+            - /url: https://careers.bv.com/
+            - generic [ref=e479]: Explore Careers
+            - img [ref=e480]
+        - img "Groundwater Replenishment System Final Expansion hero image" [ref=e487]
+    - contentinfo [ref=e489]:
+      - generic [ref=e490]:
+        - generic:
+          - link "Black & Veatch - Back to Home":
+            - /url: /en-US
+            - generic:
+              - img "BV logo blue with text white"
+        - generic [ref=e491]:
+          - generic [ref=e492]:
+            - generic [ref=e493]:
+              - generic [ref=e494]:
+                - heading "About Us" [level=2] [ref=e495]:
+                  - link "About Us" [ref=e496] [cursor=pointer]:
+                    - /url: /en-US/about-us
+                    - generic [ref=e497]: About Us
+                - list [ref=e498]:
+                  - listitem [ref=e499]:
+                    - link "Leadership and Governance" [ref=e500] [cursor=pointer]:
+                      - /url: /en-US/about-us/leadership
+                      - generic [ref=e501]: Leadership and Governance
+                  - listitem [ref=e502]:
+                    - link "Sustainability" [ref=e503] [cursor=pointer]:
+                      - /url: /en-US/sustainability
+                      - generic [ref=e504]: Sustainability
+                  - listitem [ref=e505]:
+                    - link "Employee Ownership Impact" [ref=e506] [cursor=pointer]:
+                      - /url: /en-US/about-us/employee-ownership
+                      - generic [ref=e507]: Employee Ownership Impact
+                  - listitem [ref=e508]:
+                    - link "Investing in Innovation" [ref=e509] [cursor=pointer]:
+                      - /url: /en-US/about-us/investing-in-innovation
+                      - generic [ref=e510]: Investing in Innovation
+                  - listitem [ref=e511]:
+                    - link "Safety and Health" [ref=e512] [cursor=pointer]:
+                      - /url: /en-US/about-us/safety-and-health
+                      - generic [ref=e513]: Safety and Health
+                  - listitem [ref=e514]:
+                    - link "Awards and Rankings" [ref=e515] [cursor=pointer]:
+                      - /url: /en-US/about-us/awards-and-rankings
+                      - generic [ref=e516]: Awards and Rankings
+                  - listitem [ref=e517]:
+                    - link "Diversity, Equity and Inclusion" [ref=e518] [cursor=pointer]:
+                      - /url: /en-US/about-us/diversity-equity-and-inclusion
+                      - generic [ref=e519]: Diversity, Equity and Inclusion
+                  - listitem [ref=e520]:
+                    - link "History" [ref=e521] [cursor=pointer]:
+                      - /url: /en-US/about-us/history
+                      - generic [ref=e522]: History
+                  - listitem [ref=e523]:
+                    - link "Foundation" [ref=e524] [cursor=pointer]:
+                      - /url: /en-US/about-us/foundation
+                      - generic [ref=e525]: Foundation
+              - generic [ref=e526]:
+                - heading "Who we serve" [level=2] [ref=e527]:
+                  - link "Who we serve" [ref=e528] [cursor=pointer]:
+                    - /url: /en-US/who-we-serve
+                    - generic [ref=e529]: Who we serve
+                - list [ref=e530]:
+                  - listitem [ref=e531]:
+                    - link "Technology and Data Centers" [ref=e532] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/technology-and-data-centers
+                      - generic [ref=e533]: Technology and Data Centers
+                  - listitem [ref=e534]:
+                    - link "Industrial and Manufacturing" [ref=e535] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/industrial-and-manufacturing
+                      - generic [ref=e536]: Industrial and Manufacturing
+                  - listitem [ref=e537]:
+                    - link "Fuels and Natural Resources" [ref=e538] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/fuels-and-natural-resources
+                      - generic [ref=e539]: Fuels and Natural Resources
+                  - listitem [ref=e540]:
+                    - link "Power Providers" [ref=e541] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/power-providers
+                      - generic [ref=e542]: Power Providers
+                  - listitem [ref=e543]:
+                    - link "Water Utilities" [ref=e544] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/water-utilities
+                      - generic [ref=e545]: Water Utilities
+                  - listitem [ref=e546]:
+                    - link "Federal Agencies" [ref=e547] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/federal-agencies
+                      - generic [ref=e548]: Federal Agencies
+                  - listitem [ref=e549]:
+                    - link "Public Sector" [ref=e550] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/public-sector
+                      - generic [ref=e551]: Public Sector
+                  - listitem [ref=e552]:
+                    - link "Commercial" [ref=e553] [cursor=pointer]:
+                      - /url: /en-US/who-we-serve/commercial
+                      - generic [ref=e554]: Commercial
+              - generic [ref=e555]:
+                - heading "What we do" [level=2] [ref=e556]:
+                  - link "What we do" [ref=e557] [cursor=pointer]:
+                    - /url: /en-US/what-we-do
+                    - generic [ref=e558]: What we do
+                - list [ref=e559]:
+                  - listitem [ref=e560]:
+                    - link "Infrastructure Advisory" [ref=e561] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/infrastructure-advisory
+                      - generic [ref=e562]: Infrastructure Advisory
+                  - listitem [ref=e563]:
+                    - link "Construction" [ref=e564] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/construction
+                      - generic [ref=e565]: Construction
+                  - listitem [ref=e566]:
+                    - link "Power Generation" [ref=e567] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-generation
+                      - generic [ref=e568]: Power Generation
+                  - listitem [ref=e569]:
+                    - link "Power Delivery" [ref=e570] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/power-delivery
+                      - generic [ref=e571]: Power Delivery
+                  - listitem [ref=e572]:
+                    - link "Water" [ref=e573] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/water
+                      - generic [ref=e574]: Water
+                  - listitem [ref=e575]:
+                    - link "Process" [ref=e576] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/process
+                      - generic [ref=e577]: Process
+                  - listitem [ref=e578]:
+                    - link "Fuels" [ref=e579] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/fuels
+                      - generic [ref=e580]: Fuels
+                  - listitem [ref=e581]:
+                    - link "Environmental" [ref=e582] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/environmental
+                      - generic [ref=e583]: Environmental
+                  - listitem [ref=e584]:
+                    - link "Lifecycle Services" [ref=e585] [cursor=pointer]:
+                      - /url: /en-US/what-we-do/lifecycle-services
+                      - generic [ref=e586]: Lifecycle Services
+              - generic [ref=e587]:
+                - heading "News & Insights" [level=2] [ref=e588]:
+                  - link "News & Insights" [ref=e589] [cursor=pointer]:
+                    - /url: /en-US/careers/our-hiring-process#
+                    - generic [ref=e590]: News & Insights
+                - list [ref=e591]:
+                  - listitem [ref=e592]:
+                    - link "Newsroom" [ref=e593] [cursor=pointer]:
+                      - /url: /en-US/newsroom
+                      - generic [ref=e594]: Newsroom
+                  - listitem [ref=e595]:
+                    - link "Events" [ref=e596] [cursor=pointer]:
+                      - /url: /en-US/events
+                      - generic [ref=e597]: Events
+                  - listitem [ref=e598]:
+                    - link "Insights and Resources" [ref=e599] [cursor=pointer]:
+                      - /url: /en-US/insights-and-resources
+                      - generic [ref=e600]: Insights and Resources
+              - generic [ref=e601]:
+                - heading "Careers" [level=2] [ref=e602]:
+                  - link "Careers" [ref=e603] [cursor=pointer]:
+                    - /url: /en-US/careers
+                    - generic [ref=e604]: Careers
+                - list [ref=e605]:
+                  - listitem [ref=e606]:
+                    - link "Workplace Culture" [ref=e607] [cursor=pointer]:
+                      - /url: /en-US/careers/workplace-culture
+                      - generic [ref=e608]: Workplace Culture
+                  - listitem [ref=e609]:
+                    - link "Our Hiring Process" [ref=e610] [cursor=pointer]:
+                      - /url: /en-US/careers/our-hiring-process
+                      - generic [ref=e611]: Our Hiring Process
+                  - listitem [ref=e612]:
+                    - link "Career Paths" [ref=e613] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths
+                      - generic [ref=e614]: Career Paths
+                  - listitem [ref=e615]:
+                    - link "Craft and Construction" [ref=e616] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/craft-and-construction
+                      - generic [ref=e617]: Craft and Construction
+                  - listitem [ref=e618]:
+                    - link "Early Careers and Students" [ref=e619] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students
+                      - generic [ref=e620]: Early Careers and Students
+                  - listitem [ref=e621]:
+                    - link "ENT Accelerator Program" [ref=e622] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/early-careers-and-students/ent-accelerator-program
+                      - generic [ref=e623]: ENT Accelerator Program
+                  - listitem [ref=e624]:
+                    - link "Experienced Careers" [ref=e625] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/experienced-careers
+                      - generic [ref=e626]: Experienced Careers
+                  - listitem [ref=e627]:
+                    - link "Military Veterans" [ref=e628] [cursor=pointer]:
+                      - /url: /en-US/careers/career-paths/military-veterans
+                      - generic [ref=e629]: Military Veterans
+            - generic [ref=e630]:
+              - generic [ref=e631]:
+                - list [ref=e632]:
+                  - listitem [ref=e633]:
+                    - link "Accessibility" [ref=e634] [cursor=pointer]:
+                      - /url: /en-US/careers/equal-opportunity-and-accessibility
+                      - generic [ref=e635]: Accessibility
+                  - listitem [ref=e636]:
+                    - link "Privacy policy" [ref=e637] [cursor=pointer]:
+                      - /url: /en-US/privacy-notice
+                      - generic [ref=e638]: Privacy policy
+                  - listitem [ref=e639]:
+                    - link "Terms of use" [ref=e640] [cursor=pointer]:
+                      - /url: /en-US/terms-of-use
+                      - generic [ref=e641]: Terms of use
+                  - listitem [ref=e642]:
+                    - link "Compliance" [ref=e643] [cursor=pointer]:
+                      - /url: /en-US/about-us/governance-and-compliance
+                      - generic [ref=e644]: Compliance
+                - list [ref=e645]:
+                  - listitem [ref=e646]:
+                    - link "Go to Facebook" [ref=e647] [cursor=pointer]:
+                      - /url: https://www.facebook.com/BlackVeatch/
+                      - img [ref=e648]
+                  - listitem [ref=e650]:
+                    - link "Go to LinkedIn" [ref=e651] [cursor=pointer]:
+                      - /url: http://www.linkedin.com/company/black-and-veatch
+                      - img [ref=e652]
+                  - listitem [ref=e654]:
+                    - link "Go to Instagram" [ref=e655] [cursor=pointer]:
+                      - /url: https://www.instagram.com/black_veatch/?hl=en
+                      - img [ref=e656]
+                  - listitem [ref=e658]:
+                    - link "Go to YouTube" [ref=e659] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCNG4yaPEZ67Xj_G_FRfjTSQ
+                      - img [ref=e660]
+                  - listitem [ref=e662]:
+                    - link "Go to X" [ref=e663] [cursor=pointer]:
+                      - /url: https://twitter.com/Black_Veatch
+                      - img [ref=e664]
+              - link "Level AA conformance, W3C Web Content Accessibility Guidelines 2.0" [ref=e667] [cursor=pointer]:
+                - /url: https://www.w3.org/WAI/WCAG2AA-Conformance
+                - img [ref=e668]
+          - paragraph [ref=e677]:
+            - generic [ref=e678]: Copyright © 2026 Black & Veatch Corporation. All rights reserved.
+  - alert [ref=e679]
+  - iframe [ref=e682]:
+    - generic [ref=f1e3]:
+      - button [ref=f1e4] [cursor=pointer]:
+        - img
+      - generic [ref=f1e6]:
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]:
+            - generic [ref=f1e9]: Personalization Preview
+            - generic [ref=f1e10]: Select an audience to segment preview content.
+          - generic [ref=f1e11]:
+            - img [ref=f1e13]
+            - searchbox "Search Audiences and Experiences" [ref=f1e15]
+          - generic [ref=f1e16]:
+            - button "Collapse all" [ref=f1e17] [cursor=pointer]
+            - generic [ref=f1e18]:
+              - generic [ref=f1e19]:
+                - generic [ref=f1e20]:
+                  - generic [ref=f1e22]:
+                    - button [ref=f1e23] [cursor=pointer]:
+                      - img [ref=f1e24]
+                    - generic [ref=f1e26]:
+                      - generic "APAC Users" [ref=f1e28] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e30]:
+                        - img [ref=f1e31]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e34]:
+                    - radio [checked] [ref=f1e36] [cursor=pointer]:
+                      - generic [ref=f1e37]:
+                        - img [ref=f1e38]
+                        - generic [ref=f1e40]: default
+                    - radio [ref=f1e42] [cursor=pointer]:
+                      - img [ref=f1e44]
+                    - radio [ref=f1e47] [cursor=pointer]:
+                      - img [ref=f1e49]
+                - generic [ref=f1e51]:
+                  - generic [ref=f1e52]:
+                    - generic [ref=f1e53]:
+                      - generic [ref=f1e54]:
+                        - generic [ref=f1e55]: Experiment
+                        - button [ref=f1e57] [cursor=pointer]:
+                          - img [ref=f1e58]
+                      - generic [ref=f1e60]: "[NT AB TEST] About us > Company Overview > Content Block"
+                    - radiogroup "Experience variants" [ref=f1e62]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e63]:
+                        - generic [ref=f1e65]:
+                          - generic [ref=f1e67] [cursor=pointer]: Baseline
+                          - generic [ref=f1e68]: 50%
+                      - radio "Variant 1" [disabled] [ref=f1e71]:
+                        - generic [ref=f1e73]:
+                          - generic [ref=f1e75] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e76]: 50%
+                  - generic [ref=f1e78]:
+                    - generic [ref=f1e79]:
+                      - generic [ref=f1e80]:
+                        - generic [ref=f1e81]: Personalization
+                        - button [ref=f1e83] [cursor=pointer]:
+                          - img [ref=f1e84]
+                      - generic [ref=f1e86]: "[NT Personalization] Projects Hub > Hero Banner (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f1e88]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e89]:
+                        - generic [ref=f1e91]:
+                          - generic [ref=f1e93] [cursor=pointer]: Baseline
+                          - generic [ref=f1e94]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e97]:
+                        - generic [ref=f1e99]:
+                          - generic [ref=f1e101] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e102]: 90%
+                  - generic [ref=f1e104]:
+                    - generic [ref=f1e105]:
+                      - generic [ref=f1e106]:
+                        - generic [ref=f1e107]: Personalization
+                        - button [ref=f1e109] [cursor=pointer]:
+                          - img [ref=f1e110]
+                      - generic [ref=f1e112]: "[NT Personalization] Contact US > Hero Banner (APAC)"
+                    - radiogroup "Experience variants" [ref=f1e114]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e115]:
+                        - generic [ref=f1e117]:
+                          - generic [ref=f1e119] [cursor=pointer]: Baseline
+                          - generic [ref=f1e120]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e123]:
+                        - generic [ref=f1e125]:
+                          - generic [ref=f1e127] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e128]: 90%
+                  - generic [ref=f1e130]:
+                    - generic [ref=f1e131]:
+                      - generic [ref=f1e132]:
+                        - generic [ref=f1e133]: Personalization
+                        - button [ref=f1e135] [cursor=pointer]:
+                          - img [ref=f1e136]
+                      - generic [ref=f1e138]: "[NT Personalization] Homepage > Solving today’s infrastructure challenges (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f1e140]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e141]:
+                        - generic [ref=f1e143]:
+                          - generic [ref=f1e145] [cursor=pointer]: Baseline
+                          - generic [ref=f1e146]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e149]:
+                        - generic [ref=f1e151]:
+                          - generic [ref=f1e153] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e154]: 90%
+                  - generic [ref=f1e156]:
+                    - generic [ref=f1e157]:
+                      - generic [ref=f1e158]:
+                        - generic [ref=f1e159]: Personalization
+                        - button [ref=f1e161] [cursor=pointer]:
+                          - img [ref=f1e162]
+                      - generic [ref=f1e164]: "[NT Personalization] Homepage - BV.com > Hero Banner (APAC Regionalization)"
+                    - radiogroup "Experience variants" [ref=f1e166]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e167]:
+                        - generic [ref=f1e169]:
+                          - generic [ref=f1e171] [cursor=pointer]: Baseline
+                          - generic [ref=f1e172]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e175]:
+                        - generic [ref=f1e177]:
+                          - generic [ref=f1e179] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e180]: 90%
+                  - generic [ref=f1e182]:
+                    - generic [ref=f1e183]:
+                      - generic [ref=f1e184]:
+                        - generic [ref=f1e185]: Personalization
+                        - button [ref=f1e187] [cursor=pointer]:
+                          - img [ref=f1e188]
+                      - generic [ref=f1e190]: "[NT Personalization] Contact us (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f1e192]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e193]:
+                        - generic [ref=f1e195]:
+                          - generic [ref=f1e197] [cursor=pointer]: Baseline
+                          - generic [ref=f1e198]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e201]:
+                        - generic [ref=f1e203]:
+                          - generic [ref=f1e205] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e206]: 90%
+                  - generic [ref=f1e208]:
+                    - generic [ref=f1e209]:
+                      - generic [ref=f1e210]:
+                        - generic [ref=f1e211]: Personalization
+                        - button [ref=f1e213] [cursor=pointer]:
+                          - img [ref=f1e214]
+                      - generic [ref=f1e216]: "[NT Personalization] Home page > Intl Featured Projects (APAC Users)"
+                    - radiogroup "Experience variants" [ref=f1e218]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e219]:
+                        - generic [ref=f1e221]:
+                          - generic [ref=f1e223] [cursor=pointer]: Baseline
+                          - generic [ref=f1e224]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e227]:
+                        - generic [ref=f1e229]:
+                          - generic [ref=f1e231] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e232]: 90%
+              - generic [ref=f1e234]:
+                - generic [ref=f1e235]:
+                  - generic [ref=f1e237]:
+                    - button [ref=f1e238] [cursor=pointer]:
+                      - img [ref=f1e239]
+                    - generic [ref=f1e241]:
+                      - generic "Return Users OR Downloaded Report OR Submitted Form" [ref=f1e243] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e245]:
+                        - img [ref=f1e246]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e249]:
+                    - radio [checked] [ref=f1e251] [cursor=pointer]:
+                      - generic [ref=f1e252]:
+                        - img [ref=f1e253]
+                        - generic [ref=f1e255]: default
+                    - radio [ref=f1e257] [cursor=pointer]:
+                      - img [ref=f1e259]
+                    - radio [ref=f1e262] [cursor=pointer]:
+                      - img [ref=f1e264]
+                - generic [ref=f1e267]:
+                  - generic [ref=f1e268]:
+                    - generic [ref=f1e269]:
+                      - generic [ref=f1e270]: Personalization
+                      - button [ref=f1e272] [cursor=pointer]:
+                        - img [ref=f1e273]
+                    - generic [ref=f1e275]: "[NT Personalization] Contact Us > Hero Banner (Call CTA)"
+                  - radiogroup "Experience variants" [ref=f1e277]:
+                    - radio "Baseline" [checked] [disabled] [ref=f1e278]:
+                      - generic [ref=f1e280]:
+                        - generic [ref=f1e282] [cursor=pointer]: Baseline
+                        - generic [ref=f1e283]: 10%
+                    - radio "Variant 1" [disabled] [ref=f1e286]:
+                      - generic [ref=f1e288]:
+                        - generic [ref=f1e290] [cursor=pointer]: Variant 1
+                        - generic [ref=f1e291]: 90%
+              - generic [ref=f1e293]:
+                - generic [ref=f1e294]:
+                  - generic [ref=f1e296]:
+                    - button [ref=f1e297] [cursor=pointer]:
+                      - img [ref=f1e298]
+                    - generic [ref=f1e300]:
+                      - generic "Bolder Vision LinkedIn Power Campaign" [ref=f1e302] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e304]:
+                        - img [ref=f1e305]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e308]:
+                    - radio [checked] [ref=f1e310] [cursor=pointer]:
+                      - generic [ref=f1e311]:
+                        - img [ref=f1e312]
+                        - generic [ref=f1e314]: default
+                    - radio [ref=f1e316] [cursor=pointer]:
+                      - img [ref=f1e318]
+                    - radio [ref=f1e321] [cursor=pointer]:
+                      - img [ref=f1e323]
+                - generic [ref=f1e325]:
+                  - generic [ref=f1e326]:
+                    - generic [ref=f1e327]:
+                      - generic [ref=f1e328]:
+                        - generic [ref=f1e329]: Personalization
+                        - button [ref=f1e331] [cursor=pointer]:
+                          - img [ref=f1e332]
+                      - generic [ref=f1e334]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Power Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e336]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e337]:
+                        - generic [ref=f1e339]:
+                          - generic [ref=f1e341] [cursor=pointer]: Baseline
+                          - generic [ref=f1e342]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e345]:
+                        - generic [ref=f1e347]:
+                          - generic [ref=f1e349] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e350]: 90%
+                  - generic [ref=f1e352]:
+                    - generic [ref=f1e353]:
+                      - generic [ref=f1e354]:
+                        - generic [ref=f1e355]: Personalization
+                        - button [ref=f1e357] [cursor=pointer]:
+                          - img [ref=f1e358]
+                      - generic [ref=f1e360]: "[NT Personalization] Bolder Vision (LinkedIn Power Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e362]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e363]:
+                        - generic [ref=f1e365]:
+                          - generic [ref=f1e367] [cursor=pointer]: Baseline
+                          - generic [ref=f1e368]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e371]:
+                        - generic [ref=f1e373]:
+                          - generic [ref=f1e375] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e376]: 90%
+              - generic [ref=f1e378]:
+                - generic [ref=f1e379]:
+                  - generic [ref=f1e381]:
+                    - button [ref=f1e382] [cursor=pointer]:
+                      - img [ref=f1e383]
+                    - generic [ref=f1e385]:
+                      - generic "Bolder Vision LinkedIn Water Campaign" [ref=f1e387] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e389]:
+                        - img [ref=f1e390]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e393]:
+                    - radio [checked] [ref=f1e395] [cursor=pointer]:
+                      - generic [ref=f1e396]:
+                        - img [ref=f1e397]
+                        - generic [ref=f1e399]: default
+                    - radio [ref=f1e401] [cursor=pointer]:
+                      - img [ref=f1e403]
+                    - radio [ref=f1e406] [cursor=pointer]:
+                      - img [ref=f1e408]
+                - generic [ref=f1e410]:
+                  - generic [ref=f1e411]:
+                    - generic [ref=f1e412]:
+                      - generic [ref=f1e413]:
+                        - generic [ref=f1e414]: Personalization
+                        - button [ref=f1e416] [cursor=pointer]:
+                          - img [ref=f1e417]
+                      - generic [ref=f1e419]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Water Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e421]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e422]:
+                        - generic [ref=f1e424]:
+                          - generic [ref=f1e426] [cursor=pointer]: Baseline
+                          - generic [ref=f1e427]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e430]:
+                        - generic [ref=f1e432]:
+                          - generic [ref=f1e434] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e435]: 90%
+                  - generic [ref=f1e437]:
+                    - generic [ref=f1e438]:
+                      - generic [ref=f1e439]:
+                        - generic [ref=f1e440]: Personalization
+                        - button [ref=f1e442] [cursor=pointer]:
+                          - img [ref=f1e443]
+                      - generic [ref=f1e445]: "[NT Personalization] Bolder Vision (LinkedIn Water Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e447]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e448]:
+                        - generic [ref=f1e450]:
+                          - generic [ref=f1e452] [cursor=pointer]: Baseline
+                          - generic [ref=f1e453]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e456]:
+                        - generic [ref=f1e458]:
+                          - generic [ref=f1e460] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e461]: 90%
+              - generic [ref=f1e463]:
+                - generic [ref=f1e464]:
+                  - generic [ref=f1e466]:
+                    - button [ref=f1e467] [cursor=pointer]:
+                      - img [ref=f1e468]
+                    - generic [ref=f1e470]:
+                      - generic "Bolder Vision LinkedIn Fuels Campaign" [ref=f1e472] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e474]:
+                        - img [ref=f1e475]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e478]:
+                    - radio [checked] [ref=f1e480] [cursor=pointer]:
+                      - generic [ref=f1e481]:
+                        - img [ref=f1e482]
+                        - generic [ref=f1e484]: default
+                    - radio [ref=f1e486] [cursor=pointer]:
+                      - img [ref=f1e488]
+                    - radio [ref=f1e491] [cursor=pointer]:
+                      - img [ref=f1e493]
+                - generic [ref=f1e495]:
+                  - generic [ref=f1e496]:
+                    - generic [ref=f1e497]:
+                      - generic [ref=f1e498]:
+                        - generic [ref=f1e499]: Personalization
+                        - button [ref=f1e501] [cursor=pointer]:
+                          - img [ref=f1e502]
+                      - generic [ref=f1e504]: "[NT Personalization] Campaign > Bolder Vision > Hero Banner (LinkedIn Fuels Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e506]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e507]:
+                        - generic [ref=f1e509]:
+                          - generic [ref=f1e511] [cursor=pointer]: Baseline
+                          - generic [ref=f1e512]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e515]:
+                        - generic [ref=f1e517]:
+                          - generic [ref=f1e519] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e520]: 90%
+                  - generic [ref=f1e522]:
+                    - generic [ref=f1e523]:
+                      - generic [ref=f1e524]:
+                        - generic [ref=f1e525]: Personalization
+                        - button [ref=f1e527] [cursor=pointer]:
+                          - img [ref=f1e528]
+                      - generic [ref=f1e530]: "[NT Personalization] Bolder Vision (LinkedIn Fuels Campaign)"
+                    - radiogroup "Experience variants" [ref=f1e532]:
+                      - radio "Baseline" [checked] [disabled] [ref=f1e533]:
+                        - generic [ref=f1e535]:
+                          - generic [ref=f1e537] [cursor=pointer]: Baseline
+                          - generic [ref=f1e538]: 10%
+                      - radio "Variant 1" [disabled] [ref=f1e541]:
+                        - generic [ref=f1e543]:
+                          - generic [ref=f1e545] [cursor=pointer]: Variant 1
+                          - generic [ref=f1e546]: 90%
+              - generic [ref=f1e548]:
+                - generic [ref=f1e549]:
+                  - generic [ref=f1e551]:
+                    - button [ref=f1e552] [cursor=pointer]:
+                      - img [ref=f1e553]
+                    - generic [ref=f1e555]:
+                      - generic "Downloaded Water Report" [ref=f1e557] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e559]:
+                        - img [ref=f1e560]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e563]:
+                    - radio [checked] [ref=f1e565] [cursor=pointer]:
+                      - generic [ref=f1e566]:
+                        - img [ref=f1e567]
+                        - generic [ref=f1e569]: default
+                    - radio [ref=f1e571] [cursor=pointer]:
+                      - img [ref=f1e573]
+                    - radio [ref=f1e576] [cursor=pointer]:
+                      - img [ref=f1e578]
+                - generic [ref=f1e581]:
+                  - generic [ref=f1e582]:
+                    - generic [ref=f1e583]:
+                      - generic [ref=f1e584]: Personalization
+                      - button [ref=f1e586] [cursor=pointer]:
+                        - img [ref=f1e587]
+                    - generic [ref=f1e589]: "[NT Personalization] Homepage - BV.com > Hero Banner (Water Report Downloaded)"
+                  - radiogroup "Experience variants" [ref=f1e591]:
+                    - radio "Baseline" [checked] [disabled] [ref=f1e592]:
+                      - generic [ref=f1e594]:
+                        - generic [ref=f1e596] [cursor=pointer]: Baseline
+                        - generic [ref=f1e597]: 10%
+                    - radio "Variant 1" [disabled] [ref=f1e600]:
+                      - generic [ref=f1e602]:
+                        - generic [ref=f1e604] [cursor=pointer]: Variant 1
+                        - generic [ref=f1e605]: 90%
+              - generic [ref=f1e607]:
+                - generic [ref=f1e608]:
+                  - generic [ref=f1e610]:
+                    - button [ref=f1e611] [cursor=pointer]:
+                      - img [ref=f1e612]
+                    - generic [ref=f1e614]:
+                      - generic "Return Users" [ref=f1e616] [cursor=pointer]
+                      - button "Audience Insights" [disabled] [ref=f1e618]:
+                        - img [ref=f1e619]
+                        - text: Audience Insights
+                  - radiogroup [ref=f1e622]:
+                    - radio [checked] [ref=f1e624] [cursor=pointer]:
+                      - generic [ref=f1e625]:
+                        - img [ref=f1e626]
+                        - generic [ref=f1e628]: default
+                    - radio [ref=f1e630] [cursor=pointer]:
+                      - img [ref=f1e632]
+                    - radio [ref=f1e635] [cursor=pointer]:
+                      - img [ref=f1e637]
+                - generic [ref=f1e640]:
+                  - generic [ref=f1e641]:
+                    - generic [ref=f1e642]:
+                      - generic [ref=f1e643]: Personalization
+                      - button [ref=f1e645] [cursor=pointer]:
+                        - img [ref=f1e646]
+                    - generic [ref=f1e648]: "[NT Personalization] Contact us (Return Users)"
+                  - radiogroup "Experience variants" [ref=f1e650]:
+                    - radio "Baseline" [checked] [disabled] [ref=f1e651]:
+                      - generic [ref=f1e653]:
+                        - generic [ref=f1e655] [cursor=pointer]: Baseline
+                        - generic [ref=f1e656]: 10%
+                    - radio "Variant 1" [disabled] [ref=f1e659]:
+                      - generic [ref=f1e661]:
+                        - generic [ref=f1e663] [cursor=pointer]: Variant 1
+                        - generic [ref=f1e664]: 90%
+        - generic [ref=f1e667]:
+          - button "Close" [ref=f1e668] [cursor=pointer]
+          - button "Reset Profile" [ref=f1e669] [cursor=pointer]
+  - generic:
+    - region "Cookie banner" [active] [ref=e683]:
+      - dialog "Privacy" [ref=e684]:
+        - generic [ref=e686]:
+          - generic [ref=e687]:
+            - img "Black & Veatch" [ref=e688]
+            - generic [ref=e690]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+          - generic [ref=e692]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=e693] [cursor=pointer]: Cookies Settings
+            - button "Reject All" [ref=e694] [cursor=pointer]
+            - button "Accept All Cookies" [ref=e695] [cursor=pointer]
+        - button "Close" [ref=e697] [cursor=pointer]
+    - text: Cookies Settings
+```
