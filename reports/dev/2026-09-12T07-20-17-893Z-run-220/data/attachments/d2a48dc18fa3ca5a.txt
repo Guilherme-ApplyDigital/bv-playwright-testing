@@ -1,0 +1,2 @@
+[2026-09-12T07:01:47.398Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/power-delivery
+[2026-09-12T07:01:48.674Z][HomePage][INFO] Checking for cookie banner
