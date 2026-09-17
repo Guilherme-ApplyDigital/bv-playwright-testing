@@ -1,0 +1,6 @@
+[2026-09-17T07:32:29.751Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-17T07:32:31.028Z][HomePage][INFO] Checking for cookie banner
+[2026-09-17T07:32:32.929Z][HomePage][INFO] Opening search from header
+[2026-09-17T07:32:33.627Z][HomePage][INFO] Searching for term: energy
+[2026-09-17T07:32:33.965Z][HomePage][INFO] Asserting page title contains: Search
+[2026-09-17T07:32:34.511Z][HomePage][INFO] Asserting main heading (h1) is visible
