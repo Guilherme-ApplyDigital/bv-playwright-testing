@@ -1,0 +1,2 @@
+[2026-09-19T07:11:35.222Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/projects/responsible-mining-carmen-copper-floating-solar-project-in-philippines
+[2026-09-19T07:11:36.077Z][HomePage][INFO] Checking for cookie banner
