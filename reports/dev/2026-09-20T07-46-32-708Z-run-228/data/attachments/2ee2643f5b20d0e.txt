@@ -1,0 +1,11 @@
+[2026-09-20T07:40:07.422Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-20T07:40:08.451Z][HomePage][INFO] Checking for cookie banner
+[2026-09-20T07:40:10.451Z][HomePage][INFO] Asserting Lifecycle services section is visible
+[2026-09-20T07:40:10.598Z][HomePage][INFO] Checking lifecycle step: Strategy
+[2026-09-20T07:40:10.770Z][HomePage][INFO] Checking lifecycle step: Planning
+[2026-09-20T07:40:10.792Z][HomePage][INFO] Checking lifecycle step: Engineering
+[2026-09-20T07:40:10.869Z][HomePage][INFO] Checking lifecycle step: Procurement
+[2026-09-20T07:40:10.905Z][HomePage][INFO] Checking lifecycle step: Construction
+[2026-09-20T07:40:11.072Z][HomePage][INFO] Checking lifecycle step: Operations
+[2026-09-20T07:40:11.102Z][HomePage][INFO] Checking lifecycle step: Modernization
+[2026-09-20T07:40:11.132Z][HomePage][INFO] Checking lifecycle step: Decommissioning
