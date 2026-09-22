@@ -1,0 +1,30 @@
+[2026-09-22T07:36:52.197Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:36:53.501Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:36:55.467Z][HomePage][INFO] Opening About Us page from top navigation
+[2026-09-22T07:36:56.352Z][HomePage][INFO] Asserting page title contains: About Us
+[2026-09-22T07:36:56.841Z][HomePage][INFO] Asserting main heading (h1) is visible
+[2026-09-22T07:36:56.904Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:36:57.874Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:36:59.415Z][HomePage][INFO] Opening Who We Serve page from top navigation
+[2026-09-22T07:37:00.314Z][HomePage][INFO] Asserting page title contains: Who We Serve
+[2026-09-22T07:37:00.752Z][HomePage][INFO] Asserting main heading (h1) is visible
+[2026-09-22T07:37:00.803Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:37:01.789Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:37:03.346Z][HomePage][INFO] Opening What We Do page from top navigation
+[2026-09-22T07:37:04.014Z][HomePage][INFO] Asserting page title contains: What We Do
+[2026-09-22T07:37:04.578Z][HomePage][INFO] Asserting main heading (h1) is visible
+[2026-09-22T07:37:04.613Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:37:05.702Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:37:07.340Z][HomePage][INFO] Opening Sustainability page from top navigation
+[2026-09-22T07:37:08.022Z][HomePage][INFO] Asserting page title contains: Sustainability
+[2026-09-22T07:37:08.506Z][HomePage][INFO] Asserting main heading (h1) is visible
+[2026-09-22T07:37:08.584Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:37:09.609Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:37:11.754Z][HomePage][INFO] Opening Projects page from top navigation
+[2026-09-22T07:37:12.386Z][HomePage][INFO] Asserting page title contains: Projects
+[2026-09-22T07:37:12.672Z][HomePage][INFO] Asserting main heading (h1) is visible
+[2026-09-22T07:37:12.847Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-09-22T07:37:15.213Z][HomePage][INFO] Checking for cookie banner
+[2026-09-22T07:37:16.903Z][HomePage][INFO] Opening Careers page from top navigation
+[2026-09-22T07:37:17.487Z][HomePage][INFO] Asserting page title contains: Careers
+[2026-09-22T07:37:17.929Z][HomePage][INFO] Asserting main heading (h1) is visible
