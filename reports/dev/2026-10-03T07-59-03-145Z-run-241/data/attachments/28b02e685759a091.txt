@@ -1,0 +1,2 @@
+[2026-10-03T07:57:38.867Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/locations/europe
+[2026-10-03T07:57:39.593Z][HomePage][INFO] Checking for cookie banner
