@@ -1,0 +1,2 @@
+[2026-10-04T07:56:53.247Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/career-paths/early-careers-and-students
+[2026-10-04T07:56:54.436Z][HomePage][INFO] Checking for cookie banner

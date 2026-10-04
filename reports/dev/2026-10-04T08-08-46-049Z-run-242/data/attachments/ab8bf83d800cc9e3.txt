@@ -1,0 +1,2 @@
+[2026-10-04T07:56:17.556Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/awards-and-rankings
+[2026-10-04T07:56:19.067Z][HomePage][INFO] Checking for cookie banner
