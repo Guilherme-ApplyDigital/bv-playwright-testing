@@ -1,0 +1,2 @@
+[2026-10-07T08:19:16.100Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/career-paths/craft-and-construction
+[2026-10-07T08:19:16.960Z][HomePage][INFO] Checking for cookie banner

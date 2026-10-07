@@ -1,0 +1,2 @@
+[2026-10-07T08:18:52.218Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/governance-and-compliance
+[2026-10-07T08:18:53.311Z][HomePage][INFO] Checking for cookie banner
