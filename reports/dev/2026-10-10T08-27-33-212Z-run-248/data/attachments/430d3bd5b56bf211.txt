@@ -1,0 +1,2 @@
+[2026-10-10T08:22:40.744Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/office-locations
+[2026-10-10T08:22:41.774Z][HomePage][INFO] Checking for cookie banner
