@@ -1,0 +1,2 @@
+[2026-10-11T08:28:22.654Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/careers/career-paths/military-veterans
+[2026-10-11T08:28:23.532Z][HomePage][INFO] Checking for cookie banner
