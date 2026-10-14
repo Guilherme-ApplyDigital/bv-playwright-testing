@@ -1,0 +1,2 @@
+[2026-10-14T07:19:26.000Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/water
+[2026-10-14T07:19:26.929Z][HomePage][INFO] Checking for cookie banner
