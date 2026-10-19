@@ -1,0 +1,9 @@
+[2026-10-19T07:35:09.484Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-10-19T07:35:11.502Z][HomePage][INFO] Checking for cookie banner
+[2026-10-19T07:35:13.385Z][HomePage][INFO] Asserting hero headline is visible
+[2026-10-19T07:35:13.448Z][HomePage][INFO] Asserting primary CTA button is visible
+[2026-10-19T07:35:13.510Z][HomePage][INFO] Asserting main header navigation items are visible
+[2026-10-19T07:35:13.510Z][HomePage][INFO] Checking header nav item: About Us
+[2026-10-19T07:35:13.537Z][HomePage][INFO] Checking header nav item: Who we serve
+[2026-10-19T07:35:13.571Z][HomePage][INFO] Checking header nav item: What we do
+[2026-10-19T07:35:13.594Z][HomePage][INFO] Checking header nav item: Sustainability

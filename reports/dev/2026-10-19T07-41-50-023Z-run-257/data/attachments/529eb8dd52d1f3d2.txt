@@ -1,0 +1,2 @@
+[2026-10-19T07:29:53.744Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/safety-and-health
+[2026-10-19T07:29:54.550Z][HomePage][INFO] Checking for cookie banner
