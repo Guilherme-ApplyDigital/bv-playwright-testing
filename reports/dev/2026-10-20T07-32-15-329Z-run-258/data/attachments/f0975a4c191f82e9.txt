@@ -1,0 +1,5 @@
+[2026-10-20T07:19:38.944Z][HomePage][INFO] Navigating to homepage: https://develop--bv-ad.netlify.app
+[2026-10-20T07:19:40.192Z][HomePage][INFO] Checking for cookie banner
+[2026-10-20T07:19:42.240Z][HomePage][INFO] Opening About Us page from top navigation
+[2026-10-20T07:19:42.908Z][HomePage][INFO] Asserting page title contains: About Us
+[2026-10-20T07:19:43.150Z][HomePage][INFO] Asserting main heading (h1) is visible
