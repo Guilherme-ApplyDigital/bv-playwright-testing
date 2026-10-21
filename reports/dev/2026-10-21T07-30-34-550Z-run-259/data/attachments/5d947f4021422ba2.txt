@@ -1,0 +1,2 @@
+[2026-10-21T07:18:05.070Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/what-we-do/power-generation
+[2026-10-21T07:18:05.958Z][HomePage][INFO] Checking for cookie banner
