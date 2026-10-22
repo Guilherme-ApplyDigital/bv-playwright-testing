@@ -1,0 +1,2 @@
+[2026-10-22T07:18:55.387Z][HomePage][INFO] Navigating to: https://develop--bv-ad.netlify.app/about-us/employee-ownership
+[2026-10-22T07:18:56.391Z][HomePage][INFO] Checking for cookie banner
