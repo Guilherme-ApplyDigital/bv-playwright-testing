@@ -5,9 +5,9 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  schedule:
+  # schedule:
     # 23:00 BRT (UTC-3) = 02:00 UTC (next day)
-    - cron: '0 2 * * *'
+    # - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       target_env:
